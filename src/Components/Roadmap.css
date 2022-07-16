@@ -16,7 +16,6 @@
 }
 
 
-
 .description {
   text-align: center;
  font-size: 30px;
@@ -73,14 +72,48 @@
 }
 
 /* Bottom left text */
-.bottom-left {
+.phase1 {
   position: absolute;
-  /* bottom: 80px; */
+  color: white;
   left: 16px;
-  font-size: 30px;
+  font-size: 50px;
   margin-right: 800px;
-  margin-left: 80px;
+  margin-left: 600px;
   margin-bottom: 350px;
+  margin-top: 500px;
+}
+.phase2 {
+  position: absolute;
+  text-align: left;
+  color: white;
+  left: 16px;
+  font-size: 18px;
+  margin-right: 800px;
+  margin-left: 600px;
+  margin-bottom: 350px;
+  margin-top: 570px;
+}
+.phase3 {
+  position: absolute;
+  color: white;
+  left: 16px;
+  font-size: 50px;
+  margin-right: 0px;
+  margin-left: 1400px;
+  margin-bottom: 550px;
+  margin-top: 400px;
+}
+
+.phase4 {
+  position: absolute;
+  text-align: right;
+  color: white;
+  left: 16px;
+  font-size: 18px;
+  margin-right: 150px;
+  margin-left: 1250px;
+  margin-bottom: 350px;
+  margin-top: 470px;
 }
 
 /* Top left text */

@@ -22,9 +22,7 @@ function App() {
         <EpisodeGuide />
         <Season1 />
         <Rarity />
-
         <Info />
-
         <IU />
       </div>
     </ScrollingProvider>
