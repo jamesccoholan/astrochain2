@@ -17,6 +17,11 @@
   white-space: nowrap;
 }
 
+.right {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
 .topnav a {
   float: left;
   display: block;

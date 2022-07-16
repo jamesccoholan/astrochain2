@@ -5,11 +5,12 @@ function Header() {
     <div className="Header">
       <div className="App-header2">
         <img
-          src="/assets/Website 2/01 Landing Page (Home)/LandingPage_BG.jpg"
+          src="/assets/Website 2/01 Landing Page (Home)/3.jpg"
           alt="Hero Image"
           display="flex"
           height="100%"
           width="100%"
+          minHeight="30px"
         />
         <img />
         <div class="bottom-left">

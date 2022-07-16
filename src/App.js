@@ -2,6 +2,13 @@ import "./App.css";
 import Header from "./Components/Header";
 import NavBar from "./Components/NavBar";
 import CastPages from "./Components/CastPages";
+import Roadmap from "./Components/Roadmap";
+import EpisodeGuide from "./Components/EpisodeGuide";
+import Season1 from "./Components/Season1";
+import Rarity from "./Components/Rarity";
+import Info from "./Components/Info";
+import IU from "./Components/IU";
+
 import {
   ScrollingProvider,
   useScrollSection,
@@ -14,12 +21,12 @@ function App() {
       <NavBar />
       <Header />
       <CastPages />
-      <a component={Section} id="collection" href="#news">
-        Here
-      </a>
-      <header className="App-header">
-        <h3>Hello</h3>
-      </header>
+      <Roadmap />
+      <EpisodeGuide />
+      <Season1 />
+      <Rarity />
+      <Info />
+      <IU />
     </div>
   );
 }

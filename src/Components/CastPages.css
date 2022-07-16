@@ -3,6 +3,19 @@
   min-height: 10vh;
 }
 
+.CastPages {
+  text-align: center;
+  min-height: 10vh;
+  padding: "100%";
+}
+
+.description {
+  text-align: center;
+ font-size: 30px;
+ margin-left: 300px;
+ margin-right: 300px;
+}
+
 .rack {
     background-color: blue;
     min-height: 1800vh;
@@ -40,6 +53,9 @@
   color: #61dafb;
 }
 
+.videos {
+  padding: 40px;
+}
 
 /* Container holding the image and the text */
 .container {

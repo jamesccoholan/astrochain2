@@ -16,12 +16,12 @@ function NavBar() {
 
   return (
     <div class="topnav" id="myTopnav">
-      <AppBar position="static" elevation={0} sx={{ backgroundColor: "blue" }}>
+      <AppBar position="static" elevation={0} sx={{ backgroundColor: "white" }}>
         <Toolbar disableGutters={true} sx={{ flexWrap: "wrap" }}>
           <Grid container sx={{ display: "flex", flex: "0 0 100%" }}>
             <Grid
               item
-              sx={{ backgroundColor: "#f3f3f3", color: "#333" }}
+              sx={{ backgroundColor: "#000000", color: "white" }}
               xs={12}
               display={"flex"}
               justifyContent={"center"}
@@ -33,7 +33,7 @@ function NavBar() {
                 color={"inherit"}
                 onClick={collectionSection.onClick}
               >
-                Collection
+                Home
               </Button>
               <Button
                 variant={"text"}
@@ -41,7 +41,7 @@ function NavBar() {
                 color={"inherit"}
                 onClick={vbCaresSection.onClick}
               >
-                VB Cares
+                Cast Pages
               </Button>
               <Button
                 variant={"text"}
@@ -49,7 +49,7 @@ function NavBar() {
                 color={"inherit"}
                 onClick={roadmapSection.onClick}
               >
-                Roadmap
+                Road Map
               </Button>
               <Button
                 variant={"text"}
@@ -57,23 +57,63 @@ function NavBar() {
                 color={"inherit"}
                 onClick={faqSection.onClick}
               >
-                FAQ
+                Episode Guide
               </Button>
-              <div position="right">
+              <Button
+                variant={"text"}
+                size={"large"}
+                color={"inherit"}
+                onClick={faqSection.onClick}
+              >
+                Value Prop
+              </Button>
+              <Button
+                variant={"text"}
+                size={"large"}
+                color={"inherit"}
+                onClick={faqSection.onClick}
+              >
+                Rarity
+              </Button>
+              <Button
+                variant={"text"}
+                size={"large"}
+                color={"inherit"}
+                onClick={faqSection.onClick}
+              >
+                Team
+              </Button>
+              <Button
+                variant={"text"}
+                size={"large"}
+                color={"inherit"}
+                onClick={faqSection.onClick}
+              >
+                Producers Portal
+              </Button>
+              <Button
+                variant={"text"}
+                size={"large"}
+                color={"inherit"}
+                onClick={faqSection.onClick}
+              >
+                Leaderboard
+              </Button>
+              <div class="right">
                 <Button href="https://twitter.com/verabradley">
-                  <TwitterIcon sx={{ mr: 1, color: "#000000" }} />
+                  <TwitterIcon sx={{ mr: 1, color: "white" }} />
                 </Button>
                 <Button href="https://www.facebook.com/verabradley">
                   <FacebookIcon
                     href="https://discord.com"
-                    sx={{ mr: 1, color: "#000000" }}
+                    sx={{ mr: 1, color: "white" }}
                   />
                 </Button>
                 <Button href="https://www.pinterest.com/verabradley/">
-                  <PinterestIcon sx={{ mr: 1, color: "#000000" }} />
+                  <PinterestIcon sx={{ mr: 1, color: "white" }} />
                 </Button>
                 <Button href="https://www.instagram.com/verabradley/">
-                  <InstagramIcon sx={{ mr: 1, color: "#000000" }} />
+                  <InstagramIcon sx={{ mr: 1, color: "white" }} />
                 </Button>
               </div>
             </Grid>
