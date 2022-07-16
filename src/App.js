@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "./Components/Header";
 import NavBar from "./Components/NavBar";
+import CastPages from "./Components/CastPages";
 import {
   ScrollingProvider,
   useScrollSection,
@@ -12,6 +13,7 @@ function App() {
     <div className="App">
       <NavBar />
       <Header />
+      <CastPages />
       <a component={Section} id="collection" href="#news">
         Here
       </a>

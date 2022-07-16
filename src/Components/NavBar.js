@@ -59,34 +59,26 @@ function NavBar() {
               >
                 FAQ
               </Button>
+              <div position="right">
+                <Button href="https://twitter.com/verabradley">
+                  <TwitterIcon sx={{ mr: 1, color: "#000000" }} />
+                </Button>
+                <Button href="https://www.facebook.com/verabradley">
+                  <FacebookIcon
+                    href="https://discord.com"
+                    sx={{ mr: 1, color: "#000000" }}
+                  />
+                </Button>
+                <Button href="https://www.pinterest.com/verabradley/">
+                  <PinterestIcon sx={{ mr: 1, color: "#000000" }} />
+                </Button>
+                <Button href="https://www.instagram.com/verabradley/">
+                  <InstagramIcon sx={{ mr: 1, color: "#000000" }} />
+                </Button>
+              </div>
             </Grid>
           </Grid>
-          {/* <a href="#home" class="active">
-            Home
-          </a>
-          <a href="#news">News</a>
-          <a href="#contact">Contact</a>
-          <a href="#about">About</a>
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-          </a> */}
-          <div>
-            <Button href="https://twitter.com/verabradley">
-              <TwitterIcon sx={{ mr: 1, color: "#000000" }} />
-            </Button>
-            <Button href="https://www.facebook.com/verabradley">
-              <FacebookIcon
-                href="https://discord.com"
-                sx={{ mr: 1, color: "#000000" }}
-              />
-            </Button>
-            <Button href="https://www.pinterest.com/verabradley/">
-              <PinterestIcon sx={{ mr: 1, color: "#000000" }} />
-            </Button>
-            <Button href="https://www.instagram.com/verabradley/">
-              <InstagramIcon sx={{ mr: 1, color: "#000000" }} />
-            </Button>
-          </div>
+          <div></div>
         </Toolbar>
       </AppBar>
     </div>
