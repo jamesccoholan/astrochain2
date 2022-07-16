@@ -5,11 +5,17 @@
   max-height: 100%;
 }
 
+.Roadmap-Main2 {
+  display: flex;
+}
+
 .CastPages {
   text-align: center;
   min-height: 10vh;
   padding: "100%";
 }
+
+
 
 .description {
   text-align: center;
