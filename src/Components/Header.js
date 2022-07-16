@@ -4,15 +4,15 @@ function Header() {
   return (
     <div className="Header">
       <div className="App-header2">
+        <a href="#about-section" />
         <img
           src="/assets/Website 2/01 Landing Page (Home)/3.jpg"
-          alt="Hero Image"
+          alt="Hero"
           display="flex"
           height="100%"
           width="100%"
           minHeight="30px"
         />
-        <img />
         <div class="bottom-left">
           This animated parody of a House Reality show features cast members
           from five different NFT communities who are transported to LA to

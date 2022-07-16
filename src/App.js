@@ -9,21 +9,25 @@ import Rarity from "./Components/Rarity";
 import Info from "./Components/Info";
 import IU from "./Components/IU";
 
-import { Section } from "react-scroll-section";
+import { Section, ScrollingProvider } from "react-scroll-section";
 
 function App() {
   return (
-    <div className="App">
-      <NavBar />
-      <Header />
-      <CastPages component={Section} id="castPages" />
-      <Roadmap />
-      <EpisodeGuide />
-      <Season1 />
-      <Rarity />
-      <Info />
-      <IU />
-    </div>
+    <ScrollingProvider offset={0}>
+      <div className="App">
+        <NavBar />
+        <Header />
+        <CastPages />
+        <Roadmap />
+        <EpisodeGuide />
+        <Season1 />
+        <Rarity />
+
+        <Info />
+
+        <IU />
+      </div>
+    </ScrollingProvider>
   );
 }
 

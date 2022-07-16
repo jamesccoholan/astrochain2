@@ -1,5 +1,5 @@
 import "./NavBar.css";
-import { Button, AppBar, Toolbar, Grid, Container } from "@mui/material";
+import { Button, AppBar, Toolbar, Grid } from "@mui/material";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import PinterestIcon from "@mui/icons-material/Pinterest";
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -9,7 +9,7 @@ import { useScrollSection } from "react-scroll-section";
 
 export default function NavBar() {
   const castPagesSection = useScrollSection("castPages");
-  const vbCaresSection = useScrollSection("vb-cares");
+  // const vbCaresSection = useScrollSection("vb-cares");
   const roadmapSection = useScrollSection("roadmap");
   const faqSection = useScrollSection("faq");
 
@@ -39,6 +39,7 @@ export default function NavBar() {
                 size={"large"}
                 color={"inherit"}
                 onClick={castPagesSection.onClick}
+                href="#CastPages-section"
               >
                 Cast Pages
               </Button>
@@ -47,6 +48,7 @@ export default function NavBar() {
                 size={"large"}
                 color={"inherit"}
                 onClick={roadmapSection.onClick}
+                href="#roadmap-section"
               >
                 Road Map
               </Button>
@@ -55,6 +57,7 @@ export default function NavBar() {
                 size={"large"}
                 color={"inherit"}
                 onClick={faqSection.onClick}
+                href="#episodeGuide-section"
               >
                 Episode Guide
               </Button>
@@ -63,6 +66,7 @@ export default function NavBar() {
                 size={"large"}
                 color={"inherit"}
                 onClick={faqSection.onClick}
+                href="#about-section"
               >
                 Value Prop
               </Button>
@@ -71,6 +75,7 @@ export default function NavBar() {
                 size={"large"}
                 color={"inherit"}
                 onClick={faqSection.onClick}
+                href="#rarity-section"
               >
                 Rarity
               </Button>
@@ -79,6 +84,7 @@ export default function NavBar() {
                 size={"large"}
                 color={"inherit"}
                 onClick={faqSection.onClick}
+                href="#IU-section"
               >
                 Team
               </Button>
@@ -87,6 +93,7 @@ export default function NavBar() {
                 size={"large"}
                 color={"inherit"}
                 onClick={faqSection.onClick}
+                href="#about-section"
               >
                 Producers Portal
               </Button>
@@ -95,6 +102,7 @@ export default function NavBar() {
                 size={"large"}
                 color={"inherit"}
                 onClick={faqSection.onClick}
+                href="#about-section"
               >
                 Leaderboard
               </Button>

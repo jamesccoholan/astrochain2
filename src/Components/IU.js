@@ -6,47 +6,55 @@ function IU() {
       <div className="CastPages">
         <h3 className="title">INVISIBLE UNIVERSE</h3>
         <div className="videos">
+          <section id="IU-section" />
           <img
             src="/assets/Website 2/07 Invisible _ Core Team/01_CoreTeam_Dan.png"
             width="180"
             height="180"
             className="videos"
+            alt="alt"
           ></img>
           <img
             src="/assets/Website 2/07 Invisible _ Core Team/02_CoreTeam_Ben.png"
             width="180"
             height="180"
             className="videos"
+            alt="alt"
           ></img>
           <img
             src="/assets/Website 2/07 Invisible _ Core Team/03_CoreTeam_Van.png"
             width="180"
             height="180"
             className="videos"
+            alt="alt"
           ></img>
           <img
             src="/assets/Website 2/07 Invisible _ Core Team/04_CoreTeam_Yohann.png"
             width="180"
             height="180"
             className="videos"
+            alt="alt"
           ></img>
           <img
             src="/assets/Website 2/07 Invisible _ Core Team/05_CoreTeam_Fubs.png"
             width="180"
             height="180"
             className="videos"
+            alt="alt"
           ></img>
           <img
             src="/assets/Website 2/07 Invisible _ Core Team/06_CoreTeam_Henrique.png"
             width="180"
             height="180"
             className="videos"
+            alt="alt"
           ></img>
           <img
             src="/assets/Website 2/07 Invisible _ Core Team/07_CoreTeam_Bruno.png"
             width="180"
             height="180"
             className="videos"
+            alt="alt"
           ></img>
           <div />
           <div className="description">
