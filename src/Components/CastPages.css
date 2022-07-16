@@ -53,6 +53,13 @@
   color: #61dafb;
 }
 
+.title {
+  font-size: large;
+  color: white;
+  align-items: left;
+  text-align: left;
+}
+
 .videos {
   padding: 40px;
 }

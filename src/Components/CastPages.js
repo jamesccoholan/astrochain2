@@ -4,6 +4,7 @@ function CastPages() {
   return (
     <div className="CastPages-Main">
       <div className="CastPages">
+        <h6 className="title">Cast Pages</h6>
         <div className="videos">
           <video
             autoPlay
