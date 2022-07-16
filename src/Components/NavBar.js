@@ -66,7 +66,7 @@ export default function NavBar() {
                 size={"large"}
                 color={"inherit"}
                 onClick={faqSection.onClick}
-                href="#about-section"
+                href="#Info-section"
               >
                 Value Prop
               </Button>
