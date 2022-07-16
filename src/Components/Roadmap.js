@@ -21,6 +21,7 @@ function Roadmap() {
         >
           <source src={"/assets/RoadMap_BG_v03.mp4"} type="video/mp4" />
         </video>
+        <text class="phase7">ROAD MAP</text>
         <text class="phase1">Phase Three</text>
         <text class="phase2">
           Top 500 producers will be locked and Submission for Next Season due
@@ -36,6 +37,12 @@ function Roadmap() {
           to our top 500 holders on the lea- derboard) Guest Stars chosen.
           Winners to be featured in our discord and twitter "Where Are they Now"
           Submissions due
+        </text>
+        <text class="phase5">Phase One</text>
+        <text class="phase6">
+          Mint Date: Reveal Date: First and Second Community Written
+          Confessional Airdrop for all holders Multiple giveaways, contests, and
+          AMAs Guest Star submissions due by August 31st
         </text>
       </div>
     </div>

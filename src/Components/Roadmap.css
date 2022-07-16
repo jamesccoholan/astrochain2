@@ -115,6 +115,39 @@
   margin-bottom: 350px;
   margin-top: 470px;
 }
+.phase5 {
+  position: absolute;
+  color: white;
+  left: 16px;
+  font-size: 50px;
+  margin-right: 800px;
+  margin-left: 450px;
+  margin-bottom: 550px;
+  margin-top: 40px;
+}
+
+.phase6 {
+  position: absolute;
+  text-align: left;
+  color: white;
+  left: 16px;
+  font-size: 18px;
+  margin-right: 900px;
+  margin-left: 450px;
+  margin-bottom: 550px;
+  margin-top: 110px;
+}
+.phase7 {
+  position: absolute;
+  text-align: left;
+  color: white;
+  left: 16px;
+  font-size: 60px;
+  margin-right: 1300px;
+  margin-left: 50px;
+  margin-bottom: 550px;
+  margin-top: 210px;
+}
 
 /* Top left text */
 .top-left {
