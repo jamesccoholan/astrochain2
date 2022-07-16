@@ -1,6 +1,8 @@
-.CastPages-Main {
+.Roadmap-Main {
   text-align: center;
-  min-height: 10vh;
+  display: flex;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .CastPages {
