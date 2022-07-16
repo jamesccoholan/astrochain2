@@ -1,6 +1,5 @@
 import "./NavBar.css";
 import { Button, AppBar, Toolbar, Grid, Container } from "@mui/material";
-
 import FacebookIcon from "@mui/icons-material/Facebook";
 import PinterestIcon from "@mui/icons-material/Pinterest";
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -8,8 +7,8 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 
 import { useScrollSection } from "react-scroll-section";
 
-function NavBar() {
-  const collectionSection = useScrollSection("collection");
+export default function NavBar() {
+  const castPagesSection = useScrollSection("castPages");
   const vbCaresSection = useScrollSection("vb-cares");
   const roadmapSection = useScrollSection("roadmap");
   const faqSection = useScrollSection("faq");
@@ -31,7 +30,7 @@ function NavBar() {
                 variant={"text"}
                 size={"large"}
                 color={"inherit"}
-                onClick={collectionSection.onClick}
+                onClick={castPagesSection.onClick}
               >
                 Home
               </Button>
@@ -39,7 +38,7 @@ function NavBar() {
                 variant={"text"}
                 size={"large"}
                 color={"inherit"}
-                onClick={vbCaresSection.onClick}
+                onClick={castPagesSection.onClick}
               >
                 Cast Pages
               </Button>
@@ -124,5 +123,3 @@ function NavBar() {
     </div>
   );
 }
-
-export default NavBar;

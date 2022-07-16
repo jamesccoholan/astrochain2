@@ -4,7 +4,7 @@ function IU() {
   return (
     <div className="CastPages-Main">
       <div className="CastPages">
-        <h7>INVISIBLE UNIVERSE</h7>
+        <h3 className="title">INVISIBLE UNIVERSE</h3>
         <div className="videos">
           <img
             src="/assets/Website 2/07 Invisible _ Core Team/01_CoreTeam_Dan.png"

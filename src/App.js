@@ -9,18 +9,14 @@ import Rarity from "./Components/Rarity";
 import Info from "./Components/Info";
 import IU from "./Components/IU";
 
-import {
-  ScrollingProvider,
-  useScrollSection,
-  Section,
-} from "react-scroll-section";
+import { Section } from "react-scroll-section";
 
 function App() {
   return (
     <div className="App">
       <NavBar />
       <Header />
-      <CastPages />
+      <CastPages component={Section} id="castPages" />
       <Roadmap />
       <EpisodeGuide />
       <Season1 />

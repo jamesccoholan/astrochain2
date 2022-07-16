@@ -12,8 +12,13 @@
 .description {
   text-align: center;
  font-size: 30px;
- margin-left: 300px;
- margin-right: 300px;
+ margin-left: 150px;
+ margin-right: 150px;
+}
+
+.title {
+  padding: 40px;
+ font-size: large;
 }
 
 .rack {
