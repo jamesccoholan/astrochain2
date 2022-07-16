@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+.rack {
+    background-color: red;
+    min-height: 1800vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
 .App-header {
   background-color: #12284B;
   min-height: 100vh;
