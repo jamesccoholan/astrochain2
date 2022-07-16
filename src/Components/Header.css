@@ -3,7 +3,7 @@
 }
 
 .rack {
-    background-color: red;
+    background-color: blue;
     min-height: 1800vh;
     display: flex;
     align-items: center;
