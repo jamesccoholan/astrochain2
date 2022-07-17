@@ -2,16 +2,19 @@ import "./Header.css";
 
 function Header() {
   return (
-    <div className="Header">
+    <div className="App-header">
       <div className="App-header2">
         <a href="#about-section" />
         <img
           src="/assets/Website 2/01 Landing Page (Home)/3.jpg"
           alt="Hero"
-          display="flex"
+          position="absolute"
           height="100%"
           width="100%"
-          minHeight="30px"
+          left="50%"
+          top="50%"
+          max-width="500px"
+          objectFit="cover"
         />
         <div class="bottom-left">
           This animated parody of a House Reality show features cast members
