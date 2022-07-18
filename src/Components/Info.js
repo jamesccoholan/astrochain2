@@ -20,7 +20,7 @@ function Info() {
           alt="alt"
         ></img>
         <img
-          src="/assets/logos/Logo_709x.webp"
+          src="/assets/logos/CoolCats.png"
           width="180"
           height="180"
           className="videos"
@@ -41,11 +41,6 @@ function Info() {
           alt="alt"
         ></img>
         <div />
-        <div className="description-cast-pages">
-          {
-            "What started off as a PFP in 2 dimensions has evolved into a fully realized 3D character with an oversized personality. Take some time to read through the cast bios, admire the artists' process and learn how we created this first of its kind series."
-          }
-        </div>
       </div>
     </div>
   );

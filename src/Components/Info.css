@@ -1,7 +1,8 @@
-.info-Main {
-  text-align: center;
-  min-height: 10vh;
-  background-color: ##08042b;
+.info-main {
+  background-color: #08042b;
+  color: white;
+  padding-top: 35px;
+  
 }
 
 .CastPages {
@@ -55,8 +56,8 @@
   color: #61dafb;
 }
 
-.videos {
-  padding: 40px;
+.videos2 {
+  padding-bottom: 5%;
 }
 
 /* Container holding the image and the text */
