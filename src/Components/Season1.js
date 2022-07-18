@@ -7,7 +7,7 @@ function Season1() {
         <section id="season1-section" />
         <Stack 
           direction={{xs:'column', sm:'column', md: 'row', lg:'row'}} 
-          spacing={{xs:0, sm:2, md:6, lg:24}} 
+          spacing={{xs:0, sm:0, md:6, lg:24}} 
           justifyContent="center"
           alignItems="center"
           style={{ padding:'70px 0'}}>

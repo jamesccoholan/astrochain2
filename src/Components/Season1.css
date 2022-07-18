@@ -56,6 +56,18 @@
   opacity: 0.3;
 }
 
+@media screen and (max-width: 1600px) {
+  .playlist-text {
+    font-size: 22px;
+    width: 425px;
+    height: 683.38px;
+  }
+  .playlist-text > div > div {
+    width: 290px;
+    padding-top: 95px;
+  }
+}
+
 @media screen and (max-width: 900px) {
   .season-1-img {
     display: none;
