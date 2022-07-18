@@ -1,110 +1,55 @@
 .CastPages-Main {
-  text-align: center;
   min-height: 10vh;
+  position: relative;
 }
 
 .CastPages {
-  text-align: center;
   min-height: 10vh;
   padding: "100%";
 }
 
-.description {
-  text-align: center;
- font-size: 30px;
- margin-left: 300px;
- margin-right: 300px;
-}
-
-.rack {
-    background-color: blue;
-    min-height: 1800vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-}
-
-.App-header {
-  background-color: #12284B;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(40px + 2vmin);
+.description-cast-pages {
+  font-size: 24px;;
   color: white;
+  width: 85%;
+  margin: auto;
+  left: 0;
+  right:0;
+  text-align: left;
+  position: relative;
+ font-style: bold;
+ padding-bottom: 20px;
 }
 
 .CastPages {
   background-color: #000000;
   min-height: 50vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
   font-size: calc(90px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-.title {
-  font-size: large;
+.title-cast-page {
+  font-size: 40px;
   color: white;
-  align-items: left;
+  width: 85%;
+  left: 0;
+  right:0;
   text-align: left;
+  position: relative;
+  margin-bottom: -5px;
 }
 
 .videos {
   padding: 40px;
 }
 
-/* Container holding the image and the text */
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-/* Bottom left text */
-.bottom-left {
-  position: absolute;
-  /* bottom: 80px; */
-  left: 16px;
-  font-size: 30px;
-  margin-right: 800px;
-  margin-left: 80px;
-  margin-bottom: 350px;
-}
-
-/* Top left text */
-.top-left {
-  position: absolute;
-  top: 8px;
-  left: 16px;
-}
-
-/* Top right text */
-.top-right {
-  position: absolute;
-  top: 8px;
-  right: 16px;
-}
-
-/* Bottom right text */
-.bottom-right {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
-}
-
-/* Centered text */
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+@media screen and (max-width: 600px) {
+  .title-cast-page {
+    font-size: 34px;
+  }
+  .description-cast-pages {
+    font-size: 20px;;
+  }
 }

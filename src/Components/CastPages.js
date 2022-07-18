@@ -5,7 +5,7 @@ function CastPages() {
     <div className="CastPages-Main">
       <div className="CastPages">
         <section id="CastPages-section" />
-        <h6 className="title">Cast Pages</h6>
+        <h2 className="title-cast-page">Cast Pages</h2>
         <div className="videos">
           <video
             autoPlay
@@ -80,12 +80,10 @@ function CastPages() {
             />
           </video>
           <div />
-          <div className="description">
-            <h6>
+          <div className="description-cast-pages">
               {
                 "What started off as a PFP in 2 dimensions has evolved into a fully realized 3D character with an oversized personality. Take some time to read through the cast bios, admire the artists' process and learn how we created this first of its kind series."
               }
-            </h6>
           </div>
         </div>
       </div>
