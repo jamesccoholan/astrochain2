@@ -16,6 +16,21 @@ function Rarity() {
         NFT's you will automatically receive 100 bonus points to be included on
         the Leader-board for a chance to win amazing opportunities.
       </div>
+      <div className="rarity-description">
+        Over 100 different traits algorithmi- cally combine iconic locations in
+        Los Angeles with award winning animation to generate over 4 million
+        combinations. The Mint will randomly produce XXXX unique Producer
+        Passes.
+      </div>
+      <div className="rarity-description">
+        Over 100 different traits algorithmi- cally combine iconic locations in
+        Los Angeles with award winning animation to generate over 4 million
+        combinations. The Mint will randomly produce XXXX unique Producer
+        Passes. In addition, 20 Ultra Rare Passes will be created. If you're
+        lucky enough to mint one of these rare NFT's you will automatically
+        receive 100 bonus points to be included on the Leader-board for a chance
+        to win amazing opportunities.
+      </div>
       <div className="rarity-pics">
         <img src="/assets/1.png" className="Roadmap-Main" alt="alt"></img>
         <img src="/assets/2.png" className="Roadmap-Main" alt="alt"></img>
