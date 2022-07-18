@@ -5,8 +5,18 @@ function Rarity() {
     <div className="rarity-section">
       <div className="rarity-title">Rarity</div>
       <div className="rarity-pics">
-        <img src="/assets/1.png" className="Roadmap-Main" alt="alt"></img>
-        <img src="/assets/2.png" className="Roadmap-Main" alt="alt"></img>
+        <img
+          style={{ padding: "20px" }}
+          src="/assets/1.png"
+          className="Roadmap-Main"
+          alt="alt"
+        ></img>
+        <img
+          style={{ padding: "20px" }}
+          src="/assets/2.png"
+          className="Roadmap-Main"
+          alt="alt"
+        ></img>
       </div>
       <div className="rarity-description">
         Our Producer Passes are designed to become your Twitter banner. We chose
