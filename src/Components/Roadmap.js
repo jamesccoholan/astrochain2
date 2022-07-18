@@ -25,11 +25,11 @@ function Roadmap() {
               </text>
               <text class="phase-two phase-title">Phase Two</text>
               <text class="phase-two-description phase-description">
-                Guest Star submissions due and reviewed<br/> Third and Fourth
-                Community Written Confessional<br/> Multiple contests and a surprise
-                limited airdrop<br/> to our top 500 holders on the leaderboard
-                Guest Stars chosen.<br/> Winners to be featured in our discord and
-                twitter "Where Are they Now" Submissions due
+                Guest Star submissions due and reviewed<br/>Third and Fourth
+                Community Written Confessional<br/>Multiple contests and a surprise
+                limited airdrop to<br/>our top 500 holders on the leaderboard<br/>
+                Guest Stars chosen.<br/>Winners to be featured in our discord and
+                twitter<br/>"Where Are they Now" Submissions due
               </text>
               <text class="phase-one phase-title">Phase One</text>
               <text class="phase-one-description phase-description">

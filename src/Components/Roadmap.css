@@ -3,10 +3,12 @@
   display: flex;
   max-width: 100%;
   max-height: 100%;
+  min-height: 500px;
 }
 
 .Roadmap-Main2 {
   display: flex;
+  min-height: 500px;
 }
 
 .videos {
@@ -36,7 +38,6 @@
 .phase-two-description {
   margin-left: 1000px;
   margin-top: 280px;
-  word-wrap: break-word;
 }
 /* PHASE 3 POSITIONING */
 .phase-three {
@@ -74,7 +75,7 @@
   position: absolute;
   text-align: left;
   color: white;
-  width: 500px;
+  width: 400px;
   font-size: 18px;
   left: 16px;
 }
@@ -131,11 +132,11 @@
   /* PHASE 3 POSITIONING */
   .phase-three {
     margin-left: 550px;
-    margin-top: 550px;
+    margin-top: 570px;
   }
   .phase-three-description {
     margin-left: 550px;
-    margin-top: 605px;
+    margin-top: 625px;
   }
 }
 
@@ -170,10 +171,203 @@
   }
 }
 
+/* Medium-large screen */
+@media screen and (max-width: 1450px) {
+  /* PHASE 1 POSITIONING */
+  .phase-one {
+    margin-left: 350px;
+    margin-top: 50px;
+  }
+  .phase-one-description {
+    margin-left: 350px;
+    margin-top: 105px;
+  }
+  /* PHASE 2 POSITIONING */
+  .phase-two {
+    margin-left: 900px;
+    margin-top: 225px;
+  }
+  .phase-two-description {
+    margin-left: 900px;
+    margin-top: 280px;
+  }
+  /* PHASE 3 POSITIONING */
+  .phase-three {
+    margin-left: 450px;
+    margin-top: 430px;
+  }
+  .phase-three-description {
+    margin-left: 450px;
+    margin-top: 485px;
+  }
+}
+
 /* Medium screen */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1300px) {
+  /* PHASE 1 POSITIONING */
+  .phase-one {
+    margin-left: 350px;
+    margin-top: 50px;
+  }
+  .phase-one-description {
+    margin-left: 350px;
+    margin-top: 105px;
+  }
+  /* PHASE 2 POSITIONING */
+  .phase-two {
+    margin-left: 800px;
+    margin-top: 225px;
+  }
+  .phase-two-description {
+    margin-left: 800px;
+    margin-top: 280px;
+  }
+  /* PHASE 3 POSITIONING */
+  .phase-three {
+    margin-left: 400px;
+    margin-top: 430px;
+  }
+  .phase-three-description {
+    margin-left: 400px;
+    margin-top: 485px;
+  }
+}
+
+/* Medium screen - start stacking phases on top of each other */
+@media screen and (max-width: 1230px) {
+  .roadmap-title {
+    font-size: 34px !important;
+  }
+  /* Generic elements for title and description */
+.phase-title {
+  font-size: 28px;
+}
+.phase-description {
+  font-size: 14px;
+}
+  /* PHASE 1 POSITIONING */
+  .phase-one {
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: 80px;
+  }
+  .phase-one-description {
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: 115px;
+  }
+  /* PHASE 2 POSITIONING */
+  .phase-two {
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: 210px;
+  }
+  .phase-two-description {
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: 245px;
+  }
+  /* PHASE 3 POSITIONING */
+  .phase-three {
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: 370px;
+  }
+  .phase-three-description {
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: 405px;
+  }
+}
+
+/* Medium screen 2 */
+@media screen and (max-width: 900px) {
+  .roadmap-title {
+    font-size: 30px !important;
+  }
+  /* Generic elements for title and description */
+.phase-title {
+  font-size: 24px;
+}
+.phase-description {
+  font-size: 12px;
+}
+  /* PHASE 1 POSITIONING */
+  .phase-one {
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: 80px;
+  }
+  .phase-one-description {
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: 115px;
+  }
+  /* PHASE 2 POSITIONING */
+  .phase-two {
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: 210px;
+  }
+  .phase-two-description {
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: 245px;
+  }
+  /* PHASE 3 POSITIONING */
+  .phase-three {
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: 370px;
+  }
+  .phase-three-description {
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: 405px;
+  }
 }
 
 /* Small screen */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
+  .phase-title {
+    width: 300px;
+  }
+  .phase-description {
+    width: 300px;
+  }
+}
+
+
+/* Small screen */
+@media screen and (max-width: 390px) {
+  .Roadmap-Main2 {
+    min-height: 550px;
+  }
+  .phase-title {
+    width: 250px;
+  }
+  .phase-description {
+    width: 250px;
+  }
+  /* PHASE 1 POSITIONING */
+  .phase-one {
+    margin-top: 80px;
+  }
+  .phase-one-description {
+    margin-top: 115px;
+  }
+  /* PHASE 2 POSITIONING */
+  .phase-two {
+    margin-top: 230px;
+  }
+  .phase-two-description {
+    margin-top: 265px;
+  }
+  /* PHASE 3 POSITIONING */
+  .phase-three {
+    margin-top: 420px;
+  }
+  .phase-three-description {
+    margin-top: 455px;
+  }
 }
