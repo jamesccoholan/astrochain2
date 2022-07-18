@@ -116,16 +116,83 @@
 .rarity-title {
   text-align: "left";
   text-align: left;
-  font-size: 60px;
+  font-size: 45px;
+  margin-right: 60%;
+  margin-left: 10%;
 }
 
 .rarity-description {
   text-align: "left";
   text-align: left;
-  font-size: 30px;
+  font-size: 25px;
+  margin-top: 1ch;
+  margin-right: 60%;
+  margin-left: 10%;
+}
+.ValueProp-title {
+  text-align: "left";
+  text-align: left;
+  font-size: 45px;
+  margin-right: 10%;
+  margin-left: 10%;
+  
+}
+.ValueProp-description {
+  text-align: "left";
+  text-align: left;
+  font-size: 25px;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 2%;
 }
 
 .rarity-pics {
   display: flex;
   flex-direction: column;
+  margin-left: 50%;
+  margin-right: 3%;
+  
+}
+
+
+.credits-section {
+  background-color: white;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(90px + 2vmin);
+  color: black;
+}
+
+.c1 {
+  margin-left: 10%;
+  margin-right: 80%;
+  margin-top: 5%;
+  font-size: small;
+  text-align: left;
+}
+.c2 {
+  margin-left: 20%;
+  margin-right: 70%;
+  margin-top: 5%;
+  font-size: small;
+  text-align: left;
+}
+.c3 {
+  margin-left: 30%;
+  margin-right: 60%;
+  margin-top: 5%;
+  font-size: small;
+  text-align: left;
+}
+.c4 {
+  margin-left: 40%;
+  margin-right: 70%;
+  margin-top: 5%;
+  font-size: small;
+  text-align: left;
+}
+
+.item1 {
+  grid-row: 1 / span 2;
 }
