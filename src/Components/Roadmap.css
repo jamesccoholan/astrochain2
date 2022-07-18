@@ -19,17 +19,16 @@
   text-align: center;
   color: white;
 }
-
-/* Bottom left text */
-.phase-three {
-  margin-left: 500px;
-  margin-top: 430px;
+/* PHASE 1 POSITIONING */
+.phase-one {
+  margin-left: 400px;
+  margin-top: 50px;
 }
-.phase-three-description {
-  margin-left: 500px;
-  margin-top: 485px;
+.phase-one-description {
+  margin-left: 400px;
+  margin-top: 105px;
 }
-
+/* PHASE 2 POSITIONING */
 .phase-two {
   margin-left: 1000px;
   margin-top: 225px;
@@ -39,14 +38,14 @@
   margin-top: 280px;
   word-wrap: break-word;
 }
-
-.phase-one {
-  margin-left: 400px;
-  margin-top: 50px;
+/* PHASE 3 POSITIONING */
+.phase-three {
+  margin-left: 500px;
+  margin-top: 430px;
 }
-.phase-one-description {
-  margin-left: 400px;
-  margin-top: 105px;
+.phase-three-description {
+  margin-left: 500px;
+  margin-top: 485px;
 }
 
 .roadmap-title {
@@ -107,4 +106,74 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+/* X-Large screen */
+@media screen and (min-width: 1750px) {
+  /* PHASE 1 POSITIONING */
+  .phase-one {
+    margin-left: 500px;
+    margin-top: 150px;
+  }
+  .phase-one-description {
+    margin-left: 500px;
+    margin-top: 205px;
+  }
+  /* PHASE 2 POSITIONING */
+  .phase-two {
+    margin-left: 1300px;
+    margin-top: 350px;
+  }
+  .phase-two-description {
+    margin-left: 1300px;
+    margin-top: 405px;
+  }
+  /* PHASE 3 POSITIONING */
+  .phase-three {
+    margin-left: 550px;
+    margin-top: 550px;
+  }
+  .phase-three-description {
+    margin-left: 550px;
+    margin-top: 605px;
+  }
+}
+
+/* Large screen */
+@media screen and (min-width: 1600px) and (max-width: 1750px) {
+  /* PHASE 1 POSITIONING */
+  .phase-one {
+    margin-left: 500px;
+    margin-top: 100px;
+  }
+  .phase-one-description {
+    margin-left: 500px;
+    margin-top: 155px;
+  }
+  /* PHASE 2 POSITIONING */
+  .phase-two {
+    margin-left: 1100px;
+    margin-top: 300px;
+  }
+  .phase-two-description {
+    margin-left: 1100px;
+    margin-top: 355px;
+  }
+  /* PHASE 3 POSITIONING */
+  .phase-three {
+    margin-left: 550px;
+    margin-top: 475px;
+  }
+  .phase-three-description {
+    margin-left: 550px;
+    margin-top: 530px;
+  }
+}
+
+/* Medium screen */
+@media screen and (max-width: 600px) {
+}
+
+/* Small screen */
+@media screen and (max-width: 600px) {
 }
