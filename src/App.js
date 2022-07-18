@@ -16,8 +16,10 @@ function App() {
   return (
     <ScrollingProvider offset={0}>
       <div className="App">
-        <NavBar />
-        <Header />
+        <div> // PUT BACKGROUND IMAGE HERE
+          <NavBar />
+          <Header />
+        </div>
         <CastPages />
         <Roadmap />
         <EpisodeGuide />

@@ -19,7 +19,6 @@ export default function NavBar() {
           <Grid container sx={{ display: "flex", flex: "0 0 100%" }}>
             <Grid
               item
-              sx={{ backgroundColor: "#000000", color: "white" }}
               xs={12}
               display={"flex"}
               justifyContent={"center"}
