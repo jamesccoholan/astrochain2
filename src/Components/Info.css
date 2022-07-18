@@ -1,6 +1,7 @@
-.CastPages-Main {
+.info-Main {
   text-align: center;
   min-height: 10vh;
+  background-color: ##08042b;
 }
 
 .CastPages {
@@ -14,6 +15,7 @@
  font-size: 30px;
  margin-left: 300px;
  margin-right: 300px;
+ margin-bottom: 350px;
 }
 
 .rack {
