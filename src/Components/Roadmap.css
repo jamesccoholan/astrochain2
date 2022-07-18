@@ -22,35 +22,30 @@
 
 /* Bottom left text */
 .phase-three {
-  margin-left: 600px;
+  margin-left: 500px;
   margin-top: 430px;
 }
 .phase-three-description {
-  margin-left: 600px;
+  margin-left: 500px;
   margin-top: 485px;
 }
 
 .phase-two {
-  margin-right: 0px;
-  margin-left: 1400px;
-  margin-bottom: 550px;
-  margin-top: 400px;
+  margin-left: 1000px;
+  margin-top: 225px;
 }
 .phase-two-description {
-  margin-right: 150px;
-  margin-left: 1250px;
-  margin-bottom: 350px;
-  margin-top: 470px;
+  margin-left: 1000px;
+  margin-top: 280px;
+  word-wrap: break-word;
 }
 
 .phase-one {
-  margin-right: 800px;
-  margin-left: 450px;
-  margin-bottom: 550px;
+  margin-left: 400px;
   margin-top: 50px;
 }
 .phase-one-description {
-  margin-left: 450px;
+  margin-left: 400px;
   margin-top: 105px;
 }
 
@@ -61,6 +56,9 @@
   margin-left: 50px;
   margin-bottom: 550px;
   margin-top: 30px;
+}
+.roadmap-img {
+  width: 100%;
 }
 
 /* Generic elements for title and description */

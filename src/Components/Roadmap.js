@@ -9,25 +9,9 @@ function Roadmap() {
           direction={{ xs: "column", sm: "column", md: "column", lg: "row" }}
           spacing={{ xs: 0, sm: 0, md: 2, lg: 4 }}
           alignItems="center"
-          width="100%"
-          height="auto"
-          object-fit="cover"
-          overflow="auto"
-          style={{ justifyContent: "center" }}
         >
           <div className="Roadmap-Main2">
-            <section id="roadmap-section" />
-            <video
-              autoPlay
-              loop
-              muted
-              playsinline
-              webkit-playsinline
-              width="100%"
-              height="100%"
-            >
-              <source src={"/assets/RoadMap_BG_v03.mp4"} type="video/mp4" />
-            </video>
+            <img class="roadmap-img" src="/assets/Website 2/03 Road Map/RoadMap_BG.jpg" />
             <Stack direction="row">
               <text class="roadmap-title phase-title">ROAD MAP</text>
               <text class="phase-three phase-title">Phase Three</text>
@@ -41,10 +25,10 @@ function Roadmap() {
               </text>
               <text class="phase-two phase-title">Phase Two</text>
               <text class="phase-two-description phase-description">
-                Guest Star submissions due and reviewed Third and Fourth
-                Community Written Confessional Multiple contests and a surprise
-                limited airdrop to our top 500 holders on the lea- derboard)
-                Guest Stars chosen. Winners to be featured in our discord and
+                Guest Star submissions due and reviewed<br/> Third and Fourth
+                Community Written Confessional<br/> Multiple contests and a surprise
+                limited airdrop<br/> to our top 500 holders on the leaderboard
+                Guest Stars chosen.<br/> Winners to be featured in our discord and
                 twitter "Where Are they Now" Submissions due
               </text>
               <text class="phase-one phase-title">Phase One</text>
