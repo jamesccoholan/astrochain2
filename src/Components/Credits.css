@@ -1,0 +1,12 @@
+.credits-text {
+  width: 300px;
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .credits-text {
+    width: 250px;
+    font-size: 14px;
+  }
+}

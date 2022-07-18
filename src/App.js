@@ -8,6 +8,7 @@ import Rarity from "./Components/Rarity";
 import ValueProp from "./Components/ValueProp";
 import Info from "./Components/Info";
 import IU from "./Components/IU";
+import Credits from "./Components/Credits";
 
 import { Section, ScrollingProvider } from "react-scroll-section";
 
@@ -24,6 +25,7 @@ function App() {
         <ValueProp />
         <Info />
         <IU />
+        <Credits />
       </div>
     </ScrollingProvider>
   );

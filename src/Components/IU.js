@@ -4,9 +4,15 @@ function IU() {
   return (
     <div className="CastPages-Main">
       <div className="CastPages">
-        <h3 className="title">INVISIBLE UNIVERSE</h3>
-        <div className="videos">
-          <section id="IU-section" />
+        <section id="team-section" />
+        <h2 className="title-cast-page">INVISIBLE UNIVERSE</h2>
+        <div style={{ marginTop: "20px" }} className="description-cast-pages">
+              {
+                "Invisible Universe is an internet-first animation studio that develops original character IP on social media and web3 platforms in partnership with some of the world's biggest celebrities. Our mission is to create the next household name animated franchises faster and more economical than traditional models. We believe the next generation of animated franchises will be born on the internet. The company is backed by some of the best media and technology investors in Hollywood and Silicon Valley, including Alexis Ohanian's Seven Seven Six, Initialized Capital, The Chernin Group, Serena Williams, Will Smith's Dreamers VC, CASSIUS Family, Spencer Rascoff's 75 & Sunny VC, and many more."
+              }
+          </div>
+          <h2 className="title-cast-page">TEAM</h2>
+        <div className="videos-section">
           <img
             src="/assets/Website 2/07 Invisible _ Core Team/01_CoreTeam_Dan.png"
             width="180"
@@ -57,14 +63,8 @@ function IU() {
             alt="alt"
           ></img>
           <div />
-          <div className="description">
-            <h6>
-              {
-                "Invisible Universe is an internet-first animation studio that develops original character IP on social media and web3 platforms in partnership with some of the world's biggest celebrities. Our mission is to create the next household name animated franchises faster and more economical than traditional models. We believe the next generation of animated franchises will be born on the internet. The company is backed by some of the best media and technology investors in Hollywood and Silicon Valley, including Alexis Ohanian's Seven Seven Six, Initialized Capital, The Chernin Group, Serena Williams, Will Smith's Dreamers VC, CASSIUS Family, Spencer Rascoff's 75 & Sunny VC, and many more."
-              }
-            </h6>
-          </div>
         </div>
+        <h2 style={{ marginBottom: "20px" }} className="title-cast-page">FULL CREDITS</h2>
       </div>
     </div>
   );

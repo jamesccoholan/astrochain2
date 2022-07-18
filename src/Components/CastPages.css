@@ -20,6 +20,17 @@
  padding-bottom: 20px;
 }
 
+.description-iu-pages {
+  font-size: 18px;
+  color: white;
+  width: 85%;
+  margin: auto;
+  left: 0;
+  right:0;
+  text-align: left;
+  position: relative;
+}
+
 .CastPages {
   background-color: #000000;
   min-height: 50vh;
@@ -50,5 +61,8 @@
   }
   .description-cast-pages {
     font-size: 20px;
+  }
+  .description-iu-pages {
+    font-size: 14px;
   }
 }

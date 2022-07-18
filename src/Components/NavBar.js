@@ -82,7 +82,7 @@ export default function NavBar() {
                 size={"large"}
                 color={"inherit"}
                 onClick={faqSection.onClick}
-                href="#IU-section"
+                href="#team-section"
               >
                 Team
               </Button>
