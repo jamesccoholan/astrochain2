@@ -4,7 +4,7 @@ function Info() {
   return (
     <div className="info-main">
       <section id="Info-section" />
-      <div className="videos">
+      <div className="videos2">
         <img
           src="/assets/logos/BAC-SVG.webp"
           width="180"
