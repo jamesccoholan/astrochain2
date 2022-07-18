@@ -7,7 +7,7 @@ function EpisodeGuide() {
         <section id="episodeGuide-section" />
         <img
           src="/assets/Website 2/04 Episode Guide/EpisodeGuide_BG.jpg"
-          className="EpisodeGuide-Main"
+          className="episode-guide-img"
           alt="alt"
         ></img>
       </div>

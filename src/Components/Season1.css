@@ -1,105 +1,64 @@
-.CastPages-Main {
-  text-align: center;
+.season-1-container {
   min-height: 10vh;
+  max-width: 100%;
 }
 
-.CastPages {
-  text-align: center;
-  min-height: 10vh;
-  padding: "100%";
-}
-
-.description {
-  text-align: center;
- font-size: 30px;
- margin-left: 300px;
- margin-right: 300px;
-}
-
-.rack {
-    background-color: blue;
-    min-height: 1800vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-}
-
-.App-header {
-  background-color: #12284B;
-  min-height: 100vh;
-  display: flex;
+.season-1-background {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(40px + 2vmin);
   color: white;
+  position: relative;
+  height: calc(100vh);
+  max-height: 1580px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-image: url('https://ik.imagekit.io/5ierklngtbt/EpisodeGuide_PlayBG_Expanded_v02_YtFQbZ3Ew7.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1658170701953');
+}
 
+.season-1-bg-img {
+  width: 100%;
+  position: relative;
+  object-fit: cover;
+}
+
+.playlist-img {
   
 }
-
-.CastPages {
-  background-color: #000000;
-  min-height: 50vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(90px + 2vmin);
-  color: white;
+.playlist-text {
+    font-size: 24px;
+    resize: both;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 767px;
+    width:100%;
+    background-position: center center;
+    background-image: url('https://ik.imagekit.io/5ierklngtbt/EpisodeGuide_PlaylistBox_v02_j9Mwy0C_9.png?ik-sdk-version=javascript-1.4.3&updatedAt=1658171524725');
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-.videos {
-  padding: 40px;
-}
-
-/* Container holding the image and the text */
-.container {
-  position: relative;
+.playlist-text > div {
   text-align: center;
-  color: white;
+  margin: auto;
 }
-
-/* Bottom left text */
-.bottom-left {
-  position: absolute;
-  /* bottom: 80px; */
-  left: 16px;
-  font-size: 30px;
-  margin-right: 800px;
-  margin-left: 80px;
-  margin-bottom: 350px;
+.playlist-text > div > div {
+  width: 310px;
+  margin: 130px auto 0 auto;
+  text-align: left;
 }
-
-/* Top left text */
-.top-left {
-  position: absolute;
-  top: 8px;
-  left: 16px;
+.playlist-title {
+  margin: 15px auto;
+  font-weight: 700;
 }
-
-/* Top right text */
-.top-right {
-  position: absolute;
-  top: 8px;
-  right: 16px;
+.playlist-number {
+  font-weight: 500;
 }
-
-/* Bottom right text */
-.bottom-right {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
+.playlist-number-active {
 }
-
-/* Centered text */
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.playlist-digit {
+  color: black;
+  opacity: 0.9;
+}
+.playlist-number-inactive {
+  opacity: 0.3;
 }
