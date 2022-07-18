@@ -2,8 +2,8 @@ import "./Rarity.css";
 
 function ValueProp() {
   return (
-    <div className="rarity-section">
-      <div className="ValueProp-title">VALUE PROP</div>
+    <div className="value-prop-section">
+      <h2 className="rarity-title">VALUE PROP</h2>
       <div className="ValueProp-description">
         The R3al Meteverse producer's pass gives you the opportunity to create
         episodes, influence cast decisions and control the fate of Season 2!
@@ -14,7 +14,7 @@ function ValueProp() {
         stills. We want you to see the added value that holding this NFT will
         give you, but most importantly we want you to create the story with us!
       </div>
-      <div className="ValueProp-title">HOW</div>
+      <h2 className="rarity-title">HOW</h2>
       <div className="ValueProp-description">
         In the Producer's Room, contribute to Mad Lib style confessionals where
         you control the character and decide what they say. With our quick turn
@@ -30,7 +30,7 @@ function ValueProp() {
         is wide open, and the location with the most votes will be home to the
         new cast. But that's not the best part…..
       </div>
-      <div className="ValueProp-title">GET YOUR CHARACTER ANIMATED!</div>
+      <h2 className="rarity-title">GET YOUR CHARACTER ANIMATED!</h2>
       <div className="ValueProp-description">
         There are two ways you can get your PFP character animated. If you are a
         holder of an NFT from one of the five OG communities our cast comes from

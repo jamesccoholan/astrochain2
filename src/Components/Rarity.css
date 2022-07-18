@@ -2,6 +2,14 @@
   background-color: #08042b;
   color: white;
   margin-top: -35px;
+  padding-top: 35px;
+}
+
+.value-prop-section {
+  background-color: #08042b;
+  color: white;
+  margin-top: -35px;
+  padding-top: 35px;
 }
 
 .rarity-title {
@@ -9,7 +17,7 @@
   color: white;
   text-align: left;
   position: relative;
-  padding: 40px 0 0 60px;
+  margin-left: 10%;
 }
 
 .rarity-description {
@@ -29,15 +37,13 @@
   font-size: 45px;
   margin-right: 10%;
   margin-left: 10%;
-  
 }
 .ValueProp-description {
-  text-align: "left";
   text-align: left;
-  font-size: 25px;
+  font-size: 24px;
   margin-right: 10%;
   margin-left: 10%;
-  margin-bottom: 2%;
+  padding-bottom: 2%;
 }
 
 .rarity-pics {
@@ -46,4 +52,17 @@
 
 .item1 {
   grid-row: 1 / span 2;
+}
+
+@media screen and (max-width: 600px) {
+  .rarity-title {
+    font-size: 34px;
+  }
+  .rarity-description {
+    font-size: 20px;
+    padding-top: 20px;
+  }
+  .ValueProp-description {
+    font-size: 20px;
+  }
 }
