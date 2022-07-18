@@ -113,4 +113,9 @@
   .title {
     padding: 30px;
   }
+  .description {
+   font-size: 26px;
+   margin-left: 100px;
+   margin-right: 100px;
+  }
 }
