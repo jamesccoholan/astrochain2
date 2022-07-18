@@ -57,6 +57,10 @@
   opacity: 0.3;
 }
 
+.community-written {
+  margin-left: 38px;
+}
+
 @media screen and (max-width: 1600px) {
   .playlist-text {
     font-size: 22px;
@@ -87,6 +91,9 @@
   }
   .playlist-text > div > div {
     width: 250px;
-    padding-top: 75px;
+    padding-top: 70px;
+  }
+  .community-written {
+    margin-left: 35px;
   }
 }

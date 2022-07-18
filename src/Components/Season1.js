@@ -23,13 +23,13 @@ function Season1() {
                     <div class="playlist-number playlist-number-inactive"><span class="playlist-digit">04 - </span>Soul of Sam</div>
                     <div class="playlist-number playlist-number-inactive"><span class="playlist-digit">05 - </span>The full Monty</div>
                     <div class="playlist-number playlist-number-inactive"><span class="playlist-digit">06 - </span>i'm Claudine, damnit!</div>
-                    <div class="playlist-number playlist-number-inactive"><span class="playlist-digit">07 - </span>Claudine's Confessional (Community Written)</div>
-                    <div class="playlist-title">first night out</div>
+                    <div class="playlist-number playlist-number-inactive"><span class="playlist-digit">07 - </span>Claudine's Confessional <br/><span class="community-written">(Community Written)</span></div>
+                    <div class="playlist-title playlist-number-inactive">first night out</div>
                     <div class="playlist-number playlist-number-inactive"><span class="playlist-digit">08 - </span>"What to Wear"</div>
                     <div class="playlist-number playlist-number-inactive"><span class="playlist-digit">09 - </span>"Doing Lines"</div>
                     <div class="playlist-number playlist-number-inactive"><span class="playlist-digit">10 - </span>"Sit on a Crystal"</div>
                     <div class="playlist-number playlist-number-inactive"><span class="playlist-digit">11 - </span>"I Love You Guys"</div>
-                    <div class="playlist-number playlist-number-inactive"><span class="playlist-digit">12 - </span>Monty's Confessional (Community Written)</div>
+                    <div class="playlist-number playlist-number-inactive"><span class="playlist-digit">12 - </span>Monty's Confessional <br/><span class="community-written">(Community Written)</span></div>
                   </div>
                 </div>
               </div>

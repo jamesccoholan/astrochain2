@@ -3,7 +3,7 @@ import { Stack } from "@mui/material";
 
 function Roadmap() {
   return (
-    <div>
+    <div class="roadmap-section">
       <section id="roadmap-section" />
       <Stack direction="column">
         <Stack
@@ -12,7 +12,6 @@ function Roadmap() {
           alignItems="center"
         >
           <div className="Roadmap-Main2">
-            <img class="roadmap-img" src="/assets/Website 2/03 Road Map/RoadMap_BG.jpg" />
             <Stack direction="row">
               <text class="roadmap-title phase-title">ROAD MAP</text>
               <text class="phase-three phase-title">Phase Three</text>
@@ -21,7 +20,7 @@ function Roadmap() {
                 due Guests Star episodes drop "Where Are they Now" winners
                 chosen and displayed Fifth Community Written Confessional "Where
                 are They Now" animated Discord AMA's/ Twitter Spaces Winners of
-                Next season are chosen, 5 new communi- ties and holders
+                Next season are chosen, 5 new communities and holders
                 displayed.
               </text>
               <text class="phase-two phase-title">Phase Two</text>

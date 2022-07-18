@@ -1,14 +1,15 @@
-.Roadmap-Main {
-  text-align: center;
-  display: flex;
-  max-width: 100%;
-  max-height: 100%;
-  min-height: 500px;
-}
-
-.Roadmap-Main2 {
-  display: flex;
-  min-height: 500px;
+.roadmap-section {
+  color: white;
+  position: relative;
+  max-height: 1580px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  background-image: url('https://ik.imagekit.io/5ierklngtbt/RoadMap_BG_IPaRe0Drx.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1658185148597');
+  min-height: 875px;
 }
 
 .videos {
@@ -260,7 +261,7 @@
   font-size: 24px;
 }
 .phase-description {
-  font-size: 12px;
+  font-size: 14px;
 }
   /* PHASE 1 POSITIONING */
   .phase-one {
@@ -297,22 +298,9 @@
   }
 }
 
-/* Small screen */
-@media screen and (max-width: 500px) {
-  .phase-title {
-    width: 300px;
-  }
-  .phase-description {
-    width: 300px;
-  }
-}
-
 
 /* Small screen */
-@media screen and (max-width: 390px) {
-  .Roadmap-Main2 {
-    min-height: 550px;
-  }
+@media screen and (max-width: 450px) {
   .phase-title {
     width: 250px;
   }
@@ -328,16 +316,16 @@
   }
   /* PHASE 2 POSITIONING */
   .phase-two {
-    margin-top: 230px;
+    margin-top: 280px;
   }
   .phase-two-description {
-    margin-top: 265px;
+    margin-top: 315px;
   }
   /* PHASE 3 POSITIONING */
   .phase-three {
-    margin-top: 420px;
+    margin-top: 570px;
   }
   .phase-three-description {
-    margin-top: 455px;
+    margin-top: 605px;
   }
 }
