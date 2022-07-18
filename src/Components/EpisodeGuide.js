@@ -4,6 +4,7 @@ function EpisodeGuide() {
   return (
     <div className="episode-guide">
         <section id="episode-guide-section" />
+        <img src="/assets/Website 2/04 Episode Guide/Spot_Light_01_v02.png" class="spotlight-img" />
         <div>
           <text class="episode-guide-title">EPISODE GUIDE</text>
           <text class="episode-guide-description">
