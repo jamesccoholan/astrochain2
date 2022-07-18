@@ -16,7 +16,7 @@ function Credits() {
         verify they hold an NFT from one of the communities.
       </div>
       <div class="credits-text">
-        If you're an Original Commu- nity NFT holder.. NFT Holders who are
+        If you're an Original Community NFT holder.. NFT Holders who are
         also holders from an Original Community can submit to have their
         character animated for a Season 1 cameo! One form each community will
         win based on engagement. *Need to be able to verify they hold an NFT
@@ -27,7 +27,7 @@ function Credits() {
         verify they hold an NFT from one of the communities.
       </div>
       <div class="credits-text">
-        If you're an Original Commu- nity NFT holder.. NFT Holders who are
+        If you're an Original Community NFT holder.. NFT Holders who are
         also holders from an Original Community can submit to have their
         character animated for a Season 1 cameo! One form each community will
         win based on engagement. *Need to be able to verify they hold an NFT
@@ -38,7 +38,7 @@ function Credits() {
         verify they hold an NFT from one of the communities.
       </div>
       <div class="credits-text">
-        If you're an Original Commu- nity NFT holder.. NFT Holders who are
+        If you're an Original Community NFT holder.. NFT Holders who are
         also holders from an Original Community can submit to have their
         character animated for a Season 1 cameo! One form each community will
         win based on engagement. *Need to be able to verify they hold an NFT
