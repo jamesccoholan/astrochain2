@@ -17,7 +17,7 @@
   color: white;
   text-align: left;
   position: relative;
-  margin-left: 10%;
+  margin-left: 4%;
 }
 
 .rarity-description {
@@ -31,8 +31,7 @@
   position: relative;
   padding-top: 40px;
 }
-.ValueProp-title {
-  text-align: "left";
+.value-prop-title {
   text-align: left;
   font-size: 45px;
   margin-right: 10%;
@@ -52,6 +51,16 @@
 
 .item1 {
   grid-row: 1 / span 2;
+}
+
+@media screen and (max-width: 900px) {
+  .rarity-title {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .rarity-description {
+    padding-top: 0px;
+  }
 }
 
 @media screen and (max-width: 600px) {
