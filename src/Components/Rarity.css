@@ -149,4 +149,6 @@
 .rarity-pics {
   display: flex;
   flex-direction: column;
+  margin-left: 50%;
+  margin-right: 3%;
 }
