@@ -1,17 +1,14 @@
 import "./NavBar.css";
 import { Button, AppBar, Toolbar, Grid } from "@mui/material";
 import FacebookIcon from "@mui/icons-material/Facebook";
-import PinterestIcon from "@mui/icons-material/Pinterest";
+import YouTubeIcon from "@mui/icons-material/YouTube";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
 
 import { useScrollSection } from "react-scroll-section";
 
 export default function NavBar() {
-  const castPagesSection = useScrollSection("castPages");
-  // const vbCaresSection = useScrollSection("vb-cares");
-  const roadmapSection = useScrollSection("roadmap");
-  const faqSection = useScrollSection("faq");
+  const navScroll = useScrollSection();
 
   return (
         <AppBar position="static" color="transparent" elevation={0} style={{ background: 'transparent', boxShadow: 'none'}}>
@@ -24,100 +21,88 @@ export default function NavBar() {
               justifyContent={"center"}
               py={1}
             >
-              <Button
-                variant={"text"}
-                size={"large"}
-                color={"inherit"}
-                onClick={castPagesSection.onClick}
-              >
-                Home
-              </Button>
-              <Button
-                variant={"text"}
-                size={"large"}
-                color={"inherit"}
-                onClick={castPagesSection.onClick}
-                href="#CastPages-section"
-              >
-                Cast Pages
-              </Button>
-              <Button
-                variant={"text"}
-                size={"large"}
-                color={"inherit"}
-                onClick={roadmapSection.onClick}
-                href="#roadmap-section"
-              >
-                Road Map
-              </Button>
-              <Button
-                variant={"text"}
-                size={"large"}
-                color={"inherit"}
-                onClick={faqSection.onClick}
-                href="#episodeGuide-section"
-              >
-                Episode Guide
-              </Button>
-              <Button
-                variant={"text"}
-                size={"large"}
-                color={"inherit"}
-                onClick={faqSection.onClick}
-                href="#Info-section"
-              >
-                Value Prop
-              </Button>
-              <Button
-                variant={"text"}
-                size={"large"}
-                color={"inherit"}
-                onClick={faqSection.onClick}
-                href="#rarity-section"
-              >
-                Rarity
-              </Button>
-              <Button
-                variant={"text"}
-                size={"large"}
-                color={"inherit"}
-                onClick={faqSection.onClick}
-                href="#team-section"
-              >
-                Team
-              </Button>
-              <Button
-                variant={"text"}
-                size={"large"}
-                color={"inherit"}
-                onClick={faqSection.onClick}
-                href="#about-section"
-              >
-                Producers Portal
-              </Button>
-              <Button
-                variant={"text"}
-                size={"large"}
-                color={"inherit"}
-                onClick={faqSection.onClick}
-                href="#about-section"
-              >
-                Leaderboard
-              </Button>
-              <div class="right">
-                <Button href="https://twitter.com/verabradley">
+              <div class="navbar-text-section">
+                <Button
+                  variant={"text"}
+                  size={"large"}
+                  color={"inherit"}
+                  onClick={navScroll.onClick}
+                  href="#"
+                >
+                  Home
+                </Button>
+                <Button
+                  variant={"text"}
+                  size={"large"}
+                  color={"inherit"}
+                  onClick={navScroll.onClick}
+                  href="#cast-pages-section"
+                >
+                  Cast Pages
+                </Button>
+                <Button
+                  variant={"text"}
+                  size={"large"}
+                  color={"inherit"}
+                  onClick={navScroll.onClick}
+                  href="#roadmap-section"
+                >
+                  Road Map
+                </Button>
+                <Button
+                  variant={"text"}
+                  size={"large"}
+                  color={"inherit"}
+                  onClick={navScroll.onClick}
+                  href="#episode-guide-section"
+                >
+                  Episode Guide
+                </Button>
+                <Button
+                  variant={"text"}
+                  size={"large"}
+                  color={"inherit"}
+                  onClick={navScroll.onClick}
+                  href="#season1-section"
+                >
+                  Season 01
+                </Button>
+                <Button
+                  variant={"text"}
+                  size={"large"}
+                  color={"inherit"}
+                  onClick={navScroll.onClick}
+                  href="#rarity-section"
+                >
+                  Rarity
+                </Button>
+                <Button
+                  variant={"text"}
+                  size={"large"}
+                  color={"inherit"}
+                  onClick={navScroll.onClick}
+                  href="#value-prop-section"
+                >
+                  Value Prop
+                </Button>
+                <Button
+                  variant={"text"}
+                  size={"large"}
+                  color={"inherit"}
+                  onClick={navScroll.onClick}
+                  href="#team-section"
+                >
+                  Team
+                </Button>
+              </div>
+              <div class="right navbar-social">
+                <Button>
                   <TwitterIcon sx={{ mr: 1, color: "white" }} />
                 </Button>
-                <Button href="https://www.facebook.com/verabradley">
-                  <FacebookIcon
-                    href="https://discord.com"
-                    sx={{ mr: 1, color: "white" }}
-                  />
+                <Button>
+                  <YouTubeIcon sx={{ mr: 1, color: "white" }} />
                 </Button>
-                <Button href="https://www.pinterest.com/verabradley/">
-                  <PinterestIcon sx={{ mr: 1, color: "white" }} />
-                </Button>
-                <Button href="https://www.instagram.com/verabradley/">
+                <Button>
                   <InstagramIcon sx={{ mr: 1, color: "white" }} />
                 </Button>
               </div>

@@ -4,7 +4,7 @@ function CastPages() {
   return (
     <div className="CastPages-Main">
       <div className="CastPages">
-        <section id="CastPages-section" />
+        <section id="cast-pages-section" />
         <h2 className="title-cast-page">Cast Pages</h2>
         <div className="videos">
           <video

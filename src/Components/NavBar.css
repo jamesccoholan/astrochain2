@@ -15,10 +15,18 @@
   white-space: nowrap;
 }
 
-.right {
-  overflow: hidden;
-  white-space: nowrap;
-  margin-top: -15px;
+.navbar-text-section {
+  display: block;
 }
 
+.navbar-social {
+  overflow: hidden;
+  white-space: nowrap;
+  margin-left: 10px;
+}
 
+@media screen and (max-width: 980px) {
+  .navbar-text-section {
+    display: none;
+  }
+}

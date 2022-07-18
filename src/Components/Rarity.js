@@ -4,6 +4,7 @@ import { Stack } from "@mui/material";
 function Rarity() {
   return (
     <div className="rarity-section">
+      <section id="rarity-section" />
       <h2 className="rarity-title">RARITY</h2>
       <Stack
         direction={{ xs: "column", sm: "column", md: "column", lg: "row" }}
