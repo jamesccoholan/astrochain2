@@ -6,7 +6,7 @@ function Rarity() {
     <div className="rarity-section">
       <h2 className="rarity-title">RARITY</h2>
       <Stack
-        direction={{ xs: "column", sm: "column", md: "row", lg: "row" }}
+        direction={{ xs: "column", sm: "column", md: "column", lg: "row" }}
         spacing={{ xs: 0, sm: 2, md: 2, lg: 4 }}
         alignItems="top-text"
         width="90%"
@@ -39,13 +39,11 @@ function Rarity() {
           <img
             style={{ padding: "20px" }}
             src="/assets/1.png"
-            className="Roadmap-Main"
             alt="alt"
           ></img>
           <img
             style={{ padding: "20px" }}
             src="/assets/2.png"
-            className="Roadmap-Main"
             alt="alt"
           ></img>
         </div>
