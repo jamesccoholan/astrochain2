@@ -14,9 +14,9 @@ export default function NavBar() {
   const faqSection = useScrollSection("faq");
 
   return (
-    <div class="topnav" id="myTopnav">
+        <AppBar position="static" color="transparent" elevation={0} style={{ background: 'transparent', boxShadow: 'none'}}>
         <Toolbar disableGutters={true} sx={{ flexWrap: "wrap" }}>
-          <Grid container sx={{ display: "flex", flex: "0 0 100%" }}>
+          <Grid container>
             <Grid
               item
               xs={12}
@@ -125,6 +125,6 @@ export default function NavBar() {
           </Grid>
           <div></div>
         </Toolbar>
-    </div>
+        </AppBar>
   );
 }

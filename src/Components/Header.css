@@ -1,48 +1,15 @@
 .Header {
-  background-color: #12284B;
-  min-height: 100vh;
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(40px + 2vmin);
   color: white;
   position: relative;
-}
-
-.rack {
-    background-color: blue;
-    min-height: 1800vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-}
-
-.App-header {
-  background-color: #12284B;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(40px + 2vmin);
-  color: white;
-}
-
-.App-header2 {
-  background-color: #333333;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(90px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
+  height: calc(100vh + 300px);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-image: url('https://ik.imagekit.io/5ierklngtbt/LandingPage_BG_1OodIFIqB.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1658117484922');
 }
 
 /* Container holding the image and the text */
@@ -95,7 +62,7 @@
 
 .landing-background-img {
   position: relative;
-  height: calc(100vh + 100px);
+  height: calc(100vh + 200px);
   width: 100%;
   object-fit: cover;
 }
@@ -114,6 +81,9 @@
   bottom: 10px;
   width: 90%;
   color: white;
+}
+
+.landing-navbar {
 }
 
 @media screen and (max-width: 600px) {

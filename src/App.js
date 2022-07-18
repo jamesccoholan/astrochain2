@@ -1,6 +1,5 @@
 import "./App.css";
 import Header from "./Components/Header";
-import NavBar from "./Components/NavBar";
 import CastPages from "./Components/CastPages";
 import Roadmap from "./Components/Roadmap";
 import EpisodeGuide from "./Components/EpisodeGuide";
@@ -9,7 +8,6 @@ import Rarity from "./Components/Rarity";
 import ValueProp from "./Components/ValueProp";
 import Info from "./Components/Info";
 import IU from "./Components/IU";
-import Credits from "./Components/Credits";
 
 import { Section, ScrollingProvider } from "react-scroll-section";
 
@@ -17,10 +15,7 @@ function App() {
   return (
     <ScrollingProvider offset={0}>
       <div className="App">
-        <div> // PUT BACKGROUND IMAGE HERE
-          <NavBar />
-          <Header />
-        </div>
+        <Header />
         <CastPages />
         <Roadmap />
         <EpisodeGuide />
@@ -29,7 +24,6 @@ function App() {
         <ValueProp />
         <Info />
         <IU />
-        <Credits />
       </div>
     </ScrollingProvider>
   );

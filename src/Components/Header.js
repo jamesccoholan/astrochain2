@@ -1,14 +1,11 @@
 import "./Header.css";
 
+import NavBar from "./NavBar";
+
 function Header() {
   return (
     <div className="Header">
-        <a href="#about-section" />
-        <img
-          src="/assets/Website 2/01 Landing Page (Home)/LandingPage_BG.jpg"
-          alt="Hero"
-          class="landing-background-img"
-        />
+        <NavBar class="landing-navbar" />
         <img
           src="/assets/Website 2/01 Landing Page (Home)/LandingPage_Logo.png"
           class="landing-logo"
