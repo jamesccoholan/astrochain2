@@ -15,7 +15,6 @@ export default function NavBar() {
 
   return (
     <div class="topnav" id="myTopnav">
-      <AppBar position="static" elevation={0} sx={{ backgroundColor: "white" }}>
         <Toolbar disableGutters={true} sx={{ flexWrap: "wrap" }}>
           <Grid container sx={{ display: "flex", flex: "0 0 100%" }}>
             <Grid
@@ -127,7 +126,6 @@ export default function NavBar() {
           </Grid>
           <div></div>
         </Toolbar>
-      </AppBar>
     </div>
   );
 }
