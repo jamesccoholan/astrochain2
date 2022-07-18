@@ -1,8 +1,8 @@
 .season-1-background {
   color: white;
   position: relative;
-  height: calc(100vh);
   max-height: 1580px;
+  background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   background-image: url('https://ik.imagekit.io/5ierklngtbt/EpisodeGuide_PlayBG_Expanded_v02_YtFQbZ3Ew7.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1658170701953');
@@ -22,6 +22,7 @@
     font-size: 24px;
     resize: both;
     color: white;
+    background-size: contain;
     background-repeat: no-repeat;
     height: 767px;
     width:477px;
@@ -39,7 +40,7 @@
   text-align: left;
 }
 .playlist-title {
-  margin: 15px auto;
+  margin: 20px auto 5px auto;
   font-weight: 700;
 }
 .playlist-number {
@@ -53,4 +54,26 @@
 }
 .playlist-number-inactive {
   opacity: 0.3;
+}
+
+@media screen and (max-width: 900px) {
+  .season-1-img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .season-1-title{
+    font-size: 34px;
+    margin-left: 10px;
+  }
+  .playlist-text {
+    font-size: 18px;
+    width: 350px;
+    height: 562.79px;
+  }
+  .playlist-text > div > div {
+    width: 250px;
+    padding-top: 75px;
+  }
 }
