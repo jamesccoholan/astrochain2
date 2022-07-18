@@ -4,6 +4,7 @@ import { Stack } from "@mui/material";
 function Roadmap() {
   return (
     <div>
+      <section id="roadmap-section" />
       <Stack direction="column">
         <Stack
           direction={{ xs: "column", sm: "column", md: "column", lg: "row" }}
