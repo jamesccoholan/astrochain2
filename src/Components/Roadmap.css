@@ -21,49 +21,28 @@
 }
 
 /* Bottom left text */
-.phase1 {
-  position: absolute;
-  color: white;
-  left: 16px;
-  font-size: 50px;
-  margin-right: 800px;
+.phase-three {
   margin-left: 600px;
-  margin-bottom: 350px;
-  margin-top: 500px;
+  margin-top: 430px;
 }
-.phase2 {
-  position: absolute;
-  text-align: left;
-  color: white;
-  left: 16px;
-  font-size: 18px;
-  margin-right: 800px;
+.phase-three-description {
   margin-left: 600px;
-  margin-bottom: 350px;
-  margin-top: 570px;
+  margin-top: 485px;
 }
-.phase3 {
-  position: absolute;
-  color: white;
-  left: 16px;
-  font-size: 50px;
+
+.phase-two {
   margin-right: 0px;
   margin-left: 1400px;
   margin-bottom: 550px;
   margin-top: 400px;
 }
-
-.phase4 {
-  position: absolute;
-  text-align: right;
-  color: white;
-  left: 16px;
-  font-size: 18px;
+.phase-two-description {
   margin-right: 150px;
   margin-left: 1250px;
   margin-bottom: 350px;
   margin-top: 470px;
 }
+
 .phase-one {
   margin-right: 800px;
   margin-left: 450px;

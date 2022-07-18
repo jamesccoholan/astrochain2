@@ -30,8 +30,8 @@ function Roadmap() {
             </video>
             <Stack direction="row">
               <text class="roadmap-title phase-title">ROAD MAP</text>
-              <text class="phase1">Phase Three</text>
-              <text class="phase2">
+              <text class="phase-three phase-title">Phase Three</text>
+              <text class="phase-three-description phase-description">
                 Top 500 producers will be locked and Submission for Next Season
                 due Guests Star episodes drop "Where Are they Now" winners
                 chosen and displayed Fifth Community Written Confessional "Where
@@ -39,8 +39,8 @@ function Roadmap() {
                 Next season are chosen, 5 new communi- ties and holders
                 displayed.
               </text>
-              <text class="phase3">Phase Two</text>
-              <text class="phase4">
+              <text class="phase-two phase-title">Phase Two</text>
+              <text class="phase-two-description phase-description">
                 Guest Star submissions due and reviewed Third and Fourth
                 Community Written Confessional Multiple contests and a surprise
                 limited airdrop to our top 500 holders on the lea- derboard)
