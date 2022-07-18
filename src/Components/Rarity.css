@@ -103,3 +103,29 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.rarity-section {
+  background-color: #08042b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(90px + 2vmin);
+  color: white;
+}
+
+.rarity-title {
+  text-align: "left";
+  text-align: left;
+  font-size: 60px;
+}
+
+.rarity-description {
+  text-align: "left";
+  text-align: left;
+  font-size: 30px;
+}
+
+.rarity-pics {
+  display: flex;
+  flex-direction: column;
+}
