@@ -4,6 +4,7 @@
   max-height: 1580px;
   background-size: cover;
   background-repeat: no-repeat;
+  overflow: hidden;
   width: 100%;
   background-image: url('https://ik.imagekit.io/5ierklngtbt/EpisodeGuide_PlayBG_Expanded_v02_YtFQbZ3Ew7.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1658170701953');
 }

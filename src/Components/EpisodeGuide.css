@@ -1,14 +1,61 @@
-.EpisodeGuide-Main {
+.episode-guide {
   color: white;
   position: relative;
   max-height: 1580px;
   background-size: cover;
   background-repeat: no-repeat;
+  overflow: hidden;
   height: 100vh;
   width: 100%;
+  margin: auto;
   background-image: url('https://ik.imagekit.io/5ierklngtbt/EpisodeGuide_BG_v02_MP_hZDoqq.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1658177779945');
 }
 
-.episode-guide-bg-img {
-  width: 100%;
+.episode-guide-title {
+  position: absolute;
+  font-size: 46px;
+  font-weight: 700;
+  top: 30px;
+  left: 30px;
+  text-align: left;
+  margin: auto;
+}
+
+.episode-guide-description {
+  font-size: 24px;
+  position: absolute;
+  top: 14%;
+  left: 42%;
+  text-align: left;
+  margin: auto;
+  width: 480px;
+}
+
+@media screen and (max-width: 1230px) {
+  .episode-guide-title {
+    font-size: 34px;
+  }
+  .episode-guide-description {
+    top: 150px;
+    left: 0;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .episode-guide-title {
+    font-size: 30px;
+  }
+  .episode-guide-description {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .episode-guide {
+    height: 70vh;
+  }
+  .episode-guide-description {
+    width: 320px;
+  }
 }
