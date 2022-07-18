@@ -5,7 +5,7 @@ import NavBar from "./NavBar";
 function Header() {
   return (
     <div className="Header">
-        <NavBar class="landing-navbar" />
+        <NavBar />
         <img
           src="/assets/Website 2/01 Landing Page (Home)/LandingPage_Logo.png"
           class="landing-logo"
