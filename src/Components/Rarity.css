@@ -117,6 +117,8 @@
   text-align: "left";
   text-align: left;
   font-size: 45px;
+  margin-right: 60%;
+  margin-left: 10%;
 }
 
 .rarity-description {
@@ -124,17 +126,24 @@
   text-align: left;
   font-size: 25px;
   margin-top: 1ch;
-  margin-right: 900px;
+  margin-right: 60%;
+  margin-left: 10%;
 }
 .ValueProp-title {
   text-align: "left";
   text-align: left;
   font-size: 45px;
+  margin-right: 10%;
+  margin-left: 10%;
+  
 }
 .ValueProp-description {
   text-align: "left";
   text-align: left;
   font-size: 25px;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 2%;
 }
 
 .rarity-pics {
