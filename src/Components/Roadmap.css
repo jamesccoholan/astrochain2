@@ -9,57 +9,6 @@
   display: flex;
 }
 
-.CastPages {
-  text-align: center;
-  min-height: 10vh;
-  padding: "100%";
-}
-
-
-.description {
-  text-align: center;
- font-size: 30px;
- margin-left: 300px;
- margin-right: 300px;
-}
-
-.rack {
-    background-color: blue;
-    min-height: 1800vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-}
-
-.App-header {
-  background-color: #12284B;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(40px + 2vmin);
-  color: white;
-
-  
-}
-
-.CastPages {
-  background-color: #000000;
-  min-height: 50vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(90px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
 .videos {
   padding: 40px;
 }
@@ -115,38 +64,43 @@
   margin-bottom: 350px;
   margin-top: 470px;
 }
-.phase5 {
-  position: absolute;
-  color: white;
-  left: 16px;
-  font-size: 50px;
+.phase-one {
   margin-right: 800px;
   margin-left: 450px;
   margin-bottom: 550px;
-  margin-top: 40px;
+  margin-top: 50px;
+}
+.phase-one-description {
+  margin-left: 450px;
+  margin-top: 105px;
 }
 
-.phase6 {
-  position: absolute;
-  text-align: left;
-  color: white;
-  left: 16px;
-  font-size: 18px;
-  margin-right: 900px;
-  margin-left: 450px;
-  margin-bottom: 550px;
-  margin-top: 110px;
-}
-.phase7 {
-  position: absolute;
-  text-align: left;
-  color: white;
-  left: 16px;
-  font-size: 60px;
+.roadmap-title {
+  font-size: 46px !important;
+  font-weight: 700 !important;
   margin-right: 1300px;
   margin-left: 50px;
   margin-bottom: 550px;
-  margin-top: 210px;
+  margin-top: 30px;
+}
+
+/* Generic elements for title and description */
+.phase-title {
+  position: absolute;
+  text-align: left;
+  color: white;
+  width: 400px;
+  font-size: 34px;
+  left: 16px;
+  font-weight: 600;
+}
+.phase-description {
+  position: absolute;
+  text-align: left;
+  color: white;
+  width: 500px;
+  font-size: 18px;
+  left: 16px;
 }
 
 /* Top left text */
