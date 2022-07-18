@@ -1,6 +1,6 @@
-import "./EpisodeGuide.css";
+import "./Rarity.css";
 
-function EpisodeGuide() {
+function Rarity() {
   return (
     <div className="CastPages-Main">
       <div className="CastPages">
@@ -17,4 +17,4 @@ function EpisodeGuide() {
   );
 }
 
-export default EpisodeGuide;
+export default Rarity;
