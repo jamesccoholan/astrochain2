@@ -21,7 +21,7 @@ function ValueProp() {
         you control the character and decide what they say. With our quick turn
         animation studio, the most popular choices will be brought to life and
         animated in days. Pass holders will also submit ideas in the producer's
-        room for special episodes like the final episode Where Are They Now?"
+        room for special episodes like the final episode "Where Are They Now?"
         The submission will be voted on and animated. Even more, if your entries
         are selected for these special episodes, you will be credited at the end
         of the episode. It can be your wallet #, twitter name or ens name!
