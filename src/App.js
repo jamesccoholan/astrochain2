@@ -17,9 +17,9 @@ function App() {
     <ScrollingProvider offset={0}>
       <div className="App">
         <Header />
-        <CastPages />
-        <Roadmap />
+        {/*<CastPages />*/}
         <EpisodeGuide />
+        <Roadmap />
         <Season1 />
         <Rarity />
         <ValueProp />
