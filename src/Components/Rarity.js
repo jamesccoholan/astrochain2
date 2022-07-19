@@ -5,7 +5,6 @@ function Rarity() {
   return (
     <div className="rarity-section">
       <section id="rarity-section" />
-      <h2 className="rarity-title">RARITY</h2>
       <Stack
         direction={{ xs: "column", sm: "column", md: "column", lg: "row" }}
         spacing={{ xs: 0, sm: 2, md: 2, lg: 4 }}
@@ -16,6 +15,7 @@ function Rarity() {
         style={{ justifyContent: "center", padding: "0 0 40px 0" }}
       >
         <div>
+        <h2 className="rarity-title">RARITY</h2>
           <div className="rarity-description">
             Our Producer Passes are designed to become your Twitter banner. We
             chose this underutilized stvle to accentuate the fact that while our

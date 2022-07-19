@@ -1,14 +1,12 @@
 .rarity-section {
   background-color: #08042b;
   color: white;
-  margin-top: -35px;
   padding-top: 35px;
 }
 
 .value-prop-section {
   background-color: #08042b;
   color: white;
-  margin-top: -35px;
   padding-top: 35px;
 }
 
@@ -17,7 +15,8 @@
   color: white;
   text-align: left;
   position: relative;
-  margin-left: 4%;
+  width: 80%;
+  margin:auto;
 }
 
 .rarity-description {

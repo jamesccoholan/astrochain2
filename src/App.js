@@ -6,7 +6,6 @@ import EpisodeGuide from "./Components/EpisodeGuide";
 import Season1 from "./Components/Season1";
 import Rarity from "./Components/Rarity";
 import ValueProp from "./Components/ValueProp";
-import Info from "./Components/Info";
 import IU from "./Components/IU";
 import Credits from "./Components/Credits";
 
@@ -19,11 +18,10 @@ function App() {
         <Header />
         {/*<CastPages />*/}
         <EpisodeGuide />
+        <ValueProp />
+        <Rarity />
         <Roadmap />
         <Season1 />
-        <Rarity />
-        <ValueProp />
-        <Info />
         <IU />
         <Credits />
       </div>
