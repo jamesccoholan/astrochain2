@@ -5,16 +5,16 @@ function Credits() {
   return (
     <Stack direction={{xs:'column', sm:'column', md: 'row', lg:'row'}} spacing={{xs:0, sm:2, md:4, lg:10}} alignItems="center" width="100%" height="auto" object-fit="cover" overflow="auto" style={{ justifyContent: 'center', padding: '20px 0 40px 0' }}>
       <div class="credits-text">
-        Insert credits here.
+        Insert credits here...
       </div>
       <div class="credits-text">
-      Insert credits here.
+      Insert credits here...
       </div>
       <div class="credits-text">
-        Insert credits here.
+        Insert credits here...
       </div>
       <div class="credits-text">
-      Insert credits here.
+      Insert credits here..
       </div>
     </Stack>
   );
