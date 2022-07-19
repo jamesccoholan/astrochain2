@@ -15,25 +15,13 @@ function Rarity() {
         style={{ justifyContent: "center", padding: "0 0 40px 0" }}
       >
         <div>
-        <h2 className="rarity-title">RARITY</h2>
+        <h2 className="rarity-title">NFT RARITY</h2>
           <div className="rarity-description">
-            Our Producer Passes are designed to become your Twitter banner. We
-            chose this underutilized stvle to accentuate the fact that while our
-            characters may originate in different communities, thev only exist
-            together here on The R3al Metaverse.
+            Our NFT is a Producer Pass designed to become your Twitter banner. We chose this style to accentuate the fact that while our characters may originate in different communities, they only exist together here on The R3eal Metaverse. 
+            Our traits algorithmically combine iconic locations in Los Angeles with award winning animation to generate over a million combinations. The Mint will randomly produce 7000 unique Producer Passes. 
           </div>
           <div className="rarity-description">
-            Over 100 different traits algorithmically combine iconic locations
-            in Los Angeles with award winning animation to generate over 4
-            million combinations. The Mint will randomly produce XXXX unique
-            Producer Passes.
-          </div>
-          <div className="rarity-description">
-            {" "}
-            In addition, 20 Ultra Rare Passes will be created. If you're lucky
-            enough to mint one of these rare NFT's you will automatically
-            receive 100 bonus points to be included on the Leaderboard for a
-            chance to win amazing opportunities.
+            In addition, 20 Ultra Rare Passes will be created. If you{"’"}re lucky enough to mint one of these rare NFT{"’"}s you will automatically receive 50 bonus points to be included on the Leaderboard.
           </div>
         </div>
         <div className="rarity-pics">
