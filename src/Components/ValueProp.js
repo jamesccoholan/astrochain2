@@ -7,6 +7,7 @@ function ValueProp() {
       <section id="animated-section" />
       <h2 class="value-prop-title">GET YOUR CHARACTER ANIMATED!</h2>
       <div class="ValueProp-description">
+        There are two ways you can bring <b><u>your</u></b> PFP character to life!<br/><br/>
         <b>This Season:</b> If you are a holder of an NFT from one of the five OG communities our cast comes from,
          and you’re in the top 500 on our leaderboard, (more on that in a minute) you could win a spot to have 
          your character make a cameo appearance this season. You might even be able to voice your character yourself! 
