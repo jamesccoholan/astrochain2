@@ -15,13 +15,13 @@
   color: white;
   text-align: left;
   position: relative;
-  width: 80%;
+  width: 85%;
   margin:auto;
 }
 
 .rarity-description {
   font-size: 24px;
-  width: 80%;
+  width: 85%;
   margin: auto;
   left: 0;
   right:0;
@@ -33,14 +33,14 @@
 .value-prop-title {
   text-align: left;
   font-size: 40px;
-  margin-right: 10%;
-  margin-left: 10%;
+  margin: auto;
+  width: 85%;
 }
 .ValueProp-description {
   text-align: left;
   font-size: 24px;
-  margin-right: 10%;
-  margin-left: 10%;
+  margin: 30px auto 0 auto;
+  width: 85%;
   padding-bottom: 2%;
 }
 
@@ -70,15 +70,19 @@
 @media screen and (max-width: 600px) {
   .rarity-title {
     font-size: 34px;
+    width: 90%;
   }
   .value-prop-title {
     font-size: 34px;
+    width: 90%;
   }
   .rarity-description {
     font-size: 20px;
     padding-top: 20px;
+    width: 90%;
   }
   .ValueProp-description {
     font-size: 20px;
+    width: 90%;
   }
 }

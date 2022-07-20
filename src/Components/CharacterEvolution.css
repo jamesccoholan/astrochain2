@@ -58,11 +58,14 @@
 @media screen and (max-width: 600px) {
   .character-evolution-title {
     font-size: 34px;
+    width: 90%;
   }
   .character-evolution-description {
     font-size: 20px;
+    width: 90%;
   }
   .description-iu-pages {
     font-size: 14px;
+    width: 90%;
   }
 }
