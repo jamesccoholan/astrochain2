@@ -1,4 +1,5 @@
 import "./CharacterEvolution.css";
+import { useScrollSection } from "react-scroll-section";
 
 const castPagesContent = [
   {
@@ -34,6 +35,8 @@ const castPagesContent = [
 ];
 
 function CharacterEvolution() {
+  const navScroll = useScrollSection();
+
   return (
     <div>
       <div className="character-evolution-container">
@@ -41,21 +44,23 @@ function CharacterEvolution() {
           <section id="character-evolution-section" />
           <h2 className="character-evolution-title">Character Evolution</h2>
           <div className="videos">
-            <video
-              autoPlay
-              loop
-              muted
-              playsinline
-              webkit-playsinline
-              width="220"
-              height="220"
-              className="videos"
-            >
-              <source
-                src={"assets/mp4/01_Pete_2dTo3d (Stitched Clip).mp4"}
-                type="video/mp4"
-              />
-            </video>
+            <a onClick={navScroll.onClick} href="#character-section">
+              <video
+                autoPlay
+                loop
+                muted
+                playsinline
+                webkit-playsinline
+                width="220"
+                height="220"
+                className="videos"
+              >
+                <source
+                  src={"assets/mp4/01_Pete_2dTo3d (Stitched Clip).mp4"}
+                  type="video/mp4"
+                />
+              </video>
+            </a>
             <video
               autoPlay
               loop
@@ -122,12 +127,13 @@ function CharacterEvolution() {
           </div>
         </div>
       </div>
+      <section id="character-section" />
       <div class="cast-pages-gif-container">
-      <img class="cast-pages-background-img" src={`/assets/Website 2/02 Cast Page/${castPagesContent[0].img}`} />
-      <div class="cast-pages-character-text-container">
-        <h2 class="cast-pages-character-character-name">{castPagesContent[0].character}</h2>
-        <div class="cast-pages-character-text">{castPagesContent[0].description}</div>
-      </div>
+        <img class="cast-pages-background-img" src={`/assets/Website 2/02 Cast Page/${castPagesContent[0].img}`} />
+        <div class="cast-pages-character-text-container">
+          <h2 class="cast-pages-character-character-name">{castPagesContent[0].character}</h2>
+          <div class="cast-pages-character-text">{castPagesContent[0].description}</div>
+        </div>
     </div>
     </div>
   );
