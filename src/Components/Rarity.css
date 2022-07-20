@@ -16,7 +16,7 @@
   text-align: left;
   position: relative;
   width: 85%;
-  margin:auto;
+  margin: auto;
 }
 
 .rarity-description {
@@ -58,12 +58,8 @@
 }
 
 @media screen and (max-width: 900px) {
-  .rarity-title {
-    margin-left: 10%;
-    margin-right: 10%;
-  }
   .rarity-description {
-    padding-top: 0px;
+    padding-top: 30px;
   }
 }
 
@@ -80,6 +76,8 @@
     font-size: 20px;
     padding-top: 20px;
     width: 90%;
+    left: none;
+    right: none;
   }
   .ValueProp-description {
     font-size: 20px;
