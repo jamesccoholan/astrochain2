@@ -4,7 +4,7 @@ import { questionContent } from "./faqs-content";
 function FAQs() {
   const faqItems = questionContent.map(q => {
     return (
-        <div class="faqs-qa-container">
+        <div class="faqs-qa-container" key={q.question}>
           <b class="faqs-question">{q.question}</b>
           <div class="faqs-answer">{q.answer}</div>
         </div>

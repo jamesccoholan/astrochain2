@@ -1,5 +1,7 @@
-import "./CharacterEvolution.css";
+import React, { Component } from "react";
 import { useScrollSection } from "react-scroll-section";
+import { Button } from "@mui/material";
+import "./CharacterEvolution.css";
 
 const castPagesContent = [
   {
@@ -34,109 +36,119 @@ const castPagesContent = [
   }
 ];
 
-function CharacterEvolution() {
-  const navScroll = useScrollSection();
+class CharacterEvolution extends Component {
 
-  return (
-    <div>
-      <div className="character-evolution-container">
-        <div className="CastPages">
-          <section id="character-evolution-section" />
-          <h2 className="character-evolution-title">Character Evolution</h2>
-          <div className="videos">
-            <a onClick={navScroll.onClick} href="#character-section">
+  constructor(props) {
+    super(props);
+    // set the initial state
+    this.state = {
+      characterId: 0
+    };
+  }
+
+  updateCharacterId = event =>  {
+    console.log(event.currentTarget.value);
+    console.log("HERE");
+    this.setState({ characterId: event.currentTarget.value });
+  };
+
+  render() {
+
+    return (
+      <div>
+        <div className="character-evolution-container">
+          <div className="CastPages">
+            <section id="character-evolution-section" />
+            <h2 className="character-evolution-title">Character Evolution</h2>
+            <div className="videos">
+              <Button onClick={this.selectCharacterId} value="0" style={{width:"220",
+                height:"220"}}>
+                <video
+                  autoPlay
+                  loop
+                  height="100%"
+                  width="100%"
+                  muted
+                  playsInline
+                  className="videos"
+                >
+                  <source
+                    src={"assets/mp4/01_Pete_2dTo3d (Stitched Clip).mp4"}
+                    type="video/mp4"
+                  />
+                </video>
+              </Button>
               <video
                 autoPlay
                 loop
                 muted
-                playsinline
-                webkit-playsinline
+                playsInline
                 width="220"
                 height="220"
                 className="videos"
               >
                 <source
-                  src={"assets/mp4/01_Pete_2dTo3d (Stitched Clip).mp4"}
+                  src={"assets/mp4/02_Monty_2dTo3d (Stitched Clip).mp4"}
                   type="video/mp4"
                 />
               </video>
-            </a>
-            <video
-              autoPlay
-              loop
-              muted
-              playsinline
-              webkit-playsinline
-              width="220"
-              height="220"
-              className="videos"
-            >
-              <source
-                src={"assets/mp4/02_Monty_2dTo3d (Stitched Clip).mp4"}
-                type="video/mp4"
-              />
-            </video>
-            <video
-              autoPlay
-              loop
-              muted
-              playsinline
-              webkit-playsinline
-              width="220"
-              height="220"
-              className="videos"
-            >
-              <source src={"assets/mp4/SAMS.mp4"} type="video/mp4" />
-            </video>
-            <video
-              autoPlay
-              loop
-              muted
-              playsinline
-              webkit-playsinline
-              width="220"
-              height="220"
-              className="videos"
-            >
-              <source
-                src={"assets/mp4/04_Journey_2dTo3d (Stitched Clip).mp4"}
-                type="video/mp4"
-              />
-            </video>
-            <video
-              autoPlay
-              loop
-              muted
-              playsinline
-              webkit-playsinline
-              width="220"
-              height="220"
-              className="videos"
-            >
-              <source
-                src={"assets/mp4/05_Claudine_2dTo3d (Stitched Clip).mp4"}
-                type="video/mp4"
-              />
-            </video>
-            <div />
-            <div className="character-evolution-description">
-                {
-                  "Inspired by the incredible art that brought communities like Bored Ape and Doodles to life, we’ve created fully realized 3D animated characters from their 2D profile pictures. Click on a portrait to read their backstories and see the transformation!"
-                }
+              <video
+                autoPlay
+                loop
+                muted
+                playsInline
+                width="220"
+                height="220"
+                className="videos"
+              >
+                <source src={"assets/mp4/SAMS.mp4"} type="video/mp4" />
+              </video>
+              <video
+                autoPlay
+                loop
+                muted
+                playsInline
+                width="220"
+                height="220"
+                className="videos"
+              >
+                <source
+                  src={"assets/mp4/04_Journey_2dTo3d (Stitched Clip).mp4"}
+                  type="video/mp4"
+                />
+              </video>
+              <video
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="videos"
+              >
+                <source
+                  src={"assets/mp4/05_Claudine_2dTo3d (Stitched Clip).mp4"}
+                  type="video/mp4"
+                />
+              </video>
+              <div />
+              <div className="character-evolution-description">
+                  {
+                    "Inspired by the incredible art that brought communities like Bored Ape and Doodles to life, we’ve created fully realized 3D animated characters from their 2D profile pictures. Click on a portrait to read their backstories and see the transformation!"
+                  }
+              </div>
             </div>
           </div>
         </div>
+        <section id="character-section" />
+        <div className="cast-pages-gif-container">
+          <img className="cast-pages-background-img" src={`/assets/Website 2/02 Cast Page/${castPagesContent[this.state.characterId].img}`} />
+          <div className="cast-pages-character-text-container">
+            <h2 className="cast-pages-character-character-name">{castPagesContent[this.state.characterId].character}</h2>
+            <div className="cast-pages-character-text">{castPagesContent[this.state.characterId].description}</div>
+          </div>
       </div>
-      <section id="character-section" />
-      <div class="cast-pages-gif-container">
-        <img class="cast-pages-background-img" src={`/assets/Website 2/02 Cast Page/${castPagesContent[0].img}`} />
-        <div class="cast-pages-character-text-container">
-          <h2 class="cast-pages-character-character-name">{castPagesContent[0].character}</h2>
-          <div class="cast-pages-character-text">{castPagesContent[0].description}</div>
-        </div>
-    </div>
-    </div>
-  );
+      </div>
+    );
+  };
 }
 
 export default CharacterEvolution;

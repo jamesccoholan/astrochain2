@@ -7,7 +7,7 @@
   position: relative;
   height: calc(145vh);
   max-height: 1580px;
-  background-size: cover;
+  background-size: cover;/* TODO: CHANGE THIS TO CONTAIN TO see if it works for mobile - possibly could change to contain at less thatn 900 or 600px */
   background-repeat: no-repeat;
   overflow: hidden;
   width: 100%;
