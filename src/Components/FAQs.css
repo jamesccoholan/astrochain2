@@ -1,0 +1,38 @@
+.faqs-container {
+  background-color: white;
+  color: #08042b;
+  margin: 50px auto 80px auto;
+  width: 80%;
+  max-width: 1300px;
+}
+
+.faqs-header {
+  text-align: left;
+  font-size: 40px;
+}
+
+.faqs-qa-container {
+  text-align: left;
+  margin: 30px auto;
+}
+
+.faqs-question {
+  font-size: 24px;
+}
+
+.faqs-answer {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .faqs-header {
+    font-size: 34px;
+  }
+  .faqs-question {
+    font-size: 20px;
+  }
+  .faqs-answer {
+    font-size: 18px;
+  }
+}

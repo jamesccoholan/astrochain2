@@ -1,4 +1,4 @@
-.CastPages-Main {
+.character-evolution-container {
   min-height: 10vh;
   position: relative;
 }
@@ -8,7 +8,7 @@
   padding: "100%";
 }
 
-.description-cast-pages {
+.character-evolution-description {
   font-size: 24px;
   color: white;
   width: 85%;
@@ -40,7 +40,7 @@
   color: white;
 }
 
-.title-cast-page {
+.character-evolution-title {
   font-size: 40px;
   color: white;
   width: 85%;
@@ -56,10 +56,10 @@
 }
 
 @media screen and (max-width: 600px) {
-  .title-cast-page {
+  .character-evolution-title {
     font-size: 34px;
   }
-  .description-cast-pages {
+  .character-evolution-description {
     font-size: 20px;
   }
   .description-iu-pages {

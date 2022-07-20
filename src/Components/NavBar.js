@@ -36,6 +36,15 @@ export default function NavBar() {
                   size={"large"}
                   color={"inherit"}
                   onClick={navScroll.onClick}
+                  href="#character-evolution-section"
+                >
+                  Character Evolution
+                </Button>
+                <Button
+                  variant={"text"}
+                  size={"large"}
+                  color={"inherit"}
+                  onClick={navScroll.onClick}
                   href="#episode-guide-section"
                 >
                   Episode Guide
@@ -65,16 +74,16 @@ export default function NavBar() {
                   onClick={navScroll.onClick}
                   href="#roadmap-section"
                 >
-                  Road Map
+                  Roadmap
                 </Button>
                 <Button
                   variant={"text"}
                   size={"large"}
                   color={"inherit"}
                   onClick={navScroll.onClick}
-                  href="#season1-section"
+                  href="#invisible-universe-section"
                 >
-                  Season 01
+                  Invisible Universe
                 </Button>
                 <Button
                   variant={"text"}
@@ -84,6 +93,24 @@ export default function NavBar() {
                   href="#team-section"
                 >
                   Team
+                </Button>
+                <Button
+                  variant={"text"}
+                  size={"large"}
+                  color={"inherit"}
+                  onClick={navScroll.onClick}
+                  href="#credits-section"
+                >
+                  Credits
+                </Button>
+                <Button
+                  variant={"text"}
+                  size={"large"}
+                  color={"inherit"}
+                  onClick={navScroll.onClick}
+                  href="#faqs-section"
+                >
+                  FAQs
                 </Button>
               </div>
               <div class="right navbar-social">

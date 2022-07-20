@@ -1,13 +1,13 @@
 .rarity-section {
   background-color: #08042b;
   color: white;
-  padding-top: 50px;
+  padding-top: 80px;
 }
 
 .value-prop-section {
   background-color: #08042b;
   color: white;
-  padding-top: 50px;
+  padding-top: 60px;
 }
 
 .rarity-title {
@@ -32,7 +32,7 @@
 }
 .value-prop-title {
   text-align: left;
-  font-size: 45px;
+  font-size: 40px;
   margin-right: 10%;
   margin-left: 10%;
 }

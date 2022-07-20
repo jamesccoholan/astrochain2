@@ -2,6 +2,7 @@
   width: 300px;
   font-size: 18px;
   padding-top: 20px;
+  color: #08042b;
 }
 
 @media screen and (max-width: 600px) {

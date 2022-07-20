@@ -33,11 +33,11 @@
 }
 /* PHASE 2 POSITIONING */
 .phase-two {
-  margin-left: 1000px;
+  margin-left: 970px;
   margin-top: 225px;
 }
 .phase-two-description {
-  margin-left: 1000px;
+  margin-left: 970px;
   margin-top: 280px;
 }
 /* PHASE 3 POSITIONING */
@@ -278,23 +278,23 @@
   .phase-two {
     margin-left: 50px;
     margin-right: auto;
-    margin-top: 210px;
+    margin-top: 230px;
   }
   .phase-two-description {
     margin-left: 50px;
     margin-right: auto;
-    margin-top: 245px;
+    margin-top: 265px;
   }
   /* PHASE 3 POSITIONING */
   .phase-three {
     margin-left: 50px;
     margin-right: auto;
-    margin-top: 370px;
+    margin-top: 400px;
   }
   .phase-three-description {
     margin-left: 50px;
     margin-right: auto;
-    margin-top: 405px;
+    margin-top: 435px;
   }
 }
 

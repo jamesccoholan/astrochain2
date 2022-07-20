@@ -1,11 +1,11 @@
-import "./CastPages.css";
+import "./CharacterEvolution.css";
 
-function CastPages() {
+function CharacterEvolution() {
   return (
-    <div className="CastPages-Main">
+    <div className="character-evolution-container">
       <div className="CastPages">
-        <section id="cast-pages-section" />
-        <h2 className="title-cast-page">Cast Pages</h2>
+        <section id="character-evolution-section" />
+        <h2 className="character-evolution-title">Character Evolution</h2>
         <div className="videos">
           <video
             autoPlay
@@ -80,9 +80,9 @@ function CastPages() {
             />
           </video>
           <div />
-          <div className="description-cast-pages">
+          <div className="character-evolution-description">
               {
-                "What started off as a PFP in 2 dimensions has evolved into a fully realized 3D character with an oversized personality. Take some time to read through the cast bios, admire the artists' process and learn how we created this first of its kind series."
+                "Inspired by the incredible art that brought communities like Bored Ape and Doodles to life, we’ve created fully realized 3D animated characters from their 2D profile pictures. Click on a portrait to read their backstories and see the transformation!"
               }
           </div>
         </div>
@@ -91,4 +91,4 @@ function CastPages() {
   );
 }
 
-export default CastPages;
+export default CharacterEvolution;
