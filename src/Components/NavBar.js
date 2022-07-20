@@ -36,9 +36,27 @@ export default function NavBar() {
                   size={"large"}
                   color={"inherit"}
                   onClick={navScroll.onClick}
-                  href="#cast-pages-section"
+                  href="#episode-guide-section"
                 >
-                  Cast Pages
+                  Episode Guide
+                </Button>
+                <Button
+                  variant={"text"}
+                  size={"large"}
+                  color={"inherit"}
+                  onClick={navScroll.onClick}
+                  href="#animated-section"
+                >
+                  Get your Character Animated
+                </Button>
+                <Button
+                  variant={"text"}
+                  size={"large"}
+                  color={"inherit"}
+                  onClick={navScroll.onClick}
+                  href="#rarity-section"
+                >
+                  NFT Rarity
                 </Button>
                 <Button
                   variant={"text"}
@@ -54,36 +72,9 @@ export default function NavBar() {
                   size={"large"}
                   color={"inherit"}
                   onClick={navScroll.onClick}
-                  href="#episode-guide-section"
-                >
-                  Episode Guide
-                </Button>
-                <Button
-                  variant={"text"}
-                  size={"large"}
-                  color={"inherit"}
-                  onClick={navScroll.onClick}
                   href="#season1-section"
                 >
                   Season 01
-                </Button>
-                <Button
-                  variant={"text"}
-                  size={"large"}
-                  color={"inherit"}
-                  onClick={navScroll.onClick}
-                  href="#rarity-section"
-                >
-                  Rarity
-                </Button>
-                <Button
-                  variant={"text"}
-                  size={"large"}
-                  color={"inherit"}
-                  onClick={navScroll.onClick}
-                  href="#value-prop-section"
-                >
-                  Value Prop
                 </Button>
                 <Button
                   variant={"text"}

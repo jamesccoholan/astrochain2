@@ -84,11 +84,11 @@
   /* PHASE 1 POSITIONING */
   .phase-one {
     margin-left: 500px;
-    margin-top: 150px;
+    margin-top: 130px;
   }
   .phase-one-description {
     margin-left: 500px;
-    margin-top: 205px;
+    margin-top: 185px;
   }
   /* PHASE 2 POSITIONING */
   .phase-two {
@@ -102,11 +102,11 @@
   /* PHASE 3 POSITIONING */
   .phase-three {
     margin-left: 550px;
-    margin-top: 570px;
+    margin-top: 550px;
   }
   .phase-three-description {
     margin-left: 550px;
-    margin-top: 625px;
+    margin-top: 605px;
   }
 }
 

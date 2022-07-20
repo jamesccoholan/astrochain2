@@ -18,10 +18,10 @@ function App() {
         <Header />
         {/*<CastPages />*/}
         <EpisodeGuide />
+        <Season1 />
         <ValueProp />
         <Rarity />
         <Roadmap />
-        <Season1 />
         <IU />
         <Credits />
       </div>
