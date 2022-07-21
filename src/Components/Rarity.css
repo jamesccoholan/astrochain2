@@ -2,6 +2,9 @@
   background-color: #08042b;
   color: white;
   padding-top: 80px;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
 }
 
 .value-prop-section {
@@ -48,7 +51,7 @@
   margin-right: 50px;
 }
 .rarity-pics > img {
-  width: 100%;
+  width: 90%;
   max-height: 500px;
   height: auto;
 }
