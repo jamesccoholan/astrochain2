@@ -42,7 +42,7 @@ class CharacterEvolution extends Component {
     super(props);
     // set the initial state
     this.state = {
-      characterId: 1
+      characterId: 0
     };
   }
 
