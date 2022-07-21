@@ -151,11 +151,11 @@ class CharacterEvolution extends Component {
         </div>
         <section id="character-section" />
         <div className="cast-pages-gif-container" style={{ backgroundColor: `${castPagesContent[this.state.characterId].background}` }}>
-          <img className="cast-pages-background-img" src={`/assets/Website 2/02 Cast Page/${castPagesContent[this.state.characterId].img}`} />
           <div className="cast-pages-character-text-container">
             <h2 className="cast-pages-character-character-name">{castPagesContent[this.state.characterId].character}</h2>
             <div className="cast-pages-character-text">{castPagesContent[this.state.characterId].description}</div>
           </div>
+          <img className="cast-pages-background-img" src={`/assets/Website 2/02 Cast Page/${castPagesContent[this.state.characterId].img}`} />
       </div>
       </div>
     );

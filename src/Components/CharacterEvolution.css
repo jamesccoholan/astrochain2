@@ -101,7 +101,10 @@
     top: auto;
     left: auto;
     margin: auto;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
+  }
+  .cast-pages-background-img {
+    padding-bottom: 20px;
   }
 }
 
