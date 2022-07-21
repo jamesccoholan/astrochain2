@@ -1,3 +1,5 @@
+.character-container {
+}
 .character-evolution-container {
   min-height: 10vh;
   position: relative;
@@ -60,9 +62,8 @@
 }
 
 .cast-pages-background-img {
-  min-height: 500px;
   width: 100%;
-  height: auto;
+  display: block;
 }
 
 .cast-pages-character-text-container {
@@ -72,6 +73,7 @@
   width: 35%;
   margin: auto;
   text-align: left;
+  overflow: hidden;
 }
 
 .cast-pages-character-character-name {

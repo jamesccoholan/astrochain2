@@ -48,7 +48,7 @@ class CharacterEvolution extends Component {
   render() {
     console.log(this.state.characterId);
     return (
-      <div>
+      <div className="character-container">
         <div className="character-evolution-container">
           <div className="CastPages">
             <section id="character-evolution-section" />
