@@ -3,6 +3,34 @@ import { useScrollSection } from "react-scroll-section";
 import { Button } from "@mui/material";
 import "./Cast.css";
 
+const cast = [
+  {
+    front_img: "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/01_Pete2D.png",
+    back_img: "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/01_Pete3D.jpg",
+    value: "0"
+  },
+  {
+    front_img: "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/02_Monty2D.png",
+    back_img: "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/02_Monty3D.jpg",
+    value: "1"
+  },
+  {
+    front_img: "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/03_Sam2D.png",
+    back_img: "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/03_Sam3D.jpg",
+    value: "2"
+  },
+  {
+    front_img: "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/04_Journey2Dpng",
+    back_img: "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/04_Journey3D.jpg",
+    value: "3"
+  },
+  {
+    front_img: "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/05_Claudine2D.png",
+    back_img: "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/05_Claudine3D.jpg",
+    value: "4"
+  }
+];
+
 const castPagesContent = [
   {
     img: "https://ik.imagekit.io/5ierklngtbt/IU/CastPage_01_Pete_lVkyKlshU.mp4",
@@ -60,6 +88,13 @@ class Cast extends Component {
   };
 
   render() {
+    const castItems = cast.map(c => {
+      return (
+          <a className="cast-images" href="#character-section" value={c.value} key={c.value} onClick={this.selectCharacterId}>
+            <img src={c.front_img} />
+          </a>
+      );
+    });
     return (
       <div className="character-container">
         <div className="character-evolution-container">
@@ -68,92 +103,11 @@ class Cast extends Component {
             <h2 className="character-evolution-title">CAST</h2>
             <div className="character-evolution-description">
                   {
-                    "Inspired by the incredible art that brought communities like Bored Ape and Doodles to life, we’ve created fully realized 3D animated characters from their 2D profile pictures. Click on a portrait to read their backstories and see the transformation!"
+                    "We’ve created fully realized 3D animated characters inspired from the original 2D profile pictures. Click on a portrait to read their backstories and see the transformation!"
                   }
               </div>
-            <div className="videos">
-              <a href="#character-section" value="0" onClick={this.selectCharacterId}>
-                <video
-                  autoPlay
-                  loop
-                  muted
-                  playsInline
-                  width="220"
-                  height="220"
-                  onClick={this.selectCharacterId}
-                  value="0"
-                  className="videos"
-                >
-                  <source
-                    src={"assets/mp4/01_Pete_2dTo3d (Stitched Clip).mp4"}
-                    type="video/mp4"
-                  />
-                </video>
-              </a>
-              <a href="#character-section" value="1" onClick={this.selectCharacterId}>
-              <video
-                  autoPlay
-                  loop
-                  muted
-                  playsInline
-                  width="220"
-                  height="220"
-                  value="1"
-                  className="videos"
-                >
-                  <source
-                    src={"assets/mp4/02_Monty_2dTo3d (Stitched Clip).mp4"}
-                    type="video/mp4"
-                  />
-                </video>
-              </a>
-              <a href="#character-section" value="2" onClick={this.selectCharacterId}>
-                <video
-                  autoPlay
-                  loop
-                  muted
-                  playsInline
-                  width="220"
-                  height="220"
-                  value="2"
-                  className="videos"
-                >
-                  <source src={"assets/mp4/SAMS.mp4"} type="video/mp4" />
-                </video>
-              </a>
-              <a href="#character-section" value="3" onClick={this.selectCharacterId}>
-                <video
-                  autoPlay
-                  loop
-                  muted
-                  playsInline
-                  width="220"
-                  height="220"
-                  value="3"
-                  className="videos"
-                >
-                  <source
-                    src={"assets/mp4/04_Journey_2dTo3d (Stitched Clip).mp4"}
-                    type="video/mp4"
-                  />
-                </video>
-              </a>
-              <a href="#character-section" value="4" onClick={this.selectCharacterId}>
-                <video
-                  autoPlay
-                  loop
-                  muted
-                  playsInline
-                  className="videos"
-                  value="4"
-                >
-                  <source
-                    src={"assets/mp4/05_Claudine_2dTo3d (Stitched Clip).mp4"}
-                    type="video/mp4"
-                  />
-                </video>
-              </a>
-              <div />
+            <div class="cast-images-container">
+              {castItems}
             </div>
           </div>
         </div>

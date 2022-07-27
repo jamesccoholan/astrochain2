@@ -52,10 +52,24 @@
   text-align: left;
   position: relative;
   margin-bottom: -5px;
+  padding-top: 50px;
 }
 
 .videos {
   padding: 40px;
+}
+
+.cast-images-container {
+  margin: 30px auto;
+}
+.cast-images {
+  height: 220px;
+  width: 220px;
+  padding: 0 40px;
+}
+.cast-images > img {
+  height: inherit;
+  width: inherit;
 }
 
 .cast-pages-gif-container {

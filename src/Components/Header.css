@@ -44,8 +44,8 @@
 
 .socials {
   position: absolute;
-  bottom: 23%;
-  right: 15%;
+  bottom: calc(200px - 20vw);
+  right: 200px;
 }
 
 @media screen and (max-width: 1100px) {
