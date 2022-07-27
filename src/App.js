@@ -1,6 +1,6 @@
 import "./App.css";
 import Header from "./Components/Header";
-import CharacterEvolution from "./Components/CharacterEvolution";
+import Cast from "./Components/Cast";
 import Roadmap from "./Components/Roadmap";
 import EpisodeGuide from "./Components/EpisodeGuide";
 import Season1 from "./Components/Season1";
@@ -17,7 +17,7 @@ function App() {
     <ScrollingProvider offset={0}>
       <div className="App">
         <Header />
-        <CharacterEvolution />
+        <Cast />
         <EpisodeGuide />
         <Season1 />
         <ValueProp />

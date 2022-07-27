@@ -2,7 +2,7 @@
   background-color: white;
   color: #08042b;
   margin: 50px auto 80px auto;
-  width: 85%;
+  width: 90%;
   max-width: 1300px;
 }
 
@@ -27,7 +27,7 @@
 
 @media screen and (max-width: 600px) {
   .faqs-container {
-    width: 90%;
+    width: 95%;
   }
   .faqs-header {
     font-size: 34px;
