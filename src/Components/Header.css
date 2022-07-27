@@ -49,10 +49,28 @@
   z-index: 2;
 }
 
+@media screen and (max-width: 1100px) {
+  .Header {
+    height: calc(145vh);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .Header {
+    height: calc(135vh);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .Header {
+    height: calc(130vh);
+  }
+}
+
 @media screen and (max-width: 600px) {
   .Header {
-    height: calc(160vh);
-    min-height: 1200px;
+    height: calc(120vh);
+    min-height: 900px;;
     background-image: url('https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPageBG_v04_GDSn7B6-R.mp4');
   }
   .landing-logo {
