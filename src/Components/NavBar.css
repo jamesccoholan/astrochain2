@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  z-index: 10000;
 }
 
 .Nav-Bar-Text {
@@ -25,12 +26,6 @@
   font-size: 24px;
   cursor: pointer;
   display: inline-block;
-}
-
-.navbar-social {
-  overflow: hidden;
-  white-space: nowrap;
-  margin-left: 10px;
 }
 
 @media screen and (max-width: 980px) {

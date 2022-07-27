@@ -1,10 +1,12 @@
 .social-icons-container {
   display: inline-block;
-
+  position: relative;
+  z-index: 2;
 }
 
 .social-icon {
   height: 50px;
+  padding: 0 3px;
 }
 
 .social-icon > img {

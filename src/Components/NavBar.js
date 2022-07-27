@@ -1,9 +1,5 @@
 import "./NavBar.css";
 import { Button, AppBar, Toolbar, Grid } from "@mui/material";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import YouTubeIcon from "@mui/icons-material/YouTube";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import TwitterIcon from "@mui/icons-material/Twitter";
 
 import { useScrollSection } from "react-scroll-section";
 
@@ -11,7 +7,7 @@ export default function NavBar() {
   const navScroll = useScrollSection();
 
   return (
-        <AppBar position="static" color="transparent" elevation={0} style={{ background: 'transparent', boxShadow: 'none'}}>
+        <AppBar position="static" color="transparent" elevation={0} style={{ background: 'transparent', boxShadow: 'none', zIndex: '2', position: 'relative'}}>
         <Toolbar disableGutters={true} sx={{ flexWrap: "wrap" }}>
           <Grid container>
             <Grid
@@ -110,17 +106,6 @@ export default function NavBar() {
                   href="#faqs-section"
                 >
                   FAQs
-                </Button>
-              </div>
-              <div class="right navbar-social">
-                <Button>
-                  <TwitterIcon sx={{ mr: 1, color: "white" }} />
-                </Button>
-                <Button>
-                  <YouTubeIcon sx={{ mr: 1, color: "white" }} />
-                </Button>
-                <Button>
-                  <InstagramIcon sx={{ mr: 1, color: "white" }} />
                 </Button>
               </div>
             </Grid>
