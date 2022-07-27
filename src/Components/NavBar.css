@@ -4,7 +4,6 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   text-align: center;
 }
 
@@ -17,6 +16,15 @@
 
 .navbar-text-section {
   display: block;
+}
+
+.navbar-button {
+  border: none;
+  background-color: inherit;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  display: inline-block;
 }
 
 .navbar-social {

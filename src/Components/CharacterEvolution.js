@@ -65,8 +65,8 @@ class CharacterEvolution extends Component {
       <div className="character-container">
         <div className="character-evolution-container">
           <div className="CastPages">
-            <section id="character-evolution-section" />
-            <h2 className="character-evolution-title">Character Evolution</h2>
+            <section id="cast-section" />
+            <h2 className="character-evolution-title">CAST</h2>
             <div className="videos">
               <a href="#character-section" value="0" onClick={this.selectCharacterId}>
                 <video

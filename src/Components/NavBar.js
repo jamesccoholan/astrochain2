@@ -23,7 +23,6 @@ export default function NavBar() {
             >
               <div class="navbar-text-section">
                 <Button
-                  variant={"text"}
                   size={"large"}
                   color={"inherit"}
                   onClick={navScroll.onClick}
@@ -36,9 +35,9 @@ export default function NavBar() {
                   size={"large"}
                   color={"inherit"}
                   onClick={navScroll.onClick}
-                  href="#character-evolution-section"
+                  href="#cast-section"
                 >
-                  Character Evolution
+                  Cast
                 </Button>
                 <Button
                   variant={"text"}
