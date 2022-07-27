@@ -1,0 +1,14 @@
+.social-icons-container {
+  display: inline-block;
+
+}
+
+.social-icon {
+  height: 50px;
+}
+
+.social-icon > img {
+  height: inherit;
+  width: inherit;
+}
+

@@ -1,6 +1,7 @@
 import "./Header.css";
 
 import NavBar from "./NavBar";
+import SocialIcons from "./SocialIcons";
 
 function Header() {
   return (
@@ -10,6 +11,7 @@ function Header() {
           src="/assets/Website 2/01 Landing Page (Home)/LandingPage_Logo.png"
           class="landing-logo"
         />
+        <SocialIcons />
         <div class="landing-bottom-text">
         What happens when you put a Bored Ape, a Cool Cat, a World of Women, a Roboto {"&"} a Doodle on a reality show together? We have no idea either,
          but we{"’"}re betting they make some jokes, make some mistakes, and maybe even make out?!<br />
