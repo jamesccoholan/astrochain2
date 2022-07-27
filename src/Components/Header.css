@@ -7,6 +7,7 @@
   position: relative;
   height: calc(160vh);
   max-height: 1580px;
+  min-height: 900px;
   width: 100%;
   z-index: 1;
 }
@@ -20,13 +21,6 @@
   z-index: 1;
 }
 
-.landing-background-img {
-  position: relative;
-  height: calc(100vh + 200px);
-  width: 100%;
-  object-fit: cover;
-}
-
 .landing-logo {
   position: absolute;
   right: 50px;
@@ -38,15 +32,20 @@
   position: absolute;
   text-align: left;
   font-size: 24px;
-  bottom: 10px;
   width: 90%;
   color: white;
   right: 0;
   left: 0;
+  bottom: 0;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 50px;
   z-index: 2;
+}
+
+.socials {
+  position: absolute;
+  bottom: 23%;
+  right: 15%;
 }
 
 @media screen and (max-width: 1100px) {
