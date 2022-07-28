@@ -1,8 +1,16 @@
-.videos-section {
+.team-section {
   width: 90%;
   margin-top: 20px;
 }
 
-.videos {
+.team-members {
   padding: 10px;
+  height: 170px;
+  width: 170px;
+}
+.team-members:first-child {
+  padding: 10px 10px 10px 0;
+}
+.team-members:nth-child(7) {
+  padding: 10px 0 10px 10px;
 }

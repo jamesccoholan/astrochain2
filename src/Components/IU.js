@@ -1,6 +1,48 @@
 import "./IU.css";
 
+const teamMembers = [
+  {
+    name: "Dan",
+    img: "https://ik.imagekit.io/5ierklngtbt/IU/07_Team/01_CoreTeam_Dan_v02_JLlgtCEGk.jpg"
+  },
+  {
+    name: "Ben",
+    img: "https://ik.imagekit.io/5ierklngtbt/IU/07_Team/02_CoreTeam_Ben_v02_HZQdcFXMy.jpg"
+  },
+  {
+    name: "Van",
+    img: "https://ik.imagekit.io/5ierklngtbt/IU/07_Team/03_CoreTeam_Van_v02_I1kPOKNlOv.jpg"
+  },
+  {
+    name: "Yohann",
+    img: "https://ik.imagekit.io/5ierklngtbt/IU/07_Team/04_CoreTeam_Yohann_v02_tu_fmJUeR.jpg"
+  },
+  {
+    name: "Fubs",
+    img: "https://ik.imagekit.io/5ierklngtbt/IU/07_Team/05_CoreTeam_Fubs_v02_hBg4uY9n3s.jpg"
+  },
+  {
+    name: "Henrique",
+    img: "https://ik.imagekit.io/5ierklngtbt/IU/07_Team/06_CoreTeam_Henrique_v02_vf3qvqw_m.jpg"
+  },
+  {
+    name: "Bruno",
+    img: "https://ik.imagekit.io/5ierklngtbt/IU/07_Team/07_CoreTeam_Bruno_v02_B0jAynWoG.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1659044772402"
+  },
+];
+
 function IU() {
+  const team = teamMembers.map(t => {
+    return (
+    <img
+      src={t.img}
+      class="team-members"
+      alt={t.name}
+      key={t.name}
+    />
+    );
+  });
+
   return (
     <div className="cast-pages-main">
       <div className="CastPages">
@@ -13,57 +55,9 @@ function IU() {
           </div>
           <section id="team-section" />
           <h2 className="character-evolution-title">TEAM</h2>
-        <div className="videos-section">
-          <img
-            src="/assets/Website 2/07 Invisible _ Core Team/01_CoreTeam_Dan.png"
-            width="180"
-            height="180"
-            className="videos"
-            alt="alt"
-          ></img>
-          <img
-            src="/assets/Website 2/07 Invisible _ Core Team/02_CoreTeam_Ben.png"
-            width="180"
-            height="180"
-            className="videos"
-            alt="alt"
-          ></img>
-          <img
-            src="/assets/Website 2/07 Invisible _ Core Team/03_CoreTeam_Van.png"
-            width="180"
-            height="180"
-            className="videos"
-            alt="alt"
-          ></img>
-          <img
-            src="/assets/Website 2/07 Invisible _ Core Team/04_CoreTeam_Yohann.png"
-            width="180"
-            height="180"
-            className="videos"
-            alt="alt"
-          ></img>
-          <img
-            src="/assets/Website 2/07 Invisible _ Core Team/05_CoreTeam_Fubs.png"
-            width="180"
-            height="180"
-            className="videos"
-            alt="alt"
-          ></img>
-          <img
-            src="/assets/Website 2/07 Invisible _ Core Team/06_CoreTeam_Henrique.png"
-            width="180"
-            height="180"
-            className="videos"
-            alt="alt"
-          ></img>
-          <img
-            src="/assets/Website 2/07 Invisible _ Core Team/07_CoreTeam_Bruno.png"
-            width="180"
-            height="180"
-            className="videos"
-            alt="alt"
-          ></img>
-          <div />
+        <div class="team-section">
+          {team}
+        <div />
         </div>
         <section id="credits-section" />
         <h2 style={{ marginBottom: "20px" }} className="character-evolution-title">FULL CREDITS</h2>
