@@ -12,7 +12,7 @@ function Rarity() {
           alignItems="top-text"
           height="auto"
           object-fit="cover"
-          style={{ justifyContent: "center", padding: "0 0 40px 0" }}
+          style={{ justifyContent: "center" }}
         >
           <div class="rarity-text-container">
             <h2 class="rarity-title">NFT RARITY</h2>
