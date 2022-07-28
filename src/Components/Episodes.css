@@ -1,14 +1,15 @@
 .episode-guide {
   color: white;
   position: relative;
-  max-height: 1580px;
-  background-size: cover;
-  background-repeat: no-repeat;
   overflow: hidden;
-  height: 100vh;
+  z-index: 0;
+}
+
+.background-img {
   width: 100%;
-  margin: auto;
-  background-image: url('https://ik.imagekit.io/5ierklngtbt/EpisodeGuide_BG_v02_MP_hZDoqq.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1658177779945');
+  height: auto;
+  display: block;
+  z-index: 1;
 }
 
 .episode-guide-title {
@@ -19,6 +20,7 @@
   left: 30px;
   text-align: left;
   margin: auto;
+  z-index: 2;
 }
 
 .episode-guide-description {
@@ -29,6 +31,7 @@
   text-align: left;
   margin: auto;
   width: 480px;
+  z-index: 2;
 }
 
 .spotlight-img {
@@ -36,6 +39,7 @@
   margin: auto;
   top: 0;
   left: 0;
+  z-index: 2;
 }
 
 @media screen and (max-width: 1600px) {
