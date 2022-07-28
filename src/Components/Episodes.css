@@ -34,7 +34,7 @@
   z-index: 2;
 }
 
-.spotlight-img {
+.spotlight-1-img {
   position: absolute;
   margin: auto;
   top: 0;
@@ -43,35 +43,35 @@
 }
 
 @media screen and (max-width: 1600px) {
-  .spotlight-img {
+  .spotlight-1-img {
     top: -5%;
     left: -10%;
   }
 }
 
 @media screen and (max-width: 1500px) {
-  .spotlight-img {
+  .spotlight-1-img {
     top: -5%;
     left: -12%;
   }
 }
 
 @media screen and (max-width: 1450px) {
-  .spotlight-img {
+  .spotlight-1-img {
     top: -5%;
     left: -15%;
   }
 }
 
 @media screen and (max-width: 1400px) {
-  .spotlight-img {
+  .spotlight-1-img {
     top: -5%;
     left: -17%;
   }
 }
 
 @media screen and (max-width: 1230px) {
-  .spotlight-img {
+  .spotlight-1-img {
     display: none;
   }
   .episode-guide-title {
