@@ -28,7 +28,6 @@ class Header extends Component {
 }
 
   render() {
-    console.log(this.getVideo(this.state.innerWidth));
     return (
       <div class="Header">
         <NavBar />

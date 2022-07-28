@@ -1,6 +1,6 @@
-import "./EpisodeGuide.css";
+import "./Episodes.css";
 
-function EpisodeGuide() {
+function Episodes() {
   return (
     <div className="episode-guide">
         <section id="episode-guide-section" />
@@ -9,7 +9,7 @@ function EpisodeGuide() {
           <text class="episode-guide-title">EPISODE GUIDE</text>
           <text class="episode-guide-description">
             {
-              "This is where the Meteverse and Real World converge! Click on the highlighted link to watch the current episode, or click on any previous link to watch earlier episodes and catch up. New episodes are released twice weekly and can be viewed here or on any social media platform."
+              "This is where the Metaverse and Real World converge! New episodes are released twice weekly. Click on the link to watch the current episode or click on any previous link to watch earlier episodes."
             }
           </text>
         </div>
@@ -17,4 +17,4 @@ function EpisodeGuide() {
   );
 }
 
-export default EpisodeGuide;
+export default Episodes;

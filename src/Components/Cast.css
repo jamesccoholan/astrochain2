@@ -75,6 +75,7 @@
 .cast-pages-gif-container {
   position: relative;
   overflow: hidden;
+  padding: 40px 10px;
 }
 
 .cast-pages-background-img {
@@ -84,21 +85,32 @@
 }
 
 .cast-pages-character-text-container {
-  position: absolute;
-  top: 3%;
-  left: 3%;
-  width: 35%;
+  display: inline-block;
+  width: 40%;
   margin: auto;
   text-align: left;
+  vertical-align: top;
   overflow: hidden;
 }
 
 .cast-pages-character-character-name {
   font-size: 24px;
+  text-transform: capitalize;
 }
 
 .cast-pages-character-text {
   font-size: 18px;
+}
+
+.cast-videos-container {
+  display: inline-block;
+  width: 55%;
+}
+
+.cast-character-video {
+  display: inline-block;
+  width: calc(90% / 3);
+  padding: 0 1%;
 }
 
 @media screen and (max-width: 1400px) {
