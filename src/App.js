@@ -10,7 +10,7 @@ import IU from "./Components/IU";
 import Credits from "./Components/Credits";
 import FAQs from "./Components/FAQs";
 
-import { Section, ScrollingProvider } from "react-scroll-section";
+import { ScrollingProvider } from "react-scroll-section";
 
 function App() {
   return (

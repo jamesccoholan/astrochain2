@@ -33,7 +33,7 @@ function SocialIcons() {
   const socialIconItems = icons.map(i => {
     return (
         <Button class="social-icon" key={i.key} href={i.link} target="_blank" rel="noreferrer">
-          <img src={i.img} />
+          <img src={i.img} alt={i.key} />
         </Button>
     );
   });

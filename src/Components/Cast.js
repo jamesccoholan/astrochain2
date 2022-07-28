@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import { useScrollSection } from "react-scroll-section";
-import { Button } from "@mui/material";
 import "./Cast.css";
 
 const cast = [
@@ -113,7 +111,7 @@ class Cast extends Component {
     const castItems = cast.map(c => {
       return (
           <a className="cast-images" href="#character-section" value={c.value} key={c.value} onClick={this.selectCharacterId}>
-            <img src={c.front_img} />
+            <img src={c.front_img} alt={c.value} />
           </a>
       );
     });
