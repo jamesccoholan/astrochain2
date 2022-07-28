@@ -117,6 +117,20 @@ class Cast extends Component {
           </a>
       );
     });
+
+    const characterVideoItems = castPagesContent[this.state.characterId].images.map(image => {
+      return (
+        <video 
+          autoPlay
+          loop
+          muted
+          playsInline
+          class="cast-character-video"
+          src={image}
+        />
+      );
+    });
+
     return (
       <div className="character-container">
         <div className="character-evolution-container">
@@ -140,30 +154,7 @@ class Cast extends Component {
             <div className="cast-pages-character-text">{castPagesContent[this.state.characterId].description}</div>
           </div>
           <div class="cast-videos-container">
-            <video 
-              autoPlay
-              loop
-              muted
-              playsInline
-              class="cast-character-video"
-              src={`https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/Characters/${castPagesContent[this.state.characterId].character}/01.mp4`}
-            />
-            <video 
-              autoPlay
-              loop
-              muted
-              playsInline
-              class="cast-character-video"
-              src={`https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/Characters/${castPagesContent[this.state.characterId].character}/02.mp4`}
-            />
-            <video 
-              autoPlay
-              loop
-              muted
-              playsInline
-              class="cast-character-video"
-              src={`https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/Characters/${castPagesContent[this.state.characterId].character}/03.mp4`}
-            />
+            {characterVideoItems}          
           </div>
       </div>
       </div>
