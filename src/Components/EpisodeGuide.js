@@ -1,3 +1,4 @@
+import { ConnectingAirportsOutlined } from "@mui/icons-material";
 import React, { Component } from "react";
 import "./EpisodeGuide.css";
 
@@ -82,6 +83,10 @@ class EpisodeGuide extends Component {
   getSpotlightImage(innerWidth, index) {
     if (innerWidth <= 925) return spotlightsArr[index].mobile_img;
     return spotlightsArr[index].desktop_img;
+  }
+
+  getEpisodeQueue() {
+    console.log("here");
   }
 
   render() {

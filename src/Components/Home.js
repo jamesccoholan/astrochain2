@@ -9,7 +9,7 @@ class Home extends Component {
     super(props);
   }
 
-  componentWillMount() {
+  componentDidMount() {
     // pre-load mobile and non-mobile videos
     const backgroundImg = new Image();
     backgroundImg.src =
