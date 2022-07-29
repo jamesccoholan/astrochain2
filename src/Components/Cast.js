@@ -107,6 +107,14 @@ class Cast extends Component {
 
   componentDidMount() {
     // pre-load all images
+    cast.forEach((ci) => {
+      const newImage = new Image();
+      newImage.src = ci.front_img;
+      window[ci.front_img] = newImage;
+      const newImage2 = new Image();
+      newImage2.src = ci.back_img;
+      window[ci.back_img] = newImage2;
+    });
     castPagesContent.forEach((cp) => {
       for (var i = 0; i < cp.images.length; i++) {
         const newImage = new Image();
