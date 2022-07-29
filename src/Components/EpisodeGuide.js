@@ -16,7 +16,7 @@ const spotlightsArr = [
       "https://ik.imagekit.io/5ierklngtbt/IU/04_Episode_Guide/Spot_Light_02_v03_UFlv560zf.png",
     mobile_img:
       "https://ik.imagekit.io/5ierklngtbt/IU/04_Episode_Guide/Mobile/Spot_Light_02_Mobile_v02_HMFkCVOBp.png?ik-sdk-version=javascript-1.4.3&updatedAt=1659067039932",
-    active: false,
+    active: true,
   },
   {
     number: 3,

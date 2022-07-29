@@ -53,7 +53,7 @@ export default function NavBar() {
         color={"inherit"}
         onClick={navScroll.onClick}
         href={b.href}
-        sx={{fontFamily: "futura-medium", fontSize: "24px", lineHeight: "inherit", fontWeight: "inherit", letterSpacing: "inherit", textTransform: "inherit"}}>
+        sx={{fontFamily: "futura-medium", fontSize: "20px", lineHeight: "inherit", fontWeight: "inherit", letterSpacing: "inherit", textTransform: "inherit"}}>
           {b.name}
       </Button>
     )
