@@ -35,11 +35,11 @@
   background-color: #513269;
 }
 .transition-2 {
-  background: linear-gradient(#513269, #2A2257);
+  background: linear-gradient(#513269, #2a2257);
 }
 
 .value-prop-3 {
-  background-color: #2A2257;
+  background-color: #2a2257;
   padding-bottom: 80px;
 }
 
@@ -60,5 +60,11 @@
   }
   .transition-frame {
     height: 80px;
+  }
+  .value-prop-1 {
+    padding-top: 60px;
+  }
+  .value-prop-3 {
+    padding-bottom: 60px;
   }
 }

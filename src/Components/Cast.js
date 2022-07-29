@@ -4,36 +4,32 @@ import "./Cast.css";
 const cast = [
   {
     front:
-      "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/01_Pete2D.png",
-    back:
-      "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/01_Pete3D.jpg",
+      "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/Coins/01_Pete2D.png",
+    back: "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/Coins/01_Pete3D.jpg",
     value: "0",
   },
   {
     front:
-      "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/02_Monty2D.png",
-    back:
-      "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/02_Monty3D.jpg",
+      "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/Coins/02_Monty2D.png",
+    back: "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/Coins/02_Monty3D.jpg",
     value: "1",
   },
   {
     front:
-      "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/03_Sam2D.png",
-    back: "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/03_Sam3D.jpg",
+      "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/Coins/03_Sam2D.png",
+    back: "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/Coins/03_Sam3D.jpg",
     value: "2",
   },
   {
     front:
-      "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/04_Journey2Dpng",
-    back:
-      "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/04_Journey3D.jpg",
+      "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/Coins/04_Journey2Dpng",
+    back: "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/Coins/04_Journey3D.jpg",
     value: "3",
   },
   {
     front:
-      "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/05_Claudine2D.png",
-    back:
-      "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/05_Claudine3D.jpg",
+      "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/Coins/05_Claudine2D.png",
+    back: "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/Coins/05_Claudine3D.jpg",
     value: "4",
   },
 ];
