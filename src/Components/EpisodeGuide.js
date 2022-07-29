@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Episodes.css";
+import "./EpisodeGuide.css";
 
 const spotlightsArr = [
   {
@@ -40,7 +40,7 @@ const spotlightsArr = [
   },
 ];
 
-class Episodes extends Component {
+class EpisodeGuide extends Component {
   constructor(props) {
     super(props);
     // set the initial state
@@ -118,4 +118,4 @@ class Episodes extends Component {
   }
 }
 
-export default Episodes;
+export default EpisodeGuide;

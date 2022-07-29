@@ -2,7 +2,7 @@ import "./App.css";
 import Header from "./Components/Header";
 import Cast from "./Components/Cast";
 import Roadmap from "./Components/Roadmap";
-import Episodes from "./Components/Episodes";
+import EpisodeGuide from "./Components/EpisodeGuide";
 import Season1 from "./Components/Season1";
 import Rarity from "./Components/Rarity";
 import ValueProp from "./Components/ValueProp/ValueProp";
@@ -18,7 +18,7 @@ function App() {
       <div className="App">
         <Header />
         <Cast />
-        <Episodes />
+        <EpisodeGuide />
         <Season1 />
         <ValueProp />
         <Rarity />
