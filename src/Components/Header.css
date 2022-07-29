@@ -12,7 +12,7 @@
   z-index: 1;
 }
 
-.background-video {
+.background-video-and-ls {
   width: 100%;
   height: auto;
   position: absolute;
@@ -20,7 +20,10 @@
   left: 0;
   z-index: 1;
 }
-
+.background-video {
+  width: inherit;
+  height: inherit
+}
 .logo-and-socials {
   position: absolute;
   margin-left: auto;

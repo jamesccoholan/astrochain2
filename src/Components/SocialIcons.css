@@ -13,3 +13,15 @@
   height: inherit;
   width: inherit;
 }
+
+@media screen and (max-width: 900px) {
+  .social-icon {
+    height: 40px;
+    padding: 0 2px;
+  }
+}
+@media screen and (max-width: 625px) {
+  .social-icon {
+    height: 30px;
+  }
+}

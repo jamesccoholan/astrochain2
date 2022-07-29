@@ -13,9 +13,9 @@ class Header extends Component {
     // pre-load mobile and non-mobile videos
     const backgroundImg = new Image();
     backgroundImg.src =
-      "https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPage_BG_v03_5YvKQxpOG.mp4";
+      "https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPageBG_v05_i56UQD6n7.mp4";
     window[
-      "https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPage_BG_v03_5YvKQxpOG.mp4"
+      "https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPageBG_v05_i56UQD6n7.mp4"
     ] = backgroundImg;
     const mobileBackgroundImg = new Image();
     mobileBackgroundImg.src =
@@ -28,24 +28,26 @@ class Header extends Component {
   getVideo(innerWidth) {
     if (innerWidth <= 600)
       return "https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPageBG_Mobile_v01_XyXZyq7B-.mp4";
-    return "https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPage_BG_v03_5YvKQxpOG.mp4";
+    return "https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPageBG_v05_i56UQD6n7.mp4";
   }
 
   render() {
     return (
       <div class="Header">
         <NavBar />
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          class="background-video"
-          src={this.getVideo(this.props.innerWidth)}
-        />
-        <div class="logo-and-socials">
-          <img src="https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPage_Logo_v04_X1HXn5sAd.gif" class="real-metaverse-logo" />
-          <div class="socials"><SocialIcons /></div>
+        <div class="background-video-and-ls">
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            class="background-video"
+            src={this.getVideo(this.props.innerWidth)}
+          />
+          <div class="logo-and-socials">
+            <img src="https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPage_Logo_v04_X1HXn5sAd.gif" class="real-metaverse-logo" />
+            <div class="socials"><SocialIcons /></div>
+          </div>
         </div>
         <div class="landing-bottom-text">
           What happens when you put a Bored Ape, a Cool Cat, a World of Women, a
