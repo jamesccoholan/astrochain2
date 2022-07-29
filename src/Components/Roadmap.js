@@ -92,9 +92,8 @@ class Roadmap extends Component {
           playsInline
         />
         <section id="roadmap-section" />
-        <div>
-          {roadmapText}
-        </div>
+        <h2 class="roadmap-title">ROADMAP</h2>
+        <div>{roadmapText}</div>
       </div>
     );
   }

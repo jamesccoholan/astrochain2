@@ -1,5 +1,6 @@
 .roadmap-section {
   color: white;
+  text-align: left;
   position: relative;
   overflow: hidden;
   z-index: 0;
@@ -18,9 +19,13 @@ ul {
   list-style-type: "*";
 }
 .roadmap-title {
+  position: absolute;
+  z-index: 2;
   font-size: 40px;
-  margin-left: 50px;
-  margin-top: 30px;
+  top: 20px;
+  left: 20px;
+  text-align: left;
+  margin: auto;
 }
 
 /* Generic elements for title and description */
@@ -28,8 +33,7 @@ ul {
   z-index: 2;
   position: absolute;
   top: 0;
-  text-align: left;
-  color: white;
+  margin: auto;
   width: 480px;
 }
 .phase-title {
@@ -47,8 +51,8 @@ ul {
 }
 /* PHASE 2 POSITIONING */
 .phase-two {
-  top: 30%;
-  left: 65%;
+  top: 25%;
+  right: 1%;
 }
 /* PHASE 3 POSITIONING */
 .phase-three {
@@ -57,5 +61,4 @@ ul {
 }
 
 @media screen and (max-width: 600px) {
-
 }
