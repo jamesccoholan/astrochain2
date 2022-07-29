@@ -121,8 +121,8 @@
 @media screen and (max-width: 530px) {
   .episode-guide-title {
     font-size: 28px;
-    top: 5px;
-    left: 5px;
+    top: 8px;
+    left: 8px;
   }
   .episode-guide-description {
     font-size: 16px;
@@ -132,19 +132,15 @@
 @media screen and (max-width: 450px) {
   .episode-guide-title {
     font-size: 26px;
-    top: 5px;
-    left: 5px;
   }
   .episode-guide-description {
     font-size: 14px;
     width: 250px;
   }
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 340px) {
   .episode-guide-title {
     font-size: 24px;
-    top: 5px;
-    left: 5px;
   }
   .episode-guide-description {
     font-size: 12px;
