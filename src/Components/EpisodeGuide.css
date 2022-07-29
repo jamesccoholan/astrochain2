@@ -64,18 +64,90 @@
     left: 10px;
   }
 }
-
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1180px) {
+  .episode-guide-description {
+    font-size: 18px;
+    width: 360px;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .episode-guide-description {
+    font-size: 16px;
+    width: 320px;
+  }
+}
+/* MOBILE IMAGE STARTS */
+@media screen and (max-width: 925px) {
+  .episode-guide-title {
+    top: 20px;
+    left: 20px;
+  }
+  .episode-guide-description {
+    font-size: 28px;
+    width: 520px;
+    top: 8%;
+    left: 35%;
+  }
+}
+@media screen and (max-width: 780px) {
+  .episode-guide-description {
+    font-size: 24px;
+    width: 480px;
+  }
+}
+@media screen and (max-width: 715px) {
+  .episode-guide-description {
+    font-size: 22px;
+    width: 440px;
+  }
+}
+@media screen and (max-width: 650px) {
   .episode-guide-title {
     font-size: 30px;
+    top: 10px;
+    left: 10px;
   }
   .episode-guide-description {
     font-size: 20px;
+    width: 400px;
   }
 }
-
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 590px) {
   .episode-guide-description {
-    width: 320px;
+    font-size: 18px;
+    width: 360px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .episode-guide-title {
+    font-size: 28px;
+    top: 5px;
+    left: 5px;
+  }
+  .episode-guide-description {
+    font-size: 16px;
+    width: 300px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .episode-guide-title {
+    font-size: 26px;
+    top: 5px;
+    left: 5px;
+  }
+  .episode-guide-description {
+    font-size: 14px;
+    width: 250px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .episode-guide-title {
+    font-size: 24px;
+    top: 5px;
+    left: 5px;
+  }
+  .episode-guide-description {
+    font-size: 12px;
+    width: 210px;
   }
 }

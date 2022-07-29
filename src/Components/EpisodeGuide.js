@@ -73,13 +73,13 @@ class EpisodeGuide extends Component {
   }
 
   getBackgroundImage(innerWidth) {
-    if (innerWidth <= 600)
+    if (innerWidth <= 925)
       return "https://ik.imagekit.io/5ierklngtbt/IU/04_Episode_Guide/Mobile/EpisodesGuide_BG_Mobile_v02_Fqw1nvJ4J.jpg";
     return "https://ik.imagekit.io/5ierklngtbt/IU/04_Episode_Guide/EpisodeGuide_BG_v04_nHVWmjoP5G.jpg";
   }
 
   getSpotlightImage(innerWidth, index) {
-    if (innerWidth <= 600) return spotlightsArr[index].mobile_img;
+    if (innerWidth <= 925) return spotlightsArr[index].mobile_img;
     return spotlightsArr[index].desktop_img;
   }
 
