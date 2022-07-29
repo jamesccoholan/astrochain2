@@ -7,19 +7,6 @@ import SocialIcons from "./SocialIcons";
 class Header extends Component {
   constructor(props) {
     super(props);
-    // set the initial state
-    this.state = {
-      innerWidth: window.innerWidth,
-    };
-  }
-
-  componentDidMount() {
-    window.addEventListener("resize", this.resize.bind(this));
-    this.resize();
-  }
-
-  resize() {
-    this.setState({ innerWidth: window.innerWidth });
   }
 
   getVideo(innerWidth) {
@@ -37,10 +24,8 @@ class Header extends Component {
           muted
           playsInline
           class="background-video"
-          key={this.getVideo(this.state.innerWidth)}
-        >
-          <source src={this.getVideo(this.state.innerWidth)} type="video/mp4" />
-        </video>
+          src={this.getVideo(this.props.innerWidth)}
+        />
         {/*<div class="socials"><SocialIcons /></div>*/}
         <div class="landing-bottom-text">
           What happens when you put a Bored Ape, a Cool Cat, a World of Women, a

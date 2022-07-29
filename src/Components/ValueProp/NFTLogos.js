@@ -25,7 +25,7 @@ const nftLogos = [
 
 function NFTLogos() {
   const logos = nftLogos.map((l) => {
-    return <img src={l.img} alt={l.img} />;
+    return <img src={l.img} alt={l.name} key={l.name} />;
   });
 
   return <div class="logos">{logos}</div>;

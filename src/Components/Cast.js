@@ -139,7 +139,7 @@ class Cast extends Component {
     const characterVideoItems = castPagesContent[
       this.state.characterId
     ].images.map((image) => {
-      return <video autoPlay loop muted playsInline src={image} />;
+      return <video autoPlay loop muted playsInline src={image} key={image} />;
     });
 
     return (
