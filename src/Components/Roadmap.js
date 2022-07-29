@@ -1,3 +1,4 @@
+import React, { Component } from "react";
 import "./Roadmap.css";
 import { Stack } from "@mui/material";
 
@@ -41,9 +42,48 @@ const roadmapContent = [
       "5 characters for next season are chosen"
     ]
   }
-]
+];
 
-function Roadmap() {
+
+class Roadmap extends Component {
+  constructor(props) {
+    super(props);
+    // set the initial state
+    this.state = {
+      innerWidth: window.innerWidth,
+    };
+  }
+
+  componentDidMount() {
+    // set resizing event listner
+    window.addEventListener("resize", this.resize.bind(this));
+    this.resize();
+    // pre-load mobile and non-mobile images
+    const backgroundImg = new Image();
+    backgroundImg.src =
+      "https://ik.imagekit.io/5ierklngtbt/IU/03_Road_Map/RoadMap_BG_v04_Mx-H8KuhG.mp4";
+    window[
+      "https://ik.imagekit.io/5ierklngtbt/IU/03_Road_Map/RoadMap_BG_v04_Mx-H8KuhG.mp4"
+    ] = backgroundImg;
+    const mobileBackgroundImg = new Image();
+    mobileBackgroundImg.src =
+      "https://ik.imagekit.io/5ierklngtbt/IU/03_Road_Map/RoadMap_BG_Mobile_v02_WzPQewhSA.mp4";
+    window[
+      "https://ik.imagekit.io/5ierklngtbt/IU/03_Road_Map/RoadMap_BG_Mobile_v02_WzPQewhSA.mp4"
+    ] = mobileBackgroundImg;
+  }
+
+  resize() {
+    this.setState({ innerWidth: window.innerWidth });
+  }
+
+  getBackgroundVideo(innerWidth) {
+    if (innerWidth <= 925)
+      return "https://ik.imagekit.io/5ierklngtbt/IU/03_Road_Map/RoadMap_BG_Mobile_v02_WzPQewhSA.mp4";
+    return "https://ik.imagekit.io/5ierklngtbt/IU/03_Road_Map/RoadMap_BG_v04_Mx-H8KuhG.mp4";
+  }
+
+  render() {
   const roadmapText = roadmapContent.map(r => {
     return (
       <div key={r.phase}>
@@ -61,6 +101,9 @@ function Roadmap() {
 
   return (
     <div class="roadmap-section">
+      <video class="roadmap-background-video" autoPlay loop playsInline>
+        <source src={this.getBackgroundVideo(this.state.innerWidth)} type="video/mp4" />
+      </video>
       <section id="roadmap-section" />
       <Stack direction="column">
         <Stack
@@ -77,6 +120,7 @@ function Roadmap() {
       </Stack>
     </div>
   );
+  }
 }
 
 export default Roadmap;
