@@ -41,15 +41,6 @@
   position: relative;
 }
 
-.CastPages {
-  background-color: #000000;
-  min-height: 50vh;
-  display: flex;
-  justify-content: center;
-  font-size: calc(90px + 2vmin);
-  color: white;
-}
-
 .character-evolution-title {
   font-size: 40px;
   color: white;
@@ -72,11 +63,11 @@
 .cast-images {
   height: 220px;
   width: 220px;
-  padding: 0 40px;
 }
 .cast-images > img {
   height: inherit;
   width: inherit;
+  padding: 20px;
 }
 
 .cast-pages-character-container {
@@ -139,6 +130,9 @@
     display: block;
     width: 90%;
     margin-bottom: 30px;
+  }
+  .character-evolution-title {
+    margin-bottom: 0;
   }
   .cast-videos-container {
     display: block;
