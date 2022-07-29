@@ -12,6 +12,11 @@
   min-height: 875px;
 }
 
+ul { 
+  list-style-type: "*";
+  margin-top: 5px;
+}
+
 .videos {
   padding: 40px;
 }

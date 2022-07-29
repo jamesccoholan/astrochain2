@@ -1,7 +1,64 @@
 import "./Roadmap.css";
 import { Stack } from "@mui/material";
 
+const roadmapContent = [
+  {
+    phase: 1,
+    titleClass: "phase-one",
+    descriptionClass: "phase-one-description",
+    title: "Phase One",
+    description: [
+      "Mint Date:",
+      "Reveal Date:",
+      "First and Second Community Written Episode",
+      "Multiple giveaways, contests, and AMAs",
+      "Guest Star submissions due"
+    ]
+  },
+  {
+    phase: 2,
+    titleClass: "phase-two",
+    descriptionClass: "phase-two-description",
+    title: "Phase Two",
+    description: [
+      "Guest Star submissions voted on",
+      "Third and Fourth Community Written Confessional",
+      "Multiple contests and a surprise limited airdrop",
+      "Guest Star Winners to be featured in our Discord and Twitter",
+      "“Where Are They Now” Submissions due"
+    ]
+  },
+  {
+    phase: 3,
+    titleClass: "phase-three",
+    descriptionClass: "phase-three-description",
+    title: "Phase Three",
+    description: [
+      "Top 500 producers will be locked and submissions for Next Season due",
+      "Fifth Community Written Episode",
+      "Guest Star episodes drop",
+      "“Where Are they Now” winners chosen and displayed",
+      "5 characters for next season are chosen"
+    ]
+  }
+]
+
 function Roadmap() {
+  const roadmapText = roadmapContent.map(r => {
+    return (
+      <div key={r.phase}>
+        <text class={`${r.titleClass} phase-title`}>{r.title}</text>
+        <ul class={`${r.descriptionClass} phase-description`}>
+          {r.description.map(d => {
+            return (
+              <li>{d}</li>
+            );
+          })}
+        </ul>
+      </div>
+    );
+  });
+
   return (
     <div class="roadmap-section">
       <section id="roadmap-section" />
@@ -13,48 +70,7 @@ function Roadmap() {
         >
           <div className="Roadmap-Main2">
             <Stack direction="row">
-              <text class="roadmap-title phase-title">ROAD MAP</text>
-              <text class="phase-three phase-title">Phase Three</text>
-              <text class="phase-three-description phase-description">
-                Top 500 producers will be locked and Submission for Next Season
-                due
-                <br />
-                Guests Star episodes drop
-                <br />
-                "Where Are they Now" winners chosen and displayed
-                <br />
-                Fifth Community Written Episode
-                <br />
-                "Where are They Now" drops
-                <br />
-                Discord AMA's {"&"} Twitter Spaces
-                <br />
-                Winners of Next season are chosen, 5 new communities and holders
-                displayed.
-              </text>
-              <text class="phase-two phase-title">Phase Two</text>
-              <text class="phase-two-description phase-description">
-                Guest Star submissions due and reviewed
-                <br />
-                Third and Fourth Community Written Confessional
-                <br />
-                Multiple contests and a surprise limited airdrop to our top 500
-                holders on the leaderboard
-                <br />
-                Guest Stars chosen. Winners to be featured in our discord and
-                twitter
-                <br />
-                "Where Are they Now" Submissions due
-              </text>
-              <text class="phase-one phase-title">Phase One</text>
-              <text class="phase-one-description phase-description">
-                Mint Date:
-                <br /> Reveal Date:
-                <br /> First and Second Community Written Episode
-                <br /> Airdrop for all holders
-                <br /> Multiple giveaways, contests, and AMAs
-                <br /> Guest Star submissions due by August 31st
-              </text>
+              {roadmapText}
             </Stack>
           </div>
         </Stack>
