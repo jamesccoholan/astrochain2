@@ -15,7 +15,7 @@ function Episodes() {
         alt="Spotlight 1"
       />
       <div>
-        <text class="episode-guide-title">EPISODE GUIDE</text>
+        <h2 class="episode-guide-title">EPISODE GUIDE</h2>
         <text class="episode-guide-description">
           {
             "This is where the Metaverse and Real World converge! New episodes are released twice weekly. Click on the link to watch the current episode or click on any previous link to watch earlier episodes."
