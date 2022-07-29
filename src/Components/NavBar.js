@@ -3,8 +3,61 @@ import { Button, AppBar, Toolbar, Grid } from "@mui/material";
 
 import { useScrollSection } from "react-scroll-section";
 
+const buttonContent = [
+ {
+   name: "Home",
+   href: "#"
+ },
+ {
+   name: "Cast",
+   href: "#cast-section"
+ },
+ {
+  name: "Episode Guide",
+  href: "#episode-guide-section"
+},
+{
+  name: "Get your Character Animated",
+  href: "#animated-section"
+},
+{
+  name: "NFT Rarity",
+  href: "#rarity-section"
+},
+{
+  name: "Road Map",
+  href: "#roadmap-section"
+},
+{
+  name: "Invisible Universe",
+  href: "#invisible-universe-section"
+},
+{
+  name: "Team",
+  href: "#team-section"
+},
+{
+  name: "FAQs",
+  href: "#faqs-section"
+}
+];
+
 export default function NavBar() {
   const navScroll = useScrollSection();
+
+  const buttons = buttonContent.map(b => {
+    return (
+      <Button
+        key={b.name}
+        size={"large"}
+        color={"inherit"}
+        onClick={navScroll.onClick}
+        href={b.href}
+        sx={{fontFamily: "futura-medium"}}>
+          {b.name}
+      </Button>
+    )
+  })
 
   return (
     <AppBar
@@ -22,95 +75,7 @@ export default function NavBar() {
         <Grid container>
           <Grid item xs={12} display={"flex"} justifyContent={"center"} py={1}>
             <div class="navbar-text-section">
-              <Button
-                size={"large"}
-                color={"inherit"}
-                onClick={navScroll.onClick}
-                href="#"
-              >
-                Home
-              </Button>
-              <Button
-                variant={"text"}
-                size={"large"}
-                color={"inherit"}
-                onClick={navScroll.onClick}
-                href="#cast-section"
-              >
-                Cast
-              </Button>
-              <Button
-                variant={"text"}
-                size={"large"}
-                color={"inherit"}
-                onClick={navScroll.onClick}
-                href="#episode-guide-section"
-              >
-                Episode Guide
-              </Button>
-              <Button
-                variant={"text"}
-                size={"large"}
-                color={"inherit"}
-                onClick={navScroll.onClick}
-                href="#animated-section"
-              >
-                Get your Character Animated
-              </Button>
-              <Button
-                variant={"text"}
-                size={"large"}
-                color={"inherit"}
-                onClick={navScroll.onClick}
-                href="#rarity-section"
-              >
-                NFT Rarity
-              </Button>
-              <Button
-                variant={"text"}
-                size={"large"}
-                color={"inherit"}
-                onClick={navScroll.onClick}
-                href="#roadmap-section"
-              >
-                Roadmap
-              </Button>
-              <Button
-                variant={"text"}
-                size={"large"}
-                color={"inherit"}
-                onClick={navScroll.onClick}
-                href="#invisible-universe-section"
-              >
-                Invisible Universe
-              </Button>
-              <Button
-                variant={"text"}
-                size={"large"}
-                color={"inherit"}
-                onClick={navScroll.onClick}
-                href="#team-section"
-              >
-                Team
-              </Button>
-              <Button
-                variant={"text"}
-                size={"large"}
-                color={"inherit"}
-                onClick={navScroll.onClick}
-                href="#credits-section"
-              >
-                Credits
-              </Button>
-              <Button
-                variant={"text"}
-                size={"large"}
-                color={"inherit"}
-                onClick={navScroll.onClick}
-                href="#faqs-section"
-              >
-                FAQs
-              </Button>
+              {buttons}
             </div>
           </Grid>
         </Grid>

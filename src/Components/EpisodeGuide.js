@@ -99,12 +99,12 @@ class EpisodeGuide extends Component {
 
     return (
       <div class="episode-guide">
+        <section id="episode-guide-section" />
         <img
           class="background-img"
           src={this.getBackgroundImage(this.props.innerWidth)}
           alt="Episode Guide"
         />
-        <section id="episode-guide-section" />
         {spotlights}
         <div>
           <h2 class="episode-guide-title">EPISODE GUIDE</h2>
