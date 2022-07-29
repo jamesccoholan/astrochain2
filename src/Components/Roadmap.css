@@ -34,29 +34,30 @@ ul {
   position: absolute;
   top: 0;
   margin: auto;
-  width: 480px;
+  width: 500px;
 }
 .phase-title {
-  font-size: 34px;
+  font-size: 30px;
 }
 .phase-description {
   font-size: 18px;
   margin-top: -20px;
-  margin-left: -5px;
+  margin-left: -20px;
 }
 /* PHASE 1 POSITIONING */
 .phase-one {
-  top: 1%;
-  left: 25%;
+  top: 7%;
+  left: 20%;
 }
 /* PHASE 2 POSITIONING */
 .phase-two {
-  top: 25%;
+  top: 32%;
   right: 1%;
+  width: 450px;
 }
 /* PHASE 3 POSITIONING */
 .phase-three {
-  top: 45%;
+  top: 48%;
   left: 30%;
 }
 
