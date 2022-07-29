@@ -38,12 +38,10 @@ function IU() {
   });
 
   return (
-    <div className="cast-pages-main">
-      <div className="CastPages">
+    <div class="invisible-universe">
         <section id="invisible-universe-section" />
-        <h2 className="character-evolution-title">INVISIBLE UNIVERSE</h2>
+        <img class="invisible-universe-logo" src="https://ik.imagekit.io/5ierklngtbt/IU/07_Team/Invisible_Universe_Logo_REfqBQVrx.png" alt="Invisible Universe" />
         <div
-          style={{ marginTop: "20px" }}
           className="character-evolution-description"
         >
           {
@@ -52,19 +50,18 @@ function IU() {
         </div>
         <FAQs />
         <section id="team-section" />
-        <h2 className="character-evolution-title">TEAM</h2>
+        <h2 className="character-evolution-title" style={{margin: "auto"}}>TEAM</h2>
         <div class="team-section">
           {team}
           <div />
         </div>
         <section id="credits-section" />
         <h2
-          style={{ marginBottom: "20px" }}
           className="character-evolution-title"
+          style={{margin: "auto"}}
         >
           FULL CREDITS
         </h2>
-      </div>
     </div>
   );
 }

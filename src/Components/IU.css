@@ -1,6 +1,19 @@
+.invisible-universe {
+  background-color: black;
+  color: white;
+  padding: 80px 0;
+}
+
+.invisible-universe-logo {
+  text-align: center;
+  margin: auto;
+  width: 400px;
+  height: auto;
+}
+
 .team-section {
   width: 90%;
-  margin-top: 20px;
+  margin: 20px auto 0 auto;
 }
 
 .team-members {
@@ -14,3 +27,13 @@
 .team-members:nth-child(7) {
   padding: 10px 0 10px 10px;
 }
+
+@media screen and (max-width: 600px) {
+  .invisible-universe {
+    padding: 60px 0;
+  }
+  .invisible-universe-logo {
+    width: 250px;
+  }
+}
+
