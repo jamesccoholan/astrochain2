@@ -19,15 +19,15 @@ class Header extends Component {
     ] = backgroundImg;
     const mobileBackgroundImg = new Image();
     mobileBackgroundImg.src =
-      "https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPageBG_Mobile_v01_XyXZyq7B-.mp4";
+      "https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPage_Mobile_v02_f1nwEPXs5.mp4";
     window[
-      "https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPageBG_Mobile_v01_XyXZyq7B-.mp4"
+      "https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPage_Mobile_v02_f1nwEPXs5.mp4"
     ] = mobileBackgroundImg;
   }
 
   getVideo(innerWidth) {
     if (innerWidth <= 600)
-      return "https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPageBG_Mobile_v01_XyXZyq7B-.mp4";
+      return "https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPage_Mobile_v02_f1nwEPXs5.mp4";
     return "https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPageBG_v05_i56UQD6n7.mp4";
   }
 
