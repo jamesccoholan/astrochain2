@@ -104,7 +104,6 @@ class Cast extends Component {
   componentDidMount() {
     // pre-load all images
     cast.forEach((ci) => {
-      console.log(ci.front);
       const newImage = new Image();
       newImage.src = ci.front;
       window[ci.front] = newImage;
