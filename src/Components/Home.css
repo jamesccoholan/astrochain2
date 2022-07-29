@@ -22,7 +22,7 @@
 }
 .background-video {
   width: inherit;
-  height: inherit
+  height: inherit;
 }
 .logo-and-socials {
   position: absolute;
@@ -79,6 +79,12 @@
   }
 }
 
+@media screen and (min-width: 599px) {
+  .mobile {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .Header {
     height: calc(120vh);
@@ -103,5 +109,8 @@
     top: 45%;
     left: 0;
     right: 0;
+  }
+  .desktop {
+    display: none;
   }
 }

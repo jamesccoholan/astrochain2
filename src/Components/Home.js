@@ -9,7 +9,7 @@ class Home extends Component {
     super(props);
   }
 
-  componentDidMount() {
+  componentWillMount() {
     // pre-load mobile and non-mobile videos
     const backgroundImg = new Image();
     backgroundImg.src =
@@ -43,10 +43,15 @@ class Home extends Component {
             playsInline
             class="background-video"
             src={this.getVideo(this.props.innerWidth)}
-          />
+          ></video>
           <div class="logo-and-socials">
-            <img src="https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPage_Logo_v04_X1HXn5sAd.gif" class="real-metaverse-logo" />
-            <div class="socials"><SocialIcons /></div>
+            <img
+              src="https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPage_Logo_v04_X1HXn5sAd.gif"
+              class="real-metaverse-logo"
+            />
+            <div class="socials">
+              <SocialIcons />
+            </div>
           </div>
         </div>
         <div class="landing-bottom-text">

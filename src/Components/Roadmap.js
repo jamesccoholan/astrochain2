@@ -86,12 +86,14 @@ class Roadmap extends Component {
       <div class="roadmap-section">
         <section id="roadmap-section" />
         <video
-          src={this.getBackgroundVideo(this.props.innerWidth)}
           class="roadmap-background-video"
           autoPlay
           loop
+          muted
           playsInline
-        />
+          src={this.getBackgroundVideo(this.props.innerWidth)}
+        >
+        </video>
         <h2 class="roadmap-title">ROAD MAP</h2>
         <div>{roadmapText}</div>
       </div>
