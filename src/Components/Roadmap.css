@@ -16,312 +16,42 @@ ul {
   list-style-type: "*";
 }
 
+/* Generic elements for title and description */
 .roadmap-phase {
   z-index: 2;
+  position: absolute;
+  top: 0;
+  text-align: left;
+  color: white;
+  width: 450px;
+  margin: auto;
+}
+.phase-title {
+  font-size: 34px;
+}
+.phase-description {
+  font-size: 18px;
+  margin-top: -20px;
+  margin-left: -5px;
 }
 /* PHASE 1 POSITIONING */
 .phase-one {
-  margin-left: 400px;
-  margin-top: 50px;
-}
-.phase-one-description {
-  margin-left: 400px;
-  margin-top: 105px;
+  transform: translateY(1%) translateX(80%);
 }
 /* PHASE 2 POSITIONING */
 .phase-two {
-  margin-left: 970px;
-  margin-top: 225px;
-}
-.phase-two-description {
-  margin-left: 970px;
-  margin-top: 280px;
+  transform: translateY(50%) translateX(180%);
 }
 /* PHASE 3 POSITIONING */
 .phase-three {
-  margin-left: 500px;
-  margin-top: 430px;
-}
-.phase-three-description {
-  margin-left: 500px;
-  margin-top: 485px;
+  transform: translateY(120%) translateX(90%);
 }
 
 .roadmap-title {
-  font-size: 46px !important;
-  font-weight: 700 !important;
+  font-size: 40px;
   margin-left: 50px;
   margin-top: 30px;
 }
 .roadmap-img {
   width: 100%;
-}
-
-/* Generic elements for title and description */
-.phase-title {
-  position: absolute;
-  text-align: left;
-  color: white;
-  width: 400px;
-  font-size: 34px;
-  left: 16px;
-  font-weight: 600;
-}
-.phase-description {
-  position: absolute;
-  text-align: left;
-  color: white;
-  width: 450px;
-  font-size: 18px;
-  left: 16px;
-}
-
-/* X-Large screen */
-@media screen and (min-width: 1750px) {
-  /* PHASE 1 POSITIONING */
-  .phase-one {
-    margin-left: 500px;
-    margin-top: 130px;
-  }
-  .phase-one-description {
-    margin-left: 500px;
-    margin-top: 185px;
-  }
-  /* PHASE 2 POSITIONING */
-  .phase-two {
-    margin-left: 1300px;
-    margin-top: 350px;
-  }
-  .phase-two-description {
-    margin-left: 1300px;
-    margin-top: 405px;
-  }
-  /* PHASE 3 POSITIONING */
-  .phase-three {
-    margin-left: 550px;
-    margin-top: 550px;
-  }
-  .phase-three-description {
-    margin-left: 550px;
-    margin-top: 605px;
-  }
-}
-
-/* Large screen */
-@media screen and (min-width: 1600px) and (max-width: 1750px) {
-  /* PHASE 1 POSITIONING */
-  .phase-one {
-    margin-left: 500px;
-    margin-top: 100px;
-  }
-  .phase-one-description {
-    margin-left: 500px;
-    margin-top: 155px;
-  }
-  /* PHASE 2 POSITIONING */
-  .phase-two {
-    margin-left: 1100px;
-    margin-top: 300px;
-  }
-  .phase-two-description {
-    margin-left: 1100px;
-    margin-top: 355px;
-  }
-  /* PHASE 3 POSITIONING */
-  .phase-three {
-    margin-left: 550px;
-    margin-top: 475px;
-  }
-  .phase-three-description {
-    margin-left: 550px;
-    margin-top: 530px;
-  }
-}
-
-/* Medium-large screen */
-@media screen and (max-width: 1450px) {
-  /* PHASE 1 POSITIONING */
-  .phase-one {
-    margin-left: 350px;
-    margin-top: 50px;
-  }
-  .phase-one-description {
-    margin-left: 350px;
-    margin-top: 105px;
-  }
-  /* PHASE 2 POSITIONING */
-  .phase-two {
-    margin-left: 900px;
-    margin-top: 225px;
-  }
-  .phase-two-description {
-    margin-left: 900px;
-    margin-top: 280px;
-  }
-  /* PHASE 3 POSITIONING */
-  .phase-three {
-    margin-left: 450px;
-    margin-top: 430px;
-  }
-  .phase-three-description {
-    margin-left: 450px;
-    margin-top: 485px;
-  }
-}
-
-/* Medium screen */
-@media screen and (max-width: 1300px) {
-  /* PHASE 1 POSITIONING */
-  .phase-one {
-    margin-left: 350px;
-    margin-top: 50px;
-  }
-  .phase-one-description {
-    margin-left: 350px;
-    margin-top: 105px;
-  }
-  /* PHASE 2 POSITIONING */
-  .phase-two {
-    margin-left: 800px;
-    margin-top: 225px;
-  }
-  .phase-two-description {
-    margin-left: 800px;
-    margin-top: 280px;
-  }
-  /* PHASE 3 POSITIONING */
-  .phase-three {
-    margin-left: 400px;
-    margin-top: 430px;
-  }
-  .phase-three-description {
-    margin-left: 400px;
-    margin-top: 485px;
-  }
-}
-
-/* Medium screen - start stacking phases on top of each other */
-@media screen and (max-width: 1230px) {
-  .roadmap-title {
-    font-size: 34px !important;
-  }
-  /* Generic elements for title and description */
-  .phase-title {
-    font-size: 28px;
-  }
-  .phase-description {
-    font-size: 14px;
-    width: 400px;
-  }
-  /* PHASE 1 POSITIONING */
-  .phase-one {
-    margin-left: 50px;
-    margin-right: auto;
-    margin-top: 80px;
-  }
-  .phase-one-description {
-    margin-left: 50px;
-    margin-right: auto;
-    margin-top: 115px;
-  }
-  /* PHASE 2 POSITIONING */
-  .phase-two {
-    margin-left: 50px;
-    margin-right: auto;
-    margin-top: 210px;
-  }
-  .phase-two-description {
-    margin-left: 50px;
-    margin-right: auto;
-    margin-top: 245px;
-  }
-  /* PHASE 3 POSITIONING */
-  .phase-three {
-    margin-left: 50px;
-    margin-right: auto;
-    margin-top: 370px;
-  }
-  .phase-three-description {
-    margin-left: 50px;
-    margin-right: auto;
-    margin-top: 405px;
-  }
-}
-
-/* Medium screen 2 */
-@media screen and (max-width: 900px) {
-  .roadmap-title {
-    font-size: 30px !important;
-  }
-  /* Generic elements for title and description */
-  .phase-title {
-    font-size: 24px;
-  }
-  .phase-description {
-    font-size: 14px;
-  }
-  /* PHASE 1 POSITIONING */
-  .phase-one {
-    margin-left: 50px;
-    margin-right: auto;
-    margin-top: 80px;
-  }
-  .phase-one-description {
-    margin-left: 50px;
-    margin-right: auto;
-    margin-top: 115px;
-  }
-  /* PHASE 2 POSITIONING */
-  .phase-two {
-    margin-left: 50px;
-    margin-right: auto;
-    margin-top: 230px;
-  }
-  .phase-two-description {
-    margin-left: 50px;
-    margin-right: auto;
-    margin-top: 265px;
-  }
-  /* PHASE 3 POSITIONING */
-  .phase-three {
-    margin-left: 50px;
-    margin-right: auto;
-    margin-top: 400px;
-  }
-  .phase-three-description {
-    margin-left: 50px;
-    margin-right: auto;
-    margin-top: 435px;
-  }
-}
-
-/* Small screen */
-@media screen and (max-width: 450px) {
-  .phase-title {
-    width: 250px;
-  }
-  .phase-description {
-    width: 250px;
-  }
-  /* PHASE 1 POSITIONING */
-  .phase-one {
-    margin-top: 80px;
-  }
-  .phase-one-description {
-    margin-top: 115px;
-  }
-  /* PHASE 2 POSITIONING */
-  .phase-two {
-    margin-top: 310px;
-  }
-  .phase-two-description {
-    margin-top: 345px;
-  }
-  /* PHASE 3 POSITIONING */
-  .phase-three {
-    margin-top: 580px;
-  }
-  .phase-three-description {
-    margin-top: 615px;
-  }
 }

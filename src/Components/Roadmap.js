@@ -5,8 +5,7 @@ import { Stack } from "@mui/material";
 const roadmapContent = [
   {
     phase: 1,
-    titleClass: "phase-one",
-    descriptionClass: "phase-one-description",
+    class: "phase-one",
     title: "Phase One",
     description: [
       "Mint Date:",
@@ -18,8 +17,7 @@ const roadmapContent = [
   },
   {
     phase: 2,
-    titleClass: "phase-two",
-    descriptionClass: "phase-two-description",
+    class: "phase-two",
     title: "Phase Two",
     description: [
       "Guest Star submissions voted on",
@@ -31,8 +29,7 @@ const roadmapContent = [
   },
   {
     phase: 3,
-    titleClass: "phase-three",
-    descriptionClass: "phase-three-description",
+    class: "phase-three",
     title: "Phase Three",
     description: [
       "Top 500 producers will be locked and submissions for Next Season due",
@@ -74,9 +71,9 @@ class Roadmap extends Component {
   render() {
     const roadmapText = roadmapContent.map((r) => {
       return (
-        <div class="roadmap-phase" key={r.phase}>
-          <h2 class={`${r.titleClass} phase-title`}>{r.title}</h2>
-          <ul class={`${r.descriptionClass} phase-description`}>
+        <div class={`${r.class} roadmap-phase`} key={r.phase}>
+          <h2 class="phase-title">{r.title}</h2>
+          <ul class="phase-description">
             {r.description.map((d) => {
               return <li key={d}>{d}</li>;
             })}
