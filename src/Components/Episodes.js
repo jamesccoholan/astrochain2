@@ -3,9 +3,17 @@ import "./Episodes.css";
 function Episodes() {
   return (
     <div class="episode-guide">
-      <img class="background-img" src="https://ik.imagekit.io/5ierklngtbt/IU/04_Episode_Guide/EpisodesGuide_BG_v03_UlwcvzPCW.jpg" alt="Episode Guide" />
+      <img
+        class="background-img"
+        src="https://ik.imagekit.io/5ierklngtbt/IU/04_Episode_Guide/EpisodesGuide_BG_v03_UlwcvzPCW.jpg"
+        alt="Episode Guide"
+      />
       <section id="episode-guide-section" />
-      <img class="spotlight-1-img" src="https://ik.imagekit.io/5ierklngtbt/IU/04_Episode_Guide/Spot_Light_01.png" alt="Spotlight 1" />
+      <img
+        class="spotlight-1-img"
+        src="https://ik.imagekit.io/5ierklngtbt/IU/04_Episode_Guide/Spot_Light_01.png"
+        alt="Spotlight 1"
+      />
       <div>
         <text class="episode-guide-title">EPISODE GUIDE</text>
         <text class="episode-guide-description">

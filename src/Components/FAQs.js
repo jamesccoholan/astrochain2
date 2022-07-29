@@ -2,20 +2,20 @@ import "./FAQs.css";
 import { questionContent } from "./faqs-content";
 
 function FAQs() {
-  const faqItems = questionContent.map(q => {
+  const faqItems = questionContent.map((q) => {
     return (
-        <div class="faqs-qa-container" key={q.question}>
-          <b class="faqs-question">{q.question}</b>
-          <div class="faqs-answer">{q.answer}</div>
-        </div>
+      <div class="faqs-qa-container" key={q.question}>
+        <b class="faqs-question">{q.question}</b>
+        <div class="faqs-answer">{q.answer}</div>
+      </div>
     );
   });
 
   return (
     <div className="faqs-container">
-        <section id="faqs-section" />
-        <h2 class="faqs-header">FAQs</h2>
-        {faqItems}
+      <section id="faqs-section" />
+      <h2 class="faqs-header">FAQs</h2>
+      {faqItems}
     </div>
   );
 }

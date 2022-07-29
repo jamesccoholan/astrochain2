@@ -8,7 +8,7 @@
   height: 100vh;
   width: 100%;
   margin: auto;
-  background-image: url('https://ik.imagekit.io/5ierklngtbt/RoadMap_BG_IPaRe0Drx.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1658185148597');
+  background-image: url("https://ik.imagekit.io/5ierklngtbt/RoadMap_BG_IPaRe0Drx.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1658185148597");
   min-height: 875px;
 }
 
@@ -209,13 +209,13 @@
     font-size: 34px !important;
   }
   /* Generic elements for title and description */
-.phase-title {
-  font-size: 28px;
-}
-.phase-description {
-  font-size: 14px;
-  width: 400px;
-}
+  .phase-title {
+    font-size: 28px;
+  }
+  .phase-description {
+    font-size: 14px;
+    width: 400px;
+  }
   /* PHASE 1 POSITIONING */
   .phase-one {
     margin-left: 50px;
@@ -257,12 +257,12 @@
     font-size: 30px !important;
   }
   /* Generic elements for title and description */
-.phase-title {
-  font-size: 24px;
-}
-.phase-description {
-  font-size: 14px;
-}
+  .phase-title {
+    font-size: 24px;
+  }
+  .phase-description {
+    font-size: 14px;
+  }
   /* PHASE 1 POSITIONING */
   .phase-one {
     margin-left: 50px;
@@ -297,7 +297,6 @@
     margin-top: 435px;
   }
 }
-
 
 /* Small screen */
 @media screen and (max-width: 450px) {

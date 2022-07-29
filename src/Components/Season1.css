@@ -6,7 +6,7 @@
   background-repeat: no-repeat;
   overflow: hidden;
   width: 100%;
-  background-image: url('https://ik.imagekit.io/5ierklngtbt/EpisodeGuide_PlayBG_Expanded_v02_YtFQbZ3Ew7.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1658170701953');
+  background-image: url("https://ik.imagekit.io/5ierklngtbt/EpisodeGuide_PlayBG_Expanded_v02_YtFQbZ3Ew7.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1658170701953");
 }
 
 .season-1-title {
@@ -20,15 +20,15 @@
   height: 90vh;
 }
 .playlist-text {
-    font-size: 24px;
-    resize: both;
-    color: white;
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 767px;
-    width:477px;
-    background-position: center center;
-    background-image: url('https://ik.imagekit.io/5ierklngtbt/EpisodeGuide_PlaylistBox_v02_j9Mwy0C_9.png?ik-sdk-version=javascript-1.4.3&updatedAt=1658171524725');
+  font-size: 24px;
+  resize: both;
+  color: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 767px;
+  width: 477px;
+  background-position: center center;
+  background-image: url("https://ik.imagekit.io/5ierklngtbt/EpisodeGuide_PlaylistBox_v02_j9Mwy0C_9.png?ik-sdk-version=javascript-1.4.3&updatedAt=1658171524725");
 }
 .playlist-text > div {
   text-align: center;
@@ -37,7 +37,7 @@
 .playlist-text > div > div {
   width: 310px;
   padding-top: 120px;
-  margin:auto;
+  margin: auto;
   text-align: left;
 }
 .playlist-title {
@@ -80,7 +80,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  .season-1-title{
+  .season-1-title {
     font-size: 34px;
     margin-left: 10px;
   }

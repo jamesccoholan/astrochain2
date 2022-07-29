@@ -2,7 +2,6 @@
   background-color: #08042b;
   color: white;
   padding-top: 35px;
-  
 }
 
 .CastPages {
@@ -13,23 +12,23 @@
 
 .description {
   text-align: center;
- font-size: 30px;
- margin-left: 300px;
- margin-right: 300px;
- margin-bottom: 350px;
+  font-size: 30px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 350px;
 }
 
 .rack {
-    background-color: blue;
-    min-height: 1800vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
+  background-color: blue;
+  min-height: 1800vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
 
 .App-header {
-  background-color: #12284B;
+  background-color: #12284b;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -37,8 +36,6 @@
   justify-content: center;
   font-size: calc(40px + 2vmin);
   color: white;
-
-  
 }
 
 .CastPages {
