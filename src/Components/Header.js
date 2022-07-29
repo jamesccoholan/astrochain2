@@ -13,9 +13,9 @@ class Header extends Component {
     // pre-load mobile and non-mobile videos
     const backgroundImg = new Image();
     backgroundImg.src =
-      "https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPageBG_v04_GDSn7B6-R.mp4";
+      "https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPage_BG_v03_5YvKQxpOG.mp4";
     window[
-      "https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPageBG_v04_GDSn7B6-R.mp4"
+      "https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPage_BG_v03_5YvKQxpOG.mp4"
     ] = backgroundImg;
     const mobileBackgroundImg = new Image();
     mobileBackgroundImg.src =
@@ -28,7 +28,7 @@ class Header extends Component {
   getVideo(innerWidth) {
     if (innerWidth <= 600)
       return "https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPageBG_Mobile_v01_XyXZyq7B-.mp4";
-    return "https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPageBG_v04_GDSn7B6-R.mp4";
+    return "https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPage_BG_v03_5YvKQxpOG.mp4";
   }
 
   render() {
@@ -43,7 +43,17 @@ class Header extends Component {
           class="background-video"
           src={this.getVideo(this.props.innerWidth)}
         />
-        {/*<div class="socials"><SocialIcons /></div>*/}
+        <div class="logo-and-socials">
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            class="real-metaverse-logo"
+            src="https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPage_Logo_v04_dR8CRmPOD.mov"
+          />
+          <div class="socials"><SocialIcons /></div>
+        </div>
         <div class="landing-bottom-text">
           What happens when you put a Bored Ape, a Cool Cat, a World of Women, a
           Roboto {"&"} a Doodle on a reality show together? We have no idea, but

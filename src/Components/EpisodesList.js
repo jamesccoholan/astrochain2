@@ -1,6 +1,6 @@
 import "./EpisodesList.css";
 import { Stack } from "@mui/material";
-import Vimeo from '@u-wave/react-vimeo';
+import Vimeo from "@u-wave/react-vimeo";
 
 function EpisodesList() {
   return (
@@ -67,7 +67,10 @@ function EpisodesList() {
           </div>
         </div>
         <div class="vimeo-player">
-          <Vimeo video="https://player.vimeo.com/video/728917047?h=ff2124a00c" autoplay />
+          <Vimeo
+            video="https://player.vimeo.com/video/728917047?h=ff2124a00c"
+            autoplay
+          />
         </div>
       </Stack>
     </div>
