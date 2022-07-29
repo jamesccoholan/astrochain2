@@ -63,7 +63,7 @@ class Roadmap extends Component {
   }
 
   getBackgroundVideo(innerWidth) {
-    if (innerWidth <= 925)
+    if (innerWidth <= 975)
       return "https://ik.imagekit.io/5ierklngtbt/IU/03_Road_Map/RoadMap_BG_Mobile_v02_WzPQewhSA.mp4";
     return "https://ik.imagekit.io/5ierklngtbt/IU/03_Road_Map/RoadMap_BG_v04_Mx-H8KuhG.mp4";
   }
@@ -84,6 +84,7 @@ class Roadmap extends Component {
 
     return (
       <div class="roadmap-section">
+        <section id="roadmap-section" />
         <video
           src={this.getBackgroundVideo(this.props.innerWidth)}
           class="roadmap-background-video"
@@ -91,8 +92,7 @@ class Roadmap extends Component {
           loop
           playsInline
         />
-        <section id="roadmap-section" />
-        <h2 class="roadmap-title">ROADMAP</h2>
+        <h2 class="roadmap-title">ROAD MAP</h2>
         <div>{roadmapText}</div>
       </div>
     );
