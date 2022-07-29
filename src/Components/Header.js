@@ -26,7 +26,8 @@ class Header extends Component {
   }
 
   getVideo(innerWidth) {
-    if (innerWidth <= 600) return "https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPageBG_Mobile_v01_XyXZyq7B-.mp4";
+    if (innerWidth <= 600)
+      return "https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPageBG_Mobile_v01_XyXZyq7B-.mp4";
     return "https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPageBG_v04_GDSn7B6-R.mp4";
   }
 

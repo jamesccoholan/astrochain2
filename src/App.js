@@ -4,7 +4,7 @@ import Header from "./Components/Header";
 import Cast from "./Components/Cast";
 import Roadmap from "./Components/Roadmap";
 import EpisodeGuide from "./Components/EpisodeGuide";
-import Season1 from "./Components/Season1";
+import EpisodesList from "./Components/EpisodesList";
 import Rarity from "./Components/Rarity";
 import ValueProp from "./Components/ValueProp/ValueProp";
 import IU from "./Components/IU";
@@ -37,7 +37,7 @@ class App extends Component {
           <Header innerWidth={this.state.innerWidth} />
           <Cast />
           <EpisodeGuide innerWidth={this.state.innerWidth} />
-          <Season1 />
+          <EpisodesList />
           <ValueProp />
           <Rarity />
           <Roadmap innerWidth={this.state.innerWidth} />

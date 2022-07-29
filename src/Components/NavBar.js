@@ -4,48 +4,48 @@ import { Button, AppBar, Toolbar, Grid } from "@mui/material";
 import { useScrollSection } from "react-scroll-section";
 
 const buttonContent = [
- {
-   name: "HOME",
-   href: "#"
- },
- {
-   name: "CAST",
-   href: "#cast-section"
- },
- {
-  name: "EPISODE GUIDE",
-  href: "#episode-guide-section"
-},
-{
-  name: "GET YOUR CHARACTER ANIMATED",
-  href: "#animated-section"
-},
-{
-  name: "NFT RARITY",
-  href: "#rarity-section"
-},
-{
-  name: "ROAD MAP",
-  href: "#roadmap-section"
-},
-{
-  name: "INVISIBLE UNIVERSE",
-  href: "#invisible-universe-section"
-},
-{
-  name: "TEAM",
-  href: "#team-section"
-},
-{
-  name: "FAQS",
-  href: "#faqs-section"
-}
+  {
+    name: "HOME",
+    href: "#",
+  },
+  {
+    name: "CAST",
+    href: "#cast-section",
+  },
+  {
+    name: "EPISODE GUIDE",
+    href: "#episode-guide-section",
+  },
+  {
+    name: "GET YOUR CHARACTER ANIMATED",
+    href: "#animated-section",
+  },
+  {
+    name: "NFT RARITY",
+    href: "#rarity-section",
+  },
+  {
+    name: "ROAD MAP",
+    href: "#roadmap-section",
+  },
+  {
+    name: "INVISIBLE UNIVERSE",
+    href: "#invisible-universe-section",
+  },
+  {
+    name: "TEAM",
+    href: "#team-section",
+  },
+  {
+    name: "FAQS",
+    href: "#faqs-section",
+  },
 ];
 
 export default function NavBar() {
   const navScroll = useScrollSection();
 
-  const buttons = buttonContent.map(b => {
+  const buttons = buttonContent.map((b) => {
     return (
       <Button
         key={b.name}
@@ -53,11 +53,19 @@ export default function NavBar() {
         color={"inherit"}
         onClick={navScroll.onClick}
         href={b.href}
-        sx={{fontFamily: "futura-medium", fontSize: "20px", lineHeight: "inherit", fontWeight: "inherit", letterSpacing: "inherit", textTransform: "inherit"}}>
-          {b.name}
+        sx={{
+          fontFamily: "futura-medium",
+          fontSize: "20px",
+          lineHeight: "inherit",
+          fontWeight: "inherit",
+          letterSpacing: "inherit",
+          textTransform: "inherit",
+        }}
+      >
+        {b.name}
       </Button>
-    )
-  })
+    );
+  });
 
   return (
     <AppBar
@@ -74,9 +82,7 @@ export default function NavBar() {
       <Toolbar disableGutters={true} sx={{ flexWrap: "wrap" }}>
         <Grid container>
           <Grid item xs={12} display={"flex"} justifyContent={"center"} py={1}>
-            <div class="navbar-text-section">
-              {buttons}
-            </div>
+            <div class="navbar-text-section">{buttons}</div>
           </Grid>
         </Grid>
         <div></div>

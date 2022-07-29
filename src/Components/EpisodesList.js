@@ -1,7 +1,8 @@
-import "./Season1.css";
+import "./EpisodesList.css";
 import { Stack } from "@mui/material";
+import Vimeo from '@u-wave/react-vimeo';
 
-function Season1() {
+function EpisodesList() {
   return (
     <div class="season-1-background">
       <section id="season1-section" />
@@ -65,15 +66,12 @@ function Season1() {
             </div>
           </div>
         </div>
-        <div>
-          <img
-            src="https://ik.imagekit.io/5ierklngtbt/IU/04_Episode_Guide/IMG_Season_1_0XAKv9GfB.png"
-            class="season-1-img"
-          />
+        <div class="vimeo-player">
+          <Vimeo video="https://player.vimeo.com/video/728917047?h=ff2124a00c" autoplay />
         </div>
       </Stack>
     </div>
   );
 }
 
-export default Season1;
+export default EpisodesList;

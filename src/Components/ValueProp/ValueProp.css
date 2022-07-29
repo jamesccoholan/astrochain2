@@ -52,7 +52,10 @@
 @media screen and (max-width: 600px) {
   .value-prop-title {
     font-size: 34px;
-    width: 90%;
+    width: 95%;
+  }
+  .value-prop-to-life {
+    width: 95%;
   }
   .value-prop-description {
     font-size: 20px;
