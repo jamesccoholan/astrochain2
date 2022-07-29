@@ -44,14 +44,7 @@ class Header extends Component {
           src={this.getVideo(this.props.innerWidth)}
         />
         <div class="logo-and-socials">
-          <video
-            autoPlay
-            loop
-            muted
-            playsInline
-            class="real-metaverse-logo"
-            src="https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPage_Logo_v04_dR8CRmPOD.mov"
-          />
+          <img src="https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPage_Logo_v04_X1HXn5sAd.gif" class="real-metaverse-logo" />
           <div class="socials"><SocialIcons /></div>
         </div>
         <div class="landing-bottom-text">
