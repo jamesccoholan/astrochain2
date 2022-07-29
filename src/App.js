@@ -8,7 +8,6 @@ import Rarity from "./Components/Rarity";
 import ValueProp from "./Components/ValueProp/ValueProp";
 import IU from "./Components/IU";
 import Credits from "./Components/Credits";
-import FAQs from "./Components/FAQs";
 
 import { ScrollingProvider } from "react-scroll-section";
 
@@ -25,7 +24,6 @@ function App() {
         <Roadmap />
         <IU />
         <Credits />
-        <FAQs />
       </div>
     </ScrollingProvider>
   );
