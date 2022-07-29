@@ -5,39 +5,39 @@ import { useScrollSection } from "react-scroll-section";
 
 const buttonContent = [
  {
-   name: "Home",
+   name: "HOME",
    href: "#"
  },
  {
-   name: "Cast",
+   name: "CAST",
    href: "#cast-section"
  },
  {
-  name: "Episode Guide",
+  name: "EPISODE GUIDE",
   href: "#episode-guide-section"
 },
 {
-  name: "Get your Character Animated",
+  name: "GET YOUR CHARACTER ANIMATED",
   href: "#animated-section"
 },
 {
-  name: "NFT Rarity",
+  name: "NFT RARITY",
   href: "#rarity-section"
 },
 {
-  name: "Road Map",
+  name: "ROAD MAP",
   href: "#roadmap-section"
 },
 {
-  name: "Invisible Universe",
+  name: "INVISIBLE UNIVERSE",
   href: "#invisible-universe-section"
 },
 {
-  name: "Team",
+  name: "TEAM",
   href: "#team-section"
 },
 {
-  name: "FAQs",
+  name: "FAQS",
   href: "#faqs-section"
 }
 ];
@@ -53,7 +53,7 @@ export default function NavBar() {
         color={"inherit"}
         onClick={navScroll.onClick}
         href={b.href}
-        sx={{fontFamily: "futura-medium"}}>
+        sx={{fontFamily: "futura-medium", fontSize: "24px", lineHeight: "inherit", fontWeight: "inherit", letterSpacing: "inherit", textTransform: "inherit"}}>
           {b.name}
       </Button>
     )
