@@ -16,14 +16,13 @@
 .value-prop-description {
   text-align: left;
   font-size: 24px;
-  margin: 30px auto 0 auto;
+  margin: 30px auto;
   width: 85%;
-  padding-bottom: 2%;
 }
 
 .value-prop-1 {
   background-color: #663162;
-  padding-top: 60px;
+  padding-top: 80px;
 }
 .transition-1 {
   background: linear-gradient(#663162, #513269);
@@ -41,7 +40,7 @@
 
 .value-prop-3 {
   background-color: #2A2257;
-  padding-bottom: 60px;
+  padding-bottom: 80px;
 }
 
 @media screen and (max-width: 600px) {
