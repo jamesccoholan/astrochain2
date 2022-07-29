@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import "./Header.css";
+import "./Home.css";
 
 import NavBar from "./NavBar";
 import SocialIcons from "./SocialIcons";
 
-class Header extends Component {
+class Home extends Component {
   constructor(props) {
     super(props);
   }
@@ -68,4 +68,4 @@ class Header extends Component {
   }
 }
 
-export default Header;
+export default Home;

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import Header from "./Components/Header";
+import Home from "./Components/Home";
 import Cast from "./Components/Cast";
 import Roadmap from "./Components/Roadmap";
 import EpisodeGuide from "./Components/EpisodeGuide";
@@ -34,7 +34,7 @@ class App extends Component {
     return (
       <ScrollingProvider offset={0}>
         <div className="App">
-          <Header innerWidth={this.state.innerWidth} />
+          <Home innerWidth={this.state.innerWidth} />
           <Cast />
           <EpisodeGuide innerWidth={this.state.innerWidth} />
           <EpisodesList />

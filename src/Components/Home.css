@@ -37,7 +37,7 @@
   height: auto;
 }
 .socials {
-  margin-top: -50px;
+  margin-top: calc(-3vw);
 }
 
 .landing-logo {
@@ -95,5 +95,13 @@
     font-size: 18px;
     bottom: 20;
     width: 95%;
+  }
+  .real-metaverse-logo {
+    width: calc(55vw);
+  }
+  .logo-and-socials {
+    top: 45%;
+    left: 0;
+    right: 0;
   }
 }
