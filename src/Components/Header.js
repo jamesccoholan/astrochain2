@@ -9,9 +9,25 @@ class Header extends Component {
     super(props);
   }
 
+  componentDidMount() {
+    // pre-load mobile and non-mobile videos
+    const backgroundImg = new Image();
+    backgroundImg.src =
+      "https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPageBG_v04_GDSn7B6-R.mp4";
+    window[
+      "https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPageBG_v04_GDSn7B6-R.mp4"
+    ] = backgroundImg;
+    const mobileBackgroundImg = new Image();
+    mobileBackgroundImg.src =
+      "https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPageBG_Mobile_v01_XyXZyq7B-.mp4";
+    window[
+      "https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPageBG_Mobile_v01_XyXZyq7B-.mp4"
+    ] = mobileBackgroundImg;
+  }
+
   getVideo(innerWidth) {
-    if (innerWidth <= 600) return "/assets/mp4/LandingPageBG_Mobile_v01.mp4";
-    return "/assets/mp4/LandingPageBG_v04_GDSn7B6-R.mp4";
+    if (innerWidth <= 600) return "https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPageBG_Mobile_v01_XyXZyq7B-.mp4";
+    return "https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPageBG_v04_GDSn7B6-R.mp4";
   }
 
   render() {

@@ -47,7 +47,7 @@ class Roadmap extends Component {
   }
 
   componentDidMount() {
-    // pre-load mobile and non-mobile images
+    // pre-load mobile and non-mobile videos
     const backgroundImg = new Image();
     backgroundImg.src =
       "https://ik.imagekit.io/5ierklngtbt/IU/03_Road_Map/RoadMap_BG_v04_Mx-H8KuhG.mp4";

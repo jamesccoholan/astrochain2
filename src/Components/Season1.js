@@ -67,7 +67,7 @@ function Season1() {
         </div>
         <div>
           <img
-            src="/assets/Website 2/04 Episode Guide/IMG_Season_1.png"
+            src="https://ik.imagekit.io/5ierklngtbt/IU/04_Episode_Guide/IMG_Season_1_0XAKv9GfB.png"
             class="season-1-img"
           />
         </div>
