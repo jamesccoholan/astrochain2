@@ -3,36 +3,36 @@ import "./Cast.css";
 
 const cast = [
   {
-    front_img:
+    front:
       "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/01_Pete2D.png",
-    back_img:
+    back:
       "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/01_Pete3D.jpg",
     value: "0",
   },
   {
-    front_img:
+    front:
       "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/02_Monty2D.png",
-    back_img:
+    back:
       "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/02_Monty3D.jpg",
     value: "1",
   },
   {
-    front_img:
+    front:
       "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/03_Sam2D.png",
-    back_img: "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/03_Sam3D.jpg",
+    back: "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/03_Sam3D.jpg",
     value: "2",
   },
   {
-    front_img:
+    front:
       "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/04_Journey2Dpng",
-    back_img:
+    back:
       "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/04_Journey3D.jpg",
     value: "3",
   },
   {
-    front_img:
+    front:
       "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/05_Claudine2D.png",
-    back_img:
+    back:
       "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/05_Claudine3D.jpg",
     value: "4",
   },
@@ -108,10 +108,10 @@ class Cast extends Component {
   componentDidMount() {
     // pre-load all images
     cast.forEach((ci) => {
-      console.log(ci.front_img);
+      console.log(ci.front);
       const newImage = new Image();
-      newImage.src = ci.front_img;
-      window[ci.front_img] = newImage;
+      newImage.src = ci.front;
+      window[ci.front] = newImage;
     });
     castPagesContent.forEach((cp) => {
       for (var i = 0; i < cp.images.length; i++) {
@@ -136,7 +136,7 @@ class Cast extends Component {
           key={c.value}
           onClick={this.selectCharacterId}
         >
-          <img src={c.front_img} alt={c.value} />
+          <img src={c.front} alt={c.value} />
         </a>
       );
     });
