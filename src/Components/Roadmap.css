@@ -12,16 +12,12 @@
   position: relative;
   z-index: 1;
 }
-
 ul {
   list-style-type: "*";
-  margin-top: 5px;
 }
-/* Container holding the image and the text */
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
+
+.roadmap-phase {
+  z-index: 2;
 }
 /* PHASE 1 POSITIONING */
 .phase-one {

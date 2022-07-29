@@ -74,7 +74,7 @@ class Roadmap extends Component {
   render() {
     const roadmapText = roadmapContent.map((r) => {
       return (
-        <div key={r.phase}>
+        <div class="roadmap-phase" key={r.phase}>
           <h2 class={`${r.titleClass} phase-title`}>{r.title}</h2>
           <ul class={`${r.descriptionClass} phase-description`}>
             {r.description.map((d) => {
@@ -95,17 +95,9 @@ class Roadmap extends Component {
           playsInline
         />
         <section id="roadmap-section" />
-        <Stack direction="column">
-          <Stack
-            direction={{ xs: "column", sm: "column", md: "column", lg: "row" }}
-            spacing={{ xs: 0, sm: 0, md: 2, lg: 4 }}
-            alignItems="center"
-          >
-            <div className="Roadmap-Main2">
-              <Stack direction="row">{roadmapText}</Stack>
-            </div>
-          </Stack>
-        </Stack>
+        <div>
+          {roadmapText}
+        </div>
       </div>
     );
   }
