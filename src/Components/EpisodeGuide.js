@@ -4,38 +4,38 @@ import "./EpisodeGuide.css";
 const spotlightsArr = [
   {
     number: 1,
-    desktop_img: "",
-    mobile_img: "",
+    desktop_img: "https://ik.imagekit.io/5ierklngtbt/IU/04_Episode_Guide/Mobile/Spot_Light_01_v03_nlak9CmH9.png?ik-sdk-version=javascript-1.4.3&updatedAt=1659069429839",
+    mobile_img: "https://ik.imagekit.io/5ierklngtbt/IU/04_Episode_Guide/Mobile/Spot_Light_01_Mobile_v02_yYf_jOzCz.png?ik-sdk-version=javascript-1.4.3&updatedAt=1659067039857",
     active: true,
   },
   {
     number: 2,
-    desktop_img: "",
-    mobile_img: "",
+    desktop_img: "https://ik.imagekit.io/5ierklngtbt/IU/04_Episode_Guide/Mobile/Spot_Light_02_v03_UFlv560zf.png?ik-sdk-version=javascript-1.4.3&updatedAt=1659069429923",
+    mobile_img: "https://ik.imagekit.io/5ierklngtbt/IU/04_Episode_Guide/Mobile/Spot_Light_02_Mobile_v02_HMFkCVOBp.png?ik-sdk-version=javascript-1.4.3&updatedAt=1659067039932",
     active: false,
   },
   {
     number: 3,
-    desktop_img: "",
-    mobile_img: "",
+    desktop_img: "https://ik.imagekit.io/5ierklngtbt/IU/04_Episode_Guide/Spot_Light_03.png?ik-sdk-version=javascript-1.4.3&updatedAt=1659039930890",
+    mobile_img: "https://ik.imagekit.io/5ierklngtbt/IU/04_Episode_Guide/Mobile/Spot_Light_03_Mobile_v01_mbw3SuFfBe.png?ik-sdk-version=javascript-1.4.3&updatedAt=1659067040138",
     active: false,
   },
   {
     number: 4,
-    desktop_img: "",
-    mobile_img: "",
+    desktop_img: "https://ik.imagekit.io/5ierklngtbt/IU/04_Episode_Guide/Spot_Light_04.png?ik-sdk-version=javascript-1.4.3&updatedAt=1659039938296",
+    mobile_img: "https://ik.imagekit.io/5ierklngtbt/IU/04_Episode_Guide/Mobile/Spot_Light_04_Mobile_v01_ZSFcvVP3l-.png?ik-sdk-version=javascript-1.4.3&updatedAt=1659067040397",
     active: false,
   },
   {
     number: 5,
-    desktop_img: "",
-    mobile_img: "",
+    desktop_img: "https://ik.imagekit.io/5ierklngtbt/IU/04_Episode_Guide/Spot_Light_05.png?ik-sdk-version=javascript-1.4.3&updatedAt=1659039896986",
+    mobile_img: "https://ik.imagekit.io/5ierklngtbt/IU/04_Episode_Guide/Mobile/Spot_Light_05_Mobile_v01_RxFp8PD3E.png?ik-sdk-version=javascript-1.4.3&updatedAt=1659067040637",
     active: false,
   },
   {
     number: 6,
-    desktop_img: "",
-    mobile_img: "",
+    desktop_img: "https://ik.imagekit.io/5ierklngtbt/IU/04_Episode_Guide/Spot_Light_06.png?ik-sdk-version=javascript-1.4.3&updatedAt=1659039870253",
+    mobile_img: "https://ik.imagekit.io/5ierklngtbt/IU/04_Episode_Guide/Mobile/Spot_Light_06_Mobile_v01_ebyDlkudh.png?ik-sdk-version=javascript-1.4.3&updatedAt=1659067040736",
     active: false,
   },
 ];
@@ -56,9 +56,9 @@ class EpisodeGuide extends Component {
     // pre-load mobile and non-mobile images
     const backgroundImg = new Image();
     backgroundImg.src =
-      "https://ik.imagekit.io/5ierklngtbt/IU/04_Episode_Guide/EpisodesGuide_BG_v03_UlwcvzPCW.jpg";
+      "https://ik.imagekit.io/5ierklngtbt/IU/04_Episode_Guide/Mobile/EpisodeGuide_BG_v04_nHVWmjoP5G.jpg";
     window[
-      "https://ik.imagekit.io/5ierklngtbt/IU/04_Episode_Guide/Mobile/EpisodesGuide_BG_Mobile_v02_Fqw1nvJ4J.jpg"
+      "https://ik.imagekit.io/5ierklngtbt/IU/04_Episode_Guide/Mobile/EpisodeGuide_BG_v04_nHVWmjoP5G.jpg"
     ] = backgroundImg;
     const mobileBackgroundImg = new Image();
     mobileBackgroundImg.src =
@@ -75,7 +75,7 @@ class EpisodeGuide extends Component {
   getBackgroundImage(innerWidth) {
     if (innerWidth <= 600)
       return "https://ik.imagekit.io/5ierklngtbt/IU/04_Episode_Guide/Mobile/EpisodesGuide_BG_Mobile_v02_Fqw1nvJ4J.jpg";
-    return "https://ik.imagekit.io/5ierklngtbt/IU/04_Episode_Guide/EpisodesGuide_BG_v03_UlwcvzPCW.jpg";
+    return "https://ik.imagekit.io/5ierklngtbt/IU/04_Episode_Guide/Mobile/EpisodeGuide_BG_v04_nHVWmjoP5G.jpg";
   }
 
   getSpotlightImage(innerWidth, index) {
