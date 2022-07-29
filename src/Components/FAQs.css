@@ -1,9 +1,8 @@
 .faqs-container {
   background-color: black;
   color: white;
-  margin: 50px auto 80px auto;
+  margin: 30px auto;
   width: 90%;
-  max-width: 1300px;
 }
 
 .faqs-header {
