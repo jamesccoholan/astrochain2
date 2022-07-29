@@ -1,0 +1,36 @@
+.value-prop-section {
+  background-color: #08042b;
+  color: white;
+  padding-top: 60px;
+}
+.value-prop-title {
+  text-align: left;
+  font-size: 40px;
+  margin: auto;
+  width: 90%;
+}
+.value-prop-description {
+  text-align: left;
+  font-size: 24px;
+  margin: 30px auto 0 auto;
+  width: 90%;
+  padding-bottom: 2%;
+}
+
+@media screen and (max-width: 600px) {
+  .value-prop-title {
+    font-size: 34px;
+    width: 90%;
+  }
+  .rarity-description {
+    font-size: 20px;
+    padding-top: 20px;
+    width: 90%;
+    left: none;
+    right: none;
+  }
+  .value-prop-description {
+    font-size: 20px;
+    width: 90%;
+  }
+}

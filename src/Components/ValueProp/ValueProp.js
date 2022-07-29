@@ -1,12 +1,12 @@
-import "./Rarity.css";
-import Info from "./Info";
+import "./ValueProp.css";
+import NFTLogos from "./NFTLogos";
 
 function ValueProp() {
   return (
     <div class="value-prop-section">
       <section id="animated-section" />
       <h2 class="value-prop-title">GET YOUR CHARACTER ANIMATED!</h2>
-      <div class="ValueProp-description">
+      <div class="value-prop-description">
         There are two ways you can bring your PFP character to life!
         <br />
         <br />
@@ -50,10 +50,10 @@ function ValueProp() {
         that holding this NFT will give you, but most importantly we want you to
         create the story with us!
       </div>
-      <Info />
+      <NFTLogos />
       <section id="leaderboard-section" />
       <h2 class="value-prop-title">THE LEADERBOARD</h2>
-      <div class="ValueProp-description">
+      <div class="value-prop-description">
         Points are awarded by being engaged on Discord, Twitter and in the
         Producer{"’"}s Portal. Producers earn points for filling out the Mad
         Libs (speed counts) and matching the most popular answers. Updates and

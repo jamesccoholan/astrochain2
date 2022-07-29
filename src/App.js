@@ -5,7 +5,7 @@ import Roadmap from "./Components/Roadmap";
 import Episodes from "./Components/Episodes";
 import Season1 from "./Components/Season1";
 import Rarity from "./Components/Rarity";
-import ValueProp from "./Components/ValueProp";
+import ValueProp from "./Components/ValueProp/ValueProp";
 import IU from "./Components/IU";
 import Credits from "./Components/Credits";
 import FAQs from "./Components/FAQs";
