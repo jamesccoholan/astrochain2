@@ -159,6 +159,7 @@ ul {
   /* PHASE 2 POSITIONING */
   .phase-two {
     width: 350px;
+    transform: translate(-5%, 70%);
   }
 }
 @media screen and (max-width: 530px) {
@@ -169,7 +170,7 @@ ul {
   }
   /* PHASE 2 POSITIONING */
   .phase-two {
-    transform: translate(0, 80%);
+    transform: translate(0, 65%);
   }
 }
 @media screen and (max-width: 500px) {
@@ -178,8 +179,8 @@ ul {
     transform: translate(-20%, 0);
   }
   .phase-two {
-    width: 320px;
-    transform: translate(0, 55%);
+    width: 300px;
+    transform: translate(0%, 35%);
   }
   .phase-three {
     transform: translate(-23%, -10%);
@@ -197,8 +198,7 @@ ul {
     transform: translate(-23%, -5%);
   }
   .phase-two {
-    width: 300px;
-    transform: translate(0, 40%);
+    transform: translate(0, 30%);
   }
   .phase-three {
     transform: translate(-25%, -15%);
@@ -214,7 +214,7 @@ ul {
   }
   .phase-two {
     width: 300px;
-    transform: translate(5%, 30%);
+    transform: translate(7%, 28%);
   }
   .phase-three {
     transform: translate(-29%, -15%);
@@ -237,6 +237,6 @@ ul {
   }
   .phase-three {
     width: 350px;
-    transform: translate(-25%, -30%);
+    transform: translate(-25%, -27%);
   }
 }
