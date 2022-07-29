@@ -1,7 +1,5 @@
 .value-prop-section {
-  background-color: #08042b;
   color: white;
-  padding-top: 60px;
 }
 .value-prop-title {
   text-align: left;
@@ -9,25 +7,47 @@
   margin: auto;
   width: 90%;
 }
+.value-prop-to-life {
+  text-align: left;
+  font-size: 24px;
+  margin: 10px auto 0 auto;
+  width: 90%;
+}
 .value-prop-description {
   text-align: left;
   font-size: 24px;
   margin: 30px auto 0 auto;
-  width: 90%;
+  width: 85%;
   padding-bottom: 2%;
+}
+
+.value-prop-1 {
+  background-color: #663162;
+  padding-top: 60px;
+}
+.transition-1 {
+  background: linear-gradient(#663162, #513269);
+}
+.transition-frame {
+  height: 200px;
+}
+
+.value-prop-2 {
+  background-color: #513269;
+}
+.transition-2 {
+  background: linear-gradient(#513269, #2A2257);
+}
+
+.value-prop-3 {
+  background-color: #2A2257;
+  padding-bottom: 60px;
 }
 
 @media screen and (max-width: 600px) {
   .value-prop-title {
     font-size: 34px;
     width: 90%;
-  }
-  .rarity-description {
-    font-size: 20px;
-    padding-top: 20px;
-    width: 90%;
-    left: none;
-    right: none;
   }
   .value-prop-description {
     font-size: 20px;
