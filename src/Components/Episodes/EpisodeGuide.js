@@ -56,6 +56,10 @@ const spotlightsArr = [
 class EpisodeGuide extends Component {
   constructor(props) {
     super(props);
+    // set the initial state
+    this.state = {
+      episodeSection: 0,
+    };
   }
 
   componentDidMount() {
@@ -128,7 +132,7 @@ class EpisodeGuide extends Component {
             </div>
           </div>
         </div>
-        <EpisodesList />
+        <EpisodesList episodeSection={this.state.episodeSection} />
       </div>
     );
   }

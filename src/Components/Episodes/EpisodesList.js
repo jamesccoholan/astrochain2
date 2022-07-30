@@ -10,6 +10,16 @@ class EpisodesList extends Component {
   }
 
   render() {
+    const episodeSection = episodes[this.props.episodeSection];
+
+    const episodeList = episodeSection.episodeList.map(el => {
+      return (
+        <div class={`playlist-number`}>
+          {el.name}
+        </div>
+      );
+    });
+
     return (
       <div class="season-1-background">
         <section id="season1-section" />
@@ -21,55 +31,12 @@ class EpisodesList extends Component {
           style={{ padding: "70px 0" }}
         >
           <div>
-            <div class="season-1-title">SEASON 1</div>
+            <h2 class="season-1-title">SEASON 1</h2>
             <div class="playlist-text">
               <div>
                 <div>
-                  <div class="playlist-title">Meet the cast</div>
-                  <div class="playlist-number">
-                    <span class="playlist-digit">01 - </span>The Arrival
-                  </div>
-                  <div class="playlist-number">
-                    <span class="playlist-digit">02 - </span>Let's meet Pete
-                  </div>
-                  <div class="playlist-number playlist-number-inactive">
-                    <span class="playlist-digit">03 - </span>Namaste, Journey
-                  </div>
-                  <div class="playlist-number playlist-number-inactive">
-                    <span class="playlist-digit">04 - </span>Soul of Sam
-                  </div>
-                  <div class="playlist-number playlist-number-inactive">
-                    <span class="playlist-digit">05 - </span>The full Monty
-                  </div>
-                  <div class="playlist-number playlist-number-inactive">
-                    <span class="playlist-digit">06 - </span>i'm Claudine,
-                    damnit!
-                  </div>
-                  <div class="playlist-number playlist-number-inactive">
-                    <span class="playlist-digit">07 - </span>Claudine's
-                    Confessional <br />
-                    <span class="community-written">(Community Written)</span>
-                  </div>
-                  <div class="playlist-title playlist-number-inactive">
-                    first night out
-                  </div>
-                  <div class="playlist-number playlist-number-inactive">
-                    <span class="playlist-digit">08 - </span>"What to Wear"
-                  </div>
-                  <div class="playlist-number playlist-number-inactive">
-                    <span class="playlist-digit">09 - </span>"Doing Lines"
-                  </div>
-                  <div class="playlist-number playlist-number-inactive">
-                    <span class="playlist-digit">10 - </span>"Sit on a Crystal"
-                  </div>
-                  <div class="playlist-number playlist-number-inactive">
-                    <span class="playlist-digit">11 - </span>"I Love You Guys"
-                  </div>
-                  <div class="playlist-number playlist-number-inactive">
-                    <span class="playlist-digit">12 - </span>Monty's
-                    Confessional <br />
-                    <span class="community-written">(Community Written)</span>
-                  </div>
+                  <h2 class="playlist-title">{episodeSection.group}</h2>
+                  {episodeList}
                 </div>
               </div>
             </div>
