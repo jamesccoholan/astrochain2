@@ -10,10 +10,13 @@
 }
 
 .season-1-title {
+  position: absolute;
+  z-index: 2;
   font-size: 40px;
+  top: 20px;
+  left: 20px;
   text-align: left;
-  margin-left: 40px;
-  margin-bottom: 0px;
+  margin: auto;
 }
 
 .season-1-img {
@@ -45,6 +48,8 @@
 }
 .playlist-number {
   font-weight: 500;
+  cursor: pointer;
+  padding: 3px 0;
 }
 .playlist-number-active {
 }
@@ -88,7 +93,8 @@
 @media screen and (max-width: 600px) {
   .season-1-title {
     font-size: 34px;
-    margin-left: 10px;
+    top: 8px;
+    left: 8px;
   }
   .playlist-text {
     font-size: 18px;
