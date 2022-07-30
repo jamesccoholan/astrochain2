@@ -3,8 +3,7 @@ import "./App.css";
 import Home from "./Components/Home";
 import Cast from "./Components/Cast";
 import Roadmap from "./Components/Roadmap";
-import EpisodeGuide from "./Components/EpisodeGuide";
-import EpisodesList from "./Components/EpisodesList";
+import EpisodeGuide from "./Components/Episodes/EpisodeGuide";
 import Rarity from "./Components/Rarity";
 import ValueProp from "./Components/ValueProp/ValueProp";
 import IU from "./Components/IU";
@@ -37,7 +36,6 @@ class App extends Component {
           <Home innerWidth={this.state.innerWidth} />
           <Cast />
           <EpisodeGuide innerWidth={this.state.innerWidth} />
-          <EpisodesList />
           <ValueProp />
           <Rarity />
           <Roadmap innerWidth={this.state.innerWidth} />

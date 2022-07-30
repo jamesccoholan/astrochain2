@@ -92,8 +92,7 @@ class Roadmap extends Component {
           muted
           playsInline
           src={this.getBackgroundVideo(this.props.innerWidth)}
-        >
-        </video>
+        ></video>
         <h2 class="roadmap-title">ROAD MAP</h2>
         <div>{roadmapText}</div>
       </div>

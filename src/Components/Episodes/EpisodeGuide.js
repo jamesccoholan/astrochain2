@@ -1,4 +1,4 @@
-import { ConnectingAirportsOutlined } from "@mui/icons-material";
+import EpisodesList from "./EpisodesList";
 import React, { Component } from "react";
 import "./EpisodeGuide.css";
 
@@ -85,40 +85,50 @@ class EpisodeGuide extends Component {
     return spotlightsArr[index].desktop_img;
   }
 
-  getEpisodeQueue() {
-    console.log("here");
-  }
+  imageClick = (event) => {
+    console.log(event.currentTarget.getAttribute("value"));
+  };
 
   render() {
     const spotlights = spotlightsArr.map((s) => {
       return (
         <img
           key={s.number}
+          value={s.number}
           src={this.getSpotlightImage(this.props.innerWidth, s.number - 1)}
           alt={s.number}
           class="spotlight-img"
-          style={{ display: s.active ? "block" : "none" }}
+          style={{ display: s.active ? "block" : "none", cursor: "pointer" }}
+          onClick={this.imageClick}
         />
       );
     });
 
     return (
-      <div class="episode-guide">
-        <section id="episode-guide-section" />
-        <img
-          class="background-img"
-          src={this.getBackgroundImage(this.props.innerWidth)}
-          alt="Episode Guide"
-        />
-        {spotlights}
-        <div>
-          <h2 class="episode-guide-title">EPISODE GUIDE</h2>
-          <div class="episode-guide-description">
-            {
-              "This is where the Metaverse and Real World converge! New episodes are released twice weekly. Click on the link to watch the current episode or click on any previous link to watch earlier episodes."
-            }
+      <div>
+        <div class="episode-guide">
+          <section id="episode-guide-section" />
+          <img
+            class="background-img"
+            src={this.getBackgroundImage(this.props.innerWidth)}
+            alt="Episode Guide"
+            map="image-map"
+          />
+          {/*<map name="image-map">
+            <area alt="Episodes 01-06" title="Episodes 01-06" href="https://twitter.com" coords="551,134,716,414" shape="rect"/>
+            <area alt="Episodes 07-12" title="Episodes 07-12" href="https://twitter.com" coords="360,732,171,465" shape="rect"/>
+    </map>*/}
+          {spotlights}
+          <div>
+            <h2 class="episode-guide-title">EPISODE GUIDE</h2>
+            <div class="episode-guide-description">
+              {
+                "This is where the Metaverse and Real World converge! New episodes are released twice weekly. Click on the link to watch the current episode or click on any previous link to watch earlier episodes."
+              }
+            </div>
           </div>
         </div>
+        <EpisodesList />
       </div>
     );
   }
