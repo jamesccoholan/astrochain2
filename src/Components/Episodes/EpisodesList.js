@@ -21,7 +21,16 @@ class EpisodesList extends Component {
     const episodeSection = episodes[this.props.episodeSection];
 
     const episodeList = episodeSection.episodeList.map((el) => {
-      return <div key={el.id} class={`playlist-number`} value={el.pos} onClick={this.selectEpisode}>{el.name}</div>;
+      return (
+        <div
+          key={el.id}
+          class={`playlist-number`}
+          value={el.pos}
+          onClick={this.selectEpisode}
+        >
+          {el.name}
+        </div>
+      );
     });
 
     return (
@@ -44,7 +53,12 @@ class EpisodesList extends Component {
             </div>
           </div>
           <div class="vimeo-player">
-            <Vimeo video={`https://player.vimeo.com/video/${episodeSection.episodeList[this.state.episodeId].vimeoId}`} autoplay />
+            <Vimeo
+              video={`https://player.vimeo.com/video/${
+                episodeSection.episodeList[this.state.episodeId].vimeoId
+              }`}
+              autoplay
+            />
           </div>
         </Stack>
       </div>
