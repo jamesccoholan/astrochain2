@@ -62,22 +62,6 @@ class EpisodeGuide extends Component {
     };
   }
 
-  componentDidMount() {
-    // pre-load mobile and non-mobile images
-    const backgroundImg = new Image();
-    backgroundImg.src =
-      "https://ik.imagekit.io/5ierklngtbt/IU/04_Episode_Guide/EpisodeGuide_BG_v04_nHVWmjoP5G.jpg";
-    window[
-      "https://ik.imagekit.io/5ierklngtbt/IU/04_Episode_Guide/EpisodeGuide_BG_v04_nHVWmjoP5G.jpg"
-    ] = backgroundImg;
-    const mobileBackgroundImg = new Image();
-    mobileBackgroundImg.src =
-      "https://ik.imagekit.io/5ierklngtbt/IU/04_Episode_Guide/Mobile/EpisodesGuide_BG_Mobile_v02_Fqw1nvJ4J.jpg";
-    window[
-      "https://ik.imagekit.io/5ierklngtbt/IU/04_Episode_Guide/Mobile/EpisodesGuide_BG_Mobile_v02_Fqw1nvJ4J.jpg"
-    ] = mobileBackgroundImg;
-  }
-
   getBackgroundImage(innerWidth) {
     if (innerWidth <= 925)
       return "https://ik.imagekit.io/5ierklngtbt/IU/04_Episode_Guide/Mobile/EpisodesGuide_BG_Mobile_v02_Fqw1nvJ4J.jpg";

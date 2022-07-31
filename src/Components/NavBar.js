@@ -33,12 +33,12 @@ const buttonContent = [
     href: "#invisible-universe-section",
   },
   {
-    name: "TEAM",
-    href: "#team-section",
-  },
-  {
     name: "FAQS",
     href: "#faqs-section",
+  },
+  {
+    name: "TEAM",
+    href: "#team-section",
   },
 ];
 

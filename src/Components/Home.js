@@ -5,26 +5,6 @@ import NavBar from "./NavBar";
 import SocialIcons from "./SocialIcons";
 
 class Home extends Component {
-  constructor(props) {
-    super(props);
-  }
-
-  componentDidMount() {
-    // pre-load mobile and non-mobile videos
-    const backgroundImg = new Image();
-    backgroundImg.src =
-      "https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPageBG_v05_i56UQD6n7.mp4";
-    window[
-      "https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPageBG_v05_i56UQD6n7.mp4"
-    ] = backgroundImg;
-    const mobileBackgroundImg = new Image();
-    mobileBackgroundImg.src =
-      "https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPage_Mobile_v02_f1nwEPXs5.mp4";
-    window[
-      "https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPage_Mobile_v02_f1nwEPXs5.mp4"
-    ] = mobileBackgroundImg;
-  }
-
   getVideo(innerWidth) {
     if (innerWidth <= 600)
       return "https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPage_Mobile_v02_f1nwEPXs5.mp4";
@@ -48,6 +28,7 @@ class Home extends Component {
             <img
               src="https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPage_Logo_v04_X1HXn5sAd.gif"
               class="real-metaverse-logo"
+              alt="The R3al Metaverse"
             />
             <div class="socials">
               <SocialIcons />

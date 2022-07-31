@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./Roadmap.css";
-import { Stack } from "@mui/material";
 
 const roadmapContent = [
   {
@@ -42,26 +41,6 @@ const roadmapContent = [
 ];
 
 class Roadmap extends Component {
-  constructor(props) {
-    super(props);
-  }
-
-  componentDidMount() {
-    // pre-load mobile and non-mobile videos
-    const backgroundImg = new Image();
-    backgroundImg.src =
-      "https://ik.imagekit.io/5ierklngtbt/IU/03_Road_Map/RoadMap_BG_v04_Mx-H8KuhG.mp4";
-    window[
-      "https://ik.imagekit.io/5ierklngtbt/IU/03_Road_Map/RoadMap_BG_v04_Mx-H8KuhG.mp4"
-    ] = backgroundImg;
-    const mobileBackgroundImg = new Image();
-    mobileBackgroundImg.src =
-      "https://ik.imagekit.io/5ierklngtbt/IU/03_Road_Map/RoadMap_BG_Mobile_v02_WzPQewhSA.mp4";
-    window[
-      "https://ik.imagekit.io/5ierklngtbt/IU/03_Road_Map/RoadMap_BG_Mobile_v02_WzPQewhSA.mp4"
-    ] = mobileBackgroundImg;
-  }
-
   getBackgroundVideo(innerWidth) {
     if (innerWidth <= 975)
       return "https://ik.imagekit.io/5ierklngtbt/IU/03_Road_Map/RoadMap_BG_Mobile_v02_WzPQewhSA.mp4";

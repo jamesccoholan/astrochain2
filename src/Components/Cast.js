@@ -101,22 +101,6 @@ class Cast extends Component {
     };
   }
 
-  componentDidMount() {
-    // pre-load all images
-    cast.forEach((ci) => {
-      const newImage = new Image();
-      newImage.src = ci.front;
-      window[ci.front] = newImage;
-    });
-    castPagesContent.forEach((cp) => {
-      for (var i = 0; i < cp.images.length; i++) {
-        const newImage = new Image();
-        newImage.src = cp.images[i];
-        window[cp.images[i]] = newImage;
-      }
-    });
-  }
-
   selectCharacterId = (event) => {
     this.setState({ characterId: event.currentTarget.getAttribute("value") });
   };
