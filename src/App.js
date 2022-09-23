@@ -3,7 +3,7 @@ import "./App.css";
 import Home from "./Components/Home";
 import Cast from "./Components/Cast";
 import Roadmap from "./Components/Roadmap";
-import EpisodeGuide from "./Components/Episodes/EpisodeGuide";
+// import EpisodeGuide from "./Components/Episodes/EpisodeGuide";
 import Rarity from "./Components/Rarity";
 import ValueProp from "./Components/ValueProp/ValueProp";
 import IU from "./Components/IU";

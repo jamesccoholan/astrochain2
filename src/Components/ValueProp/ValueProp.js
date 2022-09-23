@@ -26,7 +26,7 @@ function ValueProp() {
       </div>
       <div class="transition-1 transition-frame" />
       <div class="value-prop-2">
-        <h2 class="value-prop-title">NEXT SEASON</h2>
+        <h2 class="value-prop-title">ORIGINAL MUSIC</h2>
         <div class="value-prop-description">
           The other cool way to get animated is placing in the top 500 on the
           leaderboard and submitting your character to be on Season 2. It can be
@@ -40,7 +40,7 @@ function ValueProp() {
       </div>
       <div class="transition-2 transition-frame" />
       <div class="value-prop-3">
-        <h2 class="value-prop-title">MORE VALUE</h2>
+        <h2 class="value-prop-title">METAVERSE CONCERTS</h2>
         <div class="value-prop-description">
           * All Pass Holders can contribute to Mad Lib style confessionals where
           you control the character and decide what they say in certain
@@ -61,14 +61,14 @@ function ValueProp() {
           importantly we want you to create the story with us!
         </div>
         <section id="leaderboard-section" />
-        <h2 class="value-prop-title">THE LEADERBOARD</h2>
+        {/* <h2 class="value-prop-title">THE LEADERBOARD</h2>
         <div class="value-prop-description">
           Points are awarded by being engaged on Discord, Twitter and in the
           Producer{"’"}s Portal. Producers earn points for filling out the Mad
           Libs (speed counts) and matching the most popular answers. Updates and
           pop-up contests will ensure everyone has a chance to place and
           potentially be a cast member for Season 2. More details in FAQ.
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -18,14 +18,14 @@ const icons = [
   //   link: "https://discord.gg/PxMB8nvw",
   // },
   {
-    key: "Instagram",
-    img: "https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/Icons/Icon_Instagram_fJzE4TzFp.png?ik-sdk-version=javascript-1.4.3&updatedAt=1658883016654",
-    link: "https://www.instagram.com/discoastronautclub/",
-  },
-  {
     key: "YouTube",
     img: "https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/Icons/Icon_YouTube_5LsodS4kj.png?ik-sdk-version=javascript-1.4.3&updatedAt=1658883015830",
     link: "https://youtu.be/kTDqLNHoNBc",
+  },
+  {
+    key: "Instagram",
+    img: "https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/Icons/Icon_Instagram_fJzE4TzFp.png?ik-sdk-version=javascript-1.4.3&updatedAt=1658883016654",
+    link: "https://www.instagram.com/discoastronautclub/",
   },
 ];
 

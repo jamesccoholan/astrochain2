@@ -43,8 +43,8 @@ const roadmapContent = [
 class Roadmap extends Component {
   getBackgroundVideo(innerWidth) {
     if (innerWidth <= 975)
-      return "https://ik.imagekit.io/5ierklngtbt/IU/03_Road_Map/RoadMap_BG_Mobile_v02_WzPQewhSA.mp4";
-    return "https://ik.imagekit.io/5ierklngtbt/IU/03_Road_Map/RoadMap_BG_v04_Mx-H8KuhG.mp4";
+      return "https://ik.imagekit.io/mbhxghyf1m2/Comp_2_2_K1B4OwOJQ.mp4?ik-sdk-version=javascript-1.4.3&updatedAt=1663947523586";
+    return "https://ik.imagekit.io/mbhxghyf1m2/Comp_2_2_K1B4OwOJQ.mp4?ik-sdk-version=javascript-1.4.3&updatedAt=1663947523586";
   }
 
   render() {

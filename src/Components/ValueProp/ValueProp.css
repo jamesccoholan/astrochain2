@@ -21,21 +21,21 @@
 }
 
 .value-prop-1 {
-  background-color: #663162;
+  background-color: #0081d7;
   padding-top: 80px;
 }
 .transition-1 {
-  background: linear-gradient(#663162, #513269);
+  background: linear-gradient(#0081d7, #840000);
 }
 .transition-frame {
   height: 200px;
 }
 
 .value-prop-2 {
-  background-color: #513269;
+  background-color: #840000;
 }
 .transition-2 {
-  background: linear-gradient(#513269, #2a2257);
+  background: linear-gradient(#840000, #2a2257);
 }
 
 .value-prop-3 {
