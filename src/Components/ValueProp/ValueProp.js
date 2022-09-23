@@ -7,7 +7,7 @@ function ValueProp() {
     <div class="value-prop-section">
       <section id="animated-section" />
       <div class="value-prop-1">
-        <h2 class="value-prop-title">GET YOUR CHARACTER ANIMATED!</h2>
+        <h2 class="value-prop-title">VIRTUAL ARTISTS & CONCERTS</h2>
         <div class="value-prop-to-life">
           THERE ARE TWO WAYS YOU CAN BRING YOUR PFP CHARACTER TO LIFE!
         </div>

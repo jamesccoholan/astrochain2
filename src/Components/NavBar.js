@@ -9,7 +9,7 @@ const buttonContent = [
     href: "#",
   },
   {
-    name: "CAST",
+    name: "DISCONAUTS",
     href: "#cast-section",
   },
   {

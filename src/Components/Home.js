@@ -7,8 +7,8 @@ import SocialIcons from "./SocialIcons";
 class Home extends Component {
   getVideo(innerWidth) {
     if (innerWidth <= 600)
-      return "https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPage_Mobile_v02_f1nwEPXs5.mp4";
-    return "https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPageBG_v05_i56UQD6n7.mp4";
+      return "https://ik.imagekit.io/mbhxghyf1m2/Comp_2_2_K1B4OwOJQ.mp4?ik-sdk-version=javascript-1.4.3&updatedAt=1663947523586";
+    return "https://ik.imagekit.io/mbhxghyf1m2/Comp_2_2_K1B4OwOJQ.mp4?ik-sdk-version=javascript-1.4.3&updatedAt=1663947523586";
   }
 
   render() {
@@ -26,9 +26,9 @@ class Home extends Component {
           ></video>
           <div class="logo-and-socials">
             <img
-              src="https://ik.imagekit.io/5ierklngtbt/IU/01_Landing_Page/LandingPage_Logo_v04_X1HXn5sAd.gif"
+              src="https://ik.imagekit.io/mbhxghyf1m2/dd_Zt8LlMFy7.png?ik-sdk-version=javascript-1.4.3&updatedAt=1663946065524"
               class="real-metaverse-logo"
-              alt="The R3al Metaverse"
+              alt="AstroChain"
             />
             <div class="socials">
               <SocialIcons />
@@ -36,18 +36,14 @@ class Home extends Component {
           </div>
         </div>
         <div class="landing-bottom-text">
-          What happens when you put a Bored Ape, a Cool Cat, a World of Women, a
-          Roboto {"&"} a Doodle on a reality show together? We have no idea, but
-          we{"’"}re betting they make some jokes, make some mistakes, and maybe
-          even make out?!
+          AstroChain's mission is to produce and distribute compelling virtual
+          artists and concerts to mainstream audiences. AstroChain leverages
+          virtual production technology (real-time game engines) to collapse
+          production costs, and increase the volume, and quality of digital
+          music experiences. A goal is to increase the value throughput between
+          artists and audiences with direct-to-consumer digital distribution,
+          and blockchain-based ownership cutting out many legacy intermediaries.
           <br />
-          <br />
-          The Real Metaverse (TRM) is an animated parody where Big Brother meets
-          The Real World. The cast, inspired and approved by the original
-          creators from each community, are transported from the metaverse to LA
-          to experience life on our side for the very first time! Join us and
-          become a Producer to create episodes, control the fate of Season 2 and
-          possibly get your character animated!
         </div>
       </div>
     );

@@ -29,7 +29,7 @@
   margin-left: auto;
   margin-right: auto;
   top: 45%;
-  right: 0%;
+  right: 5%;
   z-index: 2;
 }
 .real-metaverse-logo {
@@ -37,7 +37,7 @@
   height: auto;
 }
 .socials {
-  margin-top: calc(-3vw);
+  margin-top: calc(-7vw);
 }
 
 .landing-logo {

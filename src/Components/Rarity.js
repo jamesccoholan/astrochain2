@@ -4,7 +4,7 @@ function Rarity() {
   return (
     <div class="rarity-section">
       <section id="rarity-section" />
-      <h2 class="rarity-title">NFT RARITY</h2>
+      <h2 class="rarity-title">ROADMAP</h2>
       <img
         src="https://ik.imagekit.io/5ierklngtbt/IU/05_Rarity/NFT_Common_gBs2-01D1.jpg"
         alt="Producer Pass"

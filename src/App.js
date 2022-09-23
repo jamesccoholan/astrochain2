@@ -81,7 +81,7 @@ class App extends Component {
         <div className="App">
           <Home innerWidth={this.state.innerWidth} />
           <Cast />
-          <EpisodeGuide innerWidth={this.state.innerWidth} />
+          {/* <EpisodeGuide innerWidth={this.state.innerWidth} /> */}
           <ValueProp />
           <Rarity />
           <Roadmap innerWidth={this.state.innerWidth} />
