@@ -7,7 +7,7 @@ import Roadmap from "./Components/Roadmap";
 import Rarity from "./Components/Rarity";
 import ValueProp from "./Components/ValueProp/ValueProp";
 import IU from "./Components/IU";
-import Credits from "./Components/Credits";
+// import Credits from "./Components/Credits";
 
 import { ScrollingProvider } from "react-scroll-section";
 
@@ -27,9 +27,9 @@ const preloadImages = [
   "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/Coins/05_Claudine2D.png",
   "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/Coins/05_Claudine3D.jpg",
   // Cast Videos
-  "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/Characters/Pete/01.mp4",
-  "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/Characters/Pete/02.mp4",
-  "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/Characters/Pete/03.mp4",
+  "https://ik.imagekit.io/mbhxghyf1m2/Upright_images/Comp_1_1_NPRZuJc3M.mp4?ik-sdk-version=javascript-1.4.3&updatedAt=1663957326910",
+  "https://ik.imagekit.io/mbhxghyf1m2/Upright_images/Comp_1_2_6-bvZK46u.mp4?ik-sdk-version=javascript-1.4.3&updatedAt=1663957326891",
+  "https://ik.imagekit.io/mbhxghyf1m2/Upright_images/Comp_1_RYlRApAXs.mp4?ik-sdk-version=javascript-1.4.3&updatedAt=1663957326342",
   "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/Characters/Monty/01.mp4",
   "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/Characters/Monty/02.mp4",
   "https://ik.imagekit.io/5ierklngtbt/IU/02_Cast_Page/Characters/Monty/03.mp4",
@@ -82,11 +82,11 @@ class App extends Component {
           <Home innerWidth={this.state.innerWidth} />
           <Cast />
           {/* <EpisodeGuide innerWidth={this.state.innerWidth} /> */}
-          <ValueProp />
           <Rarity />
+          <ValueProp />
           <Roadmap innerWidth={this.state.innerWidth} />
           <IU />
-          <Credits />
+          {/* <Credits /> */}
         </div>
       </ScrollingProvider>
     );

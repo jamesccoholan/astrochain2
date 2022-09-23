@@ -13,15 +13,15 @@ const buttonContent = [
     href: "#cast-section",
   },
   {
-    name: "EPISODE GUIDE",
+    name: "ROADMAP",
     href: "#episode-guide-section",
   },
   {
-    name: "GET YOUR CHARACTER ANIMATED",
+    name: "DAC",
     href: "#animated-section",
   },
   {
-    name: "NFT RARITY",
+    name: "METAVERSE CONCERTS",
     href: "#rarity-section",
   },
   {
@@ -29,7 +29,7 @@ const buttonContent = [
     href: "#roadmap-section",
   },
   {
-    name: "INVISIBLE UNIVERSE",
+    name: "ASTROCHAIN",
     href: "#invisible-universe-section",
   },
   {
@@ -37,7 +37,7 @@ const buttonContent = [
     href: "#faqs-section",
   },
   {
-    name: "TEAM",
+    name: "PICS",
     href: "#team-section",
   },
 ];

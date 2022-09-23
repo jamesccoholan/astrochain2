@@ -3,23 +3,23 @@ import "./Logos.css";
 const characterLogos = [
   {
     name: "Character_1",
-    img: "https://ik.imagekit.io/5ierklngtbt/IU/06_Value_Prop/character_01_9U3JskWJjz.png",
+    img: "https://ik.imagekit.io/mbhxghyf1m2/DAC_Square/DAC_53_ILYVmf-X_.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1663948583222",
   },
   {
     name: "Character_2",
-    img: "https://ik.imagekit.io/5ierklngtbt/IU/06_Value_Prop/character_02_LX-s1ewc1.png",
+    img: "https://ik.imagekit.io/mbhxghyf1m2/DAC_Square/DAC_13_uFMFipkc1.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1663948582116",
   },
   {
     name: "Character_3",
-    img: "https://ik.imagekit.io/5ierklngtbt/IU/06_Value_Prop/character_03_bfNP9O1jT.png",
+    img: "https://ik.imagekit.io/mbhxghyf1m2/DAC_Square/DAC_45_XqeUZ-INJ.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1663948581523",
   },
   {
     name: "Character_4",
-    img: "https://ik.imagekit.io/5ierklngtbt/IU/06_Value_Prop/character_04_Oq1Cl-7c0.png",
+    img: "https://ik.imagekit.io/mbhxghyf1m2/DAC_Square/DAC_36_yM5-iTbp5.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1663948579387",
   },
   {
     name: "Character_5",
-    img: "https://ik.imagekit.io/5ierklngtbt/IU/06_Value_Prop/character_05_AoQHObrrH.png",
+    img: "https://ik.imagekit.io/mbhxghyf1m2/DAC_Square/DAC_19_X3kq8lqp4.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1663948577351",
   },
 ];
 
