@@ -5,7 +5,7 @@ const roadmapContent = [
   {
     phase: 1,
     class: "phase-one",
-    title: "Phase One",
+    title: "Original Music",
     description: [
       "Mint Date:",
       "Reveal Date:",
@@ -17,7 +17,7 @@ const roadmapContent = [
   {
     phase: 2,
     class: "phase-two",
-    title: "Phase Two",
+    title: "Music Videos",
     description: [
       "Guest Star submissions voted on",
       "Third and Fourth Community Written Confessional",
@@ -29,7 +29,7 @@ const roadmapContent = [
   {
     phase: 3,
     class: "phase-three",
-    title: "Phase Three",
+    title: "Metaverse Concerts",
     description: [
       "Top 500 producers will be locked and submissions for Next Season due",
       "Fifth Community Written Episode",
@@ -72,7 +72,7 @@ class Roadmap extends Component {
           playsInline
           src={this.getBackgroundVideo(this.props.innerWidth)}
         ></video>
-        <h2 class="roadmap-title">ROAD MAP</h2>
+        <h2 class="roadmap-title">ROADMAP</h2>
         <div>{roadmapText}</div>
       </div>
     );

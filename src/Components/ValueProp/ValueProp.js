@@ -8,9 +8,7 @@ function ValueProp() {
       <section id="animated-section" />
       <div class="value-prop-1">
         <h2 class="value-prop-title">VIRTUAL ARTISTS & CONCERTS</h2>
-        <div class="value-prop-to-life">
-          THERE ARE TWO WAYS YOU CAN BRING YOUR PFP CHARACTER TO LIFE!
-        </div>
+        <div class="value-prop-to-life">Virtualized Music Experience</div>
         <div class="value-prop-description">
           <b>THIS SEASON:</b> If you are a holder of an NFT from one of the five
           OG communities our cast comes from, and you{"’"}re in the top 500 on

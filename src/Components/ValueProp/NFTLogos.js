@@ -3,23 +3,23 @@ import "./Logos.css";
 const nftLogos = [
   {
     name: "Bored Ape Yacht Club",
-    img: "https://ik.imagekit.io/5ierklngtbt/IU/06_Value_Prop/bayc_logo_riWBUIbzwM.png",
+    img: "https://ik.imagekit.io/mbhxghyf1m2/DAC_Square/DAC_13_uFMFipkc1.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1663948582116",
   },
   {
     name: "Cool Cats",
-    img: "https://ik.imagekit.io/5ierklngtbt/IU/06_Value_Prop/cool_cats_aH1X9RP_D.png",
+    img: "https://ik.imagekit.io/mbhxghyf1m2/DAC_Square/DAC_45_XqeUZ-INJ.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1663948581523",
   },
   {
     name: "Robotos",
-    img: "https://ik.imagekit.io/5ierklngtbt/IU/06_Value_Prop/robotos_kGLQ3TjUYa.png",
+    img: "https://ik.imagekit.io/mbhxghyf1m2/DAC_Square/DAC_3666_F_durCI-g.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1663948526489",
   },
   {
     name: "Wow",
-    img: "https://ik.imagekit.io/5ierklngtbt/IU/06_Value_Prop/wow_EtO0ECWMy.png",
+    img: "https://ik.imagekit.io/mbhxghyf1m2/DAC_Square/DAC_55_OnXSQZ0qBI.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1663948504716",
   },
   {
     name: "Doodles",
-    img: "https://ik.imagekit.io/5ierklngtbt/IU/06_Value_Prop/doodles_yivwaeOpm.png",
+    img: "https://ik.imagekit.io/mbhxghyf1m2/DAC_Square/DAC_50_gLj4vUDkX.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1663948433200",
   },
 ];
 
